@@ -1,0 +1,9 @@
+---
+layout: default
+title: Welcome
+---
+
+{% capture news %}{% include news.md %}{% endcapture %}
+{{ news | markdownify }}
+
+
