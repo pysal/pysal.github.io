@@ -3,6 +3,7 @@ layout: default
 title: Welcome
 ---
  
-        <p>Landing page</p> 
+{% capture index %}{% include index.md %}{% endcapture %}
+{{ index | markdownify }}
 
 
