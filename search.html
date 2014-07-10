@@ -5,7 +5,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>Funding &mdash; Python Spatial Analysis Library</title>
+    <title>Search &mdash; Python Spatial Analysis Library</title>
     <link rel="stylesheet" href="from_sphinx/default.css" type="text/css" />
     <link rel="stylesheet" href="from_sphinx/pygments.css" type="text/css" />
     <script type="text/javascript">
@@ -20,13 +20,21 @@
     <script type="text/javascript" src="from_sphinx/jquery.js"></script>
     <script type="text/javascript" src="from_sphinx/underscore.js"></script>
     <script type="text/javascript" src="from_sphinx/doctools.js"></script>
+    <script type="text/javascript" src="from_sphinx/searchtools.js"></script>
     <link rel="shortcut icon" href="from_sphinx/favicon.png"/>
-    <link rel="top" title="Python Spatial Analysis Library" href="index.html" /> 
+    <link rel="top" title="Python Spatial Analysis Library" href="index.html" />
+  <script type="text/javascript">
+    jQuery(function() { Search.loadIndex("searchindex.js"); });
+  </script>
+  
+  <script type="text/javascript" id="searchindexloader"></script>
+   
+
   </head>
   <body>
 
 <div style= "background-color: white; text-align: left; vertical-align:middle">
-	<a href="index.html"><img src="from_sphinx/pysalsmall.png" border="0" alt="pysal"/></a>
+	<a href="index.html"><img src="from_sphinx/images/pysalsmall.png" border="0" alt="pysal"/></a>
 </div>
 
 
@@ -40,7 +48,7 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li><a href="index.html">home</a>|&nbsp;</li>
-        <li><a href="search.html">search</a>|&nbsp;</li>
+        <li><a href="#">search</a>|&nbsp;</li>
        <li><a href="contents.html">documentation </a> &raquo;</li>
  
       </ul>
@@ -52,39 +60,35 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="funding">
-<h1>Funding<a class="headerlink" href="#funding" title="Permalink to this headline">¶</a></h1>
-<p>National Science Foundation <a class="reference external" href="http://geodacenter.asu.edu/about/news/NSF_Cyber_Award">CyberGIS Software Integration for Sustained Geospatial Innovation</a></p>
-<p>National Institute of Justice <a class="reference external" href="http://geoplan.asu.edu/node/3855">Flexible Geospatial Visual Analytics and Simulation Technologies to Enhance Criminal Justice Decision Support Systems</a></p>
-<p>National Institutes of Health <a class="reference external" href="http://geodacenter.asu.edu/projects/rti/content/geospatial-fact">Geospatial Factors and Impacts: Measurement and Use (R01CA126858-02)</a></p>
-<p>National Science Foundation <a class="reference external" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0433132">An Exploratory Space-Time Data Analysis Toolit for Spatial Social Science Research (0433132)</a></p>
-<p>National Science Foundation <a class="reference external" href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0852261">Hedonic Models of Location Decisions with Applications to Geospatial Microdata (0852261)</a></p>
-</div>
-
+  <h1 id="search-documentation">Search</h1>
+  <div id="fallback" class="admonition warning">
+  <script type="text/javascript">$('#fallback').hide();</script>
+  <p>
+    Please activate JavaScript to enable the search
+    functionality.
+  </p>
+  </div>
+  <p>
+    From here you can search these documents. Enter your search
+    words into the box below and click "search". Note that the search
+    function will automatically search for all of the words. Pages
+    containing fewer words won't appear in the result list.
+  </p>
+  <form action="" method="get">
+    <input type="text" name="q" value="" />
+    <input type="submit" value="search" />
+    <span id="search-progress" style="padding-left: 10px"></span>
+  </form>
+  
+  <div id="search-results">
+  
+  </div>
 
           </div>
         </div>
       </div>
       <div class="sphinxsidebar">
         <div class="sphinxsidebarwrapper">
-            <h3>This Page</h3>
-            <ul class="this-page-menu">
-              <li><a href="_sources/funding.txt"
-                     rel="nofollow">Show Source</a></li>
-            </ul>
-          <div id="searchbox" style="display: none">
-            <h3>Quick search</h3>
-              <form class="search" action="search.html" method="get">
-                <input type="text" name="q" size="18" />
-                <input type="submit" value="Go" />
-                <input type="hidden" name="check_keywords" value="yes" />
-                <input type="hidden" name="area" value="default" />
-              </form>
-              <p class="searchtip" style="font-size: 90%">
-              Enter search terms or a module, class or function name.
-              </p>
-          </div>
-          <script type="text/javascript">$('#searchbox').show(0);</script>
         </div>
       </div>
       <div class="clearer"></div>
@@ -99,7 +103,7 @@
           <a href="py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li><a href="index.html">home</a>|&nbsp;</li>
-        <li><a href="search.html">search</a>|&nbsp;</li>
+        <li><a href="#">search</a>|&nbsp;</li>
        <li><a href="contents.html">documentation </a> &raquo;</li>
  
       </ul>
