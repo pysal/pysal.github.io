@@ -1,7 +1,3 @@
----
-layout: default
-title: Academic
----
 
 
 <!DOCTYPE html>
@@ -32,8 +28,9 @@ title: Academic
   
 
   
-    <link rel="top" title="PySAL Home page 1 documentation" href="#"/>
-        <link rel="next" title="Upcoming events" href="upcoming_events.html"/> 
+    <link rel="top" title="PySAL Home page 1 documentation" href="index.html"/>
+        <link rel="next" title="A list" href="list.html"/>
+        <link rel="prev" title="Demo Docs" href="index.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -48,23 +45,24 @@ title: Academic
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-nav-search">
         <a href="index.html" class="fa fa-home"> PySAL Home page</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
         
         
-            <ul>
-<li class="toctree-l1"><a class="reference internal" href="upcoming_events.html">Upcoming events</a></li>
-<li class="toctree-l1"><a class="reference internal" href="news.html">News</a></li>
-<li class="toctree-l1"><a class="reference internal" href="funding.html">Funding</a></li>
-<li class="toctree-l1"><a class="reference internal"
-    href="http://pysal.readthedocs.org/en/latest/users/installation.html">Install</a></li>
-<li class="toctree-l1"><a class="reference internal"
-    href="http://pysal.readthedocs.org/en/latest/users/index.html">User Guide</a></li>
-<li class="toctree-l1"><a class="reference internal"
-    href="http://pysal.readthedocs.org/en/latest/developers/index.html">Developer Guide</a></li>
-<li class="toctree-l1"><a class="reference internal"
-    href="http://pysal.readthedocs.org/en/latest/library/index.html">Library Reference</a></li>
+            <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">PySAL: Python Spatial Analysis Library</a></li>
+<li class="toctree-l1"><a class="reference internal" href="list.html">A list</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="list.html#second-list-level">Second list level</a></li>
+</ul>
+</li>
 </ul>
 
         
@@ -86,11 +84,12 @@ title: Academic
         <div class="rst-content">
           <div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
       
-      <li> <h1>PySAL: Python Spatial Analysis Library</h1></li>
+    <li>PySAL: Python Spatial Analysis Library</li>
       <li class="wy-breadcrumbs-aside">
         
-          <a href="_sources/index.txt" rel="nofollow"> View page source</a>
+          <a href="_sources/demo.txt" rel="nofollow"> View page source</a>
         
       </li>
   </ul>
@@ -99,18 +98,24 @@ title: Academic
           <div role="main">
             
   <div class="section" id="pysal-python-spatial-analysis-library">
-
-{% capture news %}{% include news.md %}{% endcapture %}
-{{ news | markdownify }}
-
-
-</div>
+<h1>PySAL: Python Spatial Analysis Library<a class="headerlink" href="#pysal-python-spatial-analysis-library" title="Permalink to this headline">¶</a></h1>
+<p>PySAL is an open source library of spatial analysis functions written in
+Python intended to support the development of high level applications. PySAL
+is licensed under the BSD License.</p>
 </div>
 
 
           </div>
           <footer>
   
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="list.html" class="btn btn-neutral float-right" title="A list">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral" title="Demo Docs"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -166,5 +171,3 @@ title: Academic
 
 </body>
 </html>
-
-
