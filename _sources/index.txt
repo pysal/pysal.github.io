@@ -1,0 +1,21 @@
+.. Sphinx RTD theme demo documentation master file, created by
+   sphinx-quickstart on Sun Nov  3 11:56:36 2013.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+========================================
+ PySAL: Python Spatial Analysis Library
+========================================
+
+PySAL is an open source library of spatial analysis functions written in Python intended to support the development of high level applications. PySAL is licensed under the BSD License.
+
+Contents:
+
+.. toctree::
+
+    upcoming_events
+    news
+    funding
+
+
+
