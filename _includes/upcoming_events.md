@@ -1,8 +1,6 @@
 Upcoming Events
 ===============
 
-* [July 10-11, 2014: PySAL Sprint at SciPy 2014](https://conference.scipy.org/scipy2014/schedule/presentation/1781/)
-
 * [September 8, 2014: PySAL Workshop at FOSS4G 2014,
 Portland](https://2014.foss4g.org/schedule/workshops/#wshop-content-568)
 
