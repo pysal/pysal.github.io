@@ -1,6 +1,10 @@
 News
 ====
 
+(2014-08-08) [National Science Foundation Funding for New Approaches to Spatial Distribution Dynamics](https://geoplan.asu.edu/research-projects/new-approaches-spatial-distribution-dynamics)
+
+(2014-07-25) [PySAL 1.8.0 released](http://PySAL.readthedocs.org/en/v1.8/users/installation.html)
+
 (2014-01-31) [PySAL 1.7.0
 released](https://github.com/pysal/pysal/wiki/PySAL-1.7-Release-(2014-01-31)
 
