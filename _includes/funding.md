@@ -1,6 +1,9 @@
 Funding
 =======
 
+National Science Foundation [New Approaches to Spatial Distribution Dynamics](https://geoplan.asu.edu/research-projects/new-approaches-spatial-distribution-dynamics)
+
+
 National Science Foundation [CyberGIS Software Integration for Sustained
 Geospatial
 Innovation](http://geodacenter.asu.edu/about/news/NSF_Cyber_Award)
