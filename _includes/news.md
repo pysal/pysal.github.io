@@ -1,6 +1,15 @@
 News
 ====
 
+(2014-09-23) [PySAL Tutorial at GIScience 2014,
+Vienna](http://www.giscience.org/workshops_tutorials.html)
+
+(2014-09-08) [PySAL Workshop at FOSS4G 2014,
+Portland](https://2014.foss4g.org/schedule/workshops/#wshop-content-568)
+
+
+(July 10-11, 2014) [PySAL Sprint at SciPy 2014](https://conference.scipy.org/scipy2014/schedule/presentation/1781/)
+
 (2014-01-31) [PySAL 1.7.0
 released](https://github.com/pysal/pysal/wiki/PySAL-1.7-Release-(2014-01-31)
 
