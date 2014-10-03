@@ -7,8 +7,11 @@ Vienna](http://www.giscience.org/workshops_tutorials.html)
 (2014-09-08) [PySAL Workshop at FOSS4G 2014,
 Portland](https://2014.foss4g.org/schedule/workshops/#wshop-content-568)
 
+(2014-08-08) [National Science Foundation Funding for New Approaches to Spatial Distribution Dynamics](https://geoplan.asu.edu/research-projects/new-approaches-spatial-distribution-dynamics)
 
-(July 10-11, 2014) [PySAL Sprint at SciPy 2014](https://conference.scipy.org/scipy2014/schedule/presentation/1781/)
+(2014-07-25) [PySAL 1.8.0 released](http://PySAL.readthedocs.org/en/v1.8/users/installation.html)
+
+(2014-07-11) [PySAL Sprint at SciPy 2014](https://conference.scipy.org/scipy2014/schedule/presentation/1781/)
 
 (2014-01-31) [PySAL 1.7.0
 released](https://github.com/pysal/pysal/wiki/PySAL-1.7-Release-(2014-01-31)
