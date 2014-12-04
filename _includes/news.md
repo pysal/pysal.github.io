@@ -1,5 +1,6 @@
 News
 ====
+(2014-11-12)  [PySAL Workshop at the North American Meetings of the Regional Science Association Meetings, Bethesda](http://www.narsc.org/newsite/?page_id=67)
 
 (2014-09-23) [PySAL Tutorial at GIScience 2014,
 Vienna](http://www.giscience.org/workshops_tutorials.html)
