@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Academic
 ---
 
@@ -91,6 +90,10 @@ title: Academic
       <li> <h1>PySAL: Python Spatial Analysis Library</h1></li>
       <li class="wy-breadcrumbs-aside">
         
+  
+{% capture grid %}{% include grid.md %}{% endcapture %}
+{{ grid | markdownify }}
+
         
       </li>
   </ul>
@@ -98,20 +101,23 @@ title: Academic
 
   </div>
   
+  <!-- Edit here to add a new image to the grid!!! -->
   <div class="section" id="showcase">
-     <a
-         href="http://nbviewer.ipython.org/gist/darribas/9a0d3b6177b7ca6be007/london_boroughs.ipynb"><img
-         src="boroughs.png" border="0" alt="London boroughs"
-         width="50%"/></a><a
+     <a href="http://nbviewer.ipython.org/gist/darribas/9a0d3b6177b7ca6be007/london_boroughs.ipynb"><img
+         src="grid_cards/boroughs.png" border="0" alt="London boroughs"
+         width="50%"
+     /></a><a
          href="http://nbviewer.ipython.org/github/pysal/pysal/blob/master/pysal/contrib/viz/taz_example.ipynb?create=1"><img
-         src="tazs.png" border="0" alt="County components" width="50%"/></a><a
-         href="http://nbviewer.ipython.org/gist/darribas/9943372"><img     src="isp_corr.png" border="0" alt="Spatial corr" width="50%"/></a>
+         src="grid_cards/tazs.png" border="0" alt="County components" width="50%"
+     /></a><a
+         href="http://nbviewer.ipython.org/gist/darribas/9943372"><img src="grid_cards/isp_corr.png" border="0" alt="Spatial corr" width="50%"
+     /></a>
  </div>
-
+  <!-- -------------------------------------------- -->
 
           </div>
           <footer>
-  
+
   
 
   <hr/>
