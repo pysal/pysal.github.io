@@ -1,6 +1,8 @@
 News
 ====
 
+(2015-07-29) [PySAL 1.10.0 released](http://pysal.readthedocs.org/en/latest/users/installation.html)
+
 (2015-04-12) [PySAL Workshop at AERUS 2015](https://sites.google.com/site/midwestgradsummit/events)
 
 (2015-01-30) [PySAL 1.9.0 released](http://PySAL.readthedocs.org/en/v1.9/users/installation.html)
