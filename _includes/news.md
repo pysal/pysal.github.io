@@ -1,6 +1,10 @@
 News
 ====
 
+(2016-01-28) [PySAL 1.11.0 released](https://github.com/pysal/pysal/releases/tag/v1.11.0)
+
+(2015-11-11) [PySAL Workshop at NARSC 2015](http://www.narsc.org/newsite/conference/workshops-and-tutorials/)
+
 (2015-07-29) [PySAL 1.10.0 released](https://github.com/pysal/pysal/releases/tag/v1.10)
 
 (2015-04-12) [PySAL Workshop at AERUS 2015](https://sites.google.com/site/midwestgradsummit/events)
