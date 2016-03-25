@@ -1,5 +1,8 @@
 News
 ====
+(2016-03-21) [Rey to receive 2016 University Consortium for Geographic Information
+Science Research Award](http://ucgis.org/ucgis-awards/serge-rey)
+
 (2016-02-08) [PySAL and Google Summer of Code Applications](https://github.com/pysal/pysal/wiki/Google-Summer-of-Code-2016)
 
 (2016-01-28) [PySAL 1.11.0 released](https://github.com/pysal/pysal/releases/tag/v1.11.0)
