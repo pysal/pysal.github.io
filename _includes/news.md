@@ -1,5 +1,8 @@
 News
 ====
+
+(2016-04-01) [PySAL 1.11.1 released](https://github.com/pysal/pysal/releases/tag/v1.11.1)
+
 (2016-03-21) [Rey to receive 2016 University Consortium for Geographic Information
 Science Research Award](http://ucgis.org/ucgis-awards/serge-rey)
 
