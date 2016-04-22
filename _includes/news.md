@@ -1,5 +1,9 @@
 News
 ====
+(2016-04-22) Congratulations to [Levi
+Wolf](https://summerofcode.withgoogle.com/dashboard/project/6298483845758976/details/) and [Taylor
+Oshan](https://summerofcode.withgoogle.com/dashboard/organization/4890191244296192/proposal/6624154740588544/) who have been
+accepted to Google Summer of Code 2016.
 
 (2016-04-01) [PySAL 1.11.1 released](https://github.com/pysal/pysal/releases/tag/v1.11.1)
 
