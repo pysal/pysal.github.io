@@ -1,5 +1,8 @@
 News
 ====
+
+(2016-05-23) [PySAL Workshop at UCGIS 2016 Symposium](http://ucgis.org/event-item/workshops-2#PySAL)
+
 (2016-05-18) [PySAL 1.11.2 released](https://github.com/pysal/pysal/releases/tag/v1.11.2)
  
 (2016-04-22) Congratulations to [Levi
