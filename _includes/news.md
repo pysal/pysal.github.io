@@ -1,6 +1,10 @@
 News
 ====
 
+(2016-07-13 ~ 17) [PySAL Sprint at SciPy2016, Austin, Texas](https://github.com/pysal/pysal/wiki/Sprint:-Scipy-2016)
+
+(2016-07-12) [PySAL Tutorial at SciPy2016, Austin, Texas](http://scipy2016.scipy.org/ehome/146062/332960/)
+
 (2016-05-23) [PySAL Workshop at UCGIS 2016 Symposium](http://ucgis.org/event-item/workshops-2#PySAL)
 
 (2016-05-18) [PySAL 1.11.2 released](https://github.com/pysal/pysal/releases/tag/v1.11.2)
