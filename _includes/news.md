@@ -1,6 +1,8 @@
 News
 ====
 
+(2016-12-09) [PySAL 1.13.0 released](https://github.com/pysal/pysal/releases/tag/v1.13.0)
+
 (2016-09-24) [PySAL 1.12.0 released](https://github.com/pysal/pysal/releases/tag/v1.12.0)
 
 (2016-07-13 ~ 17) [PySAL Sprint at SciPy2016, Austin, Texas](https://github.com/pysal/pysal/wiki/Sprint:-Scipy-2016)
