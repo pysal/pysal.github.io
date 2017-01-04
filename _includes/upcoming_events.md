@@ -1,4 +1,4 @@
 Upcoming Events
 ===============
 
-* November 9, 2016 [PySAL Workshop at NARSC2016](http://www.narsc.org/newsite/conference/workshops-and-tutorials/), Minneapolis, MN.
+* 2017-02-10 [PySAL spatial dynamics research at WRSA2017](https://www.wrsaonline.org/newsite/wp-content/uploads/2017/01/Santa_Fe_Preliminary_Program_v1.pdf)
