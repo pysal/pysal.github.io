@@ -1,3 +1,3 @@
 markdown: rdiscount
-highlighter: pygments
+highlighter: rouge
 permalink: /:title
