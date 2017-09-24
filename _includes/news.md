@@ -1,6 +1,8 @@
 News
 ====
 
+(2017-09-23) [PySAL 1.14.2 released](https://github.com/pysal/pysal/releases/tag/v1.14.2)
+
 (2017-03-20 ~ 04-03) [Call for Google Summer of Code 2017 application](https://github.com/pysal/pysal/wiki/Google-Summer-of-Code-2017)
 
 (2017-02-17) [PySAL spatial dynamics research at WRSA2017](https://www.wrsaonline.org/newsite/wp-content/uploads/2017/02/Santa_Fe_Final_Program_to_printer.pdf)
