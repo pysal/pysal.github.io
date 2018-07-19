@@ -478,3 +478,11 @@
         </tr>
       </tbody>
     </table>
+
+   <div style="opacity: 0;">
+
+PySAL
+=====
+.. raw:: html
+
+   </div>
