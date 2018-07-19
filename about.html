@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>About PySAL &#8212; pysal.org</title>
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pysal-styles.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="shortcut icon" href="_static/pysal_favicon.ico"/>
+    <link rel="author" title="About these documents" href="#" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="install.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          PySAL</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+                <li><a href="#">About</a></li>
+                <li><a href="install.html">Install</a></li>
+                <li><a href="getting_started.html">Getting started</a></li>
+                <li><a href="docs.html">Documentation</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 content">
+      
+  <div class="section" id="about-pysal">
+<span id="content"></span><h1>About PySAL<a class="headerlink" href="#about-pysal" title="Permalink to this headline">¶</a></h1>
+<p>PySAL, the Python spatial analysis library, is an open source
+cross-platform library for geospatial data science with an emphasis on
+geospatial vector data written in Python, licensed under the BSD License. It supports the development of
+high level applications for spatial analysis, such as</p>
+<ul class="simple">
+<li>detection of spatial clusters, hot-spots, and outliers</li>
+<li>construction of graphs from spatial data</li>
+<li>spatial regression and statistical modeling on geographically</li>
+<li>embedded networks</li>
+<li>spatial econometrics</li>
+<li>exploratory spatio-temporal data analysis</li>
+</ul>
+<div class="section" id="migrating-to-pysal-2-0">
+<h2>Migrating to PySAL 2.0<a class="headerlink" href="#migrating-to-pysal-2-0" title="Permalink to this headline">¶</a></h2>
+<p>PySAL, will be changing its package structure.</p>
+<ul class="simple">
+<li>We are changing the module structure to better reflect <em>what you do</em> with the library rather than the <em>academic disciplines</em> the components of the library come from.</li>
+<li>This also makes the library significantly more maintainable for us, since it reduces the bulk of the library and more evenly distributes the load for maintainers.</li>
+<li>As an added benefit, we will release these components, called <em>submodules</em>, independently. This lets end users only install components they need, which is helpful for our colleagues in restricted data centers.</li>
+<li><strong>The main reason</strong> we are doing this, though, is so we can implement new features in an easier fashion, maintain existing features more easily, and solicit new contributions and modules with less friction.</li>
+</ul>
+<div class="section" id="the-long-short-of-it">
+<h3>The Long &amp; Short of it<a class="headerlink" href="#the-long-short-of-it" title="Permalink to this headline">¶</a></h3>
+<p>Practially speaking, this means that <code class="docutils literal notranslate"><span class="pre">pysal</span></code> is a single <em>source
+redistribution</em> of many separately-maintained packages, called
+<code class="docutils literal notranslate"><span class="pre">submodules</span></code>. Each of these submodules are available by themselves on
+<code class="docutils literal notranslate"><span class="pre">PyPI</span></code>. They are maintained by individuals more closely tied to their
+code base, and are released on their own schedule. Every six months, the
+main maintainers of PySAL will collate, test, and re-distribute a stable
+version of these submodules. The single source release is intended to
+support our re-packagers, like OSGeoLIVE, Debian, and Conda, as well as
+most end users. Each <em>subpackage</em>, the individual components available
+on PyPI, are the locus of development, and are pushed forward (or
+created anew) by their specific maintainers on their respective
+repositories. For developers interested in minimizing their dependency
+requirements, it is possible to depend on each <code class="docutils literal notranslate"><span class="pre">subpackage</span></code> alone.</p>
+<div class="section" id="the-structure-of-pysal-2-0">
+<h4>The Structure of PySAL 2.0<a class="headerlink" href="#the-structure-of-pysal-2-0" title="Permalink to this headline">¶</a></h4>
+<p>To make this happen, we must re-arrange some existing functionality in
+the library so that it can be packaged separately. In total, <code class="docutils literal notranslate"><span class="pre">pysal</span></code>
+2.0 will be organized with five main thematic modules with the following
+functionality:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">lib</span></code>: core functionality used by other modules to work with spatial data in Python, including:<ul>
+<li>the construction of graphs (also known as spatial weights) from spatial data</li>
+<li>computational geometry algorithms:</li>
+<li>alpha shapes</li>
+<li>quadtrees, rTrees, &amp; spherical KDTrees</li>
+<li>methods to construct graphs from <code class="docutils literal notranslate"><span class="pre">scipy</span></code> Delaunay triangulation objects</li>
+<li>Pure Python data structures to represent planar geometric objects</li>
+<li>pure Python readers/writers for graph/spatial weights files and some spatial data types</li>
+</ul>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">explore</span></code>: exploratory spatial data analysis of clusters, hotspots, and spatial outliers, plus spatial statistics on graphs and point patterns. These include<ul>
+<li>Point pattern analysis of centrography and colocation (<span class="math notranslate nohighlight">\(F\)</span>,<span class="math notranslate nohighlight">\(G\)</span>,<span class="math notranslate nohighlight">\(J\)</span>,<span class="math notranslate nohighlight">\(K\)</span> statistics in space)</li>
+<li>Pattern analysis of point patterns snapped to a network (<span class="math notranslate nohighlight">\(F\)</span>,<span class="math notranslate nohighlight">\(G\)</span>,<span class="math notranslate nohighlight">\(K\)</span> statistics on networks)</li>
+<li>Analysis of spatial patterning on lattices, including<ul>
+<li>univariate Join count statistics</li>
+<li>Moran’s <span class="math notranslate nohighlight">\(I\)</span> statistics, including local &amp; bivariate methods</li>
+<li>Geary’s <span class="math notranslate nohighlight">\(C\)</span></li>
+<li>Getis-Ord <span class="math notranslate nohighlight">\(G\)</span>, <span class="math notranslate nohighlight">\(G^*\)</span>, and local <span class="math notranslate nohighlight">\(G\)</span> statistics</li>
+<li>General <span class="math notranslate nohighlight">\(\Gamma\)</span> statistics for spatial clustering</li>
+</ul>
+</li>
+<li>methods to construct &amp; analyze the space-time dynamics and distributions of data, including Markov models and distributional dynamics statistics</li>
+</ul>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">model</span></code>: explicitly spatial modeling tools including:<ul>
+<li>geographically-weighted regression, a generalized additive spatial model specification for local coefficients</li>
+<li>spatially-correlated variance-components models, a type of Bayesian hierarchical model providing for group-level spatial mixed effects, as well as diagnostics for Bayesian modeling (Geweke, Markov Chain Monte Carlo Standard Error, Potential Scale Reduction Factors)</li>
+<li>Bayesian spatially-varying coefficient process models (e.g. local random effects models)</li>
+<li>Maximum Likelihood spatial econometric models, including:</li>
+<li>mixed regressive-autoregressive (spatial lag) model</li>
+<li>spatially-correlated error models</li>
+<li>spatial regimes/spatial mixture models</li>
+<li>seemingly-unrelated regression models</li>
+<li>combinations of these various effects</li>
+<li>econometric specification testing methods, including spatial Lagrange Multiplier, Anselin-Kelejian, Chow, and Jarque-Bera tests.</li>
+</ul>
+</li>
+<li><code class="docutils literal notranslate"><span class="pre">viz</span></code>: methods to visualize and analyze spatial datasets, specifically the output of exploratory spatial statistics.</li>
+</ul>
+<p>We are going to provide a brief overview of what each of the new modules
+are, how they relate to the last <strong>legacy</strong> version of <code class="docutils literal notranslate"><span class="pre">pysal</span></code>,
+version <code class="docutils literal notranslate"><span class="pre">1.14.4</span></code>, and what you need to do in order to keep your code
+running the way you expect.</p>
+</div>
+</div>
+<div class="section" id="porting-your-code">
+<h3>Porting your code<a class="headerlink" href="#porting-your-code" title="Permalink to this headline">¶</a></h3>
+<p>The changes in <code class="docutils literal notranslate"><span class="pre">pysal</span></code> collect together modules that are used for a
+similar purpose:</p>
+<div class="figure align-center" style="width: 60%">
+<img alt="https://raw.githubusercontent.com/ljwolf/ljwolf.github.io/master/images/migration_graph.png" src="https://raw.githubusercontent.com/ljwolf/ljwolf.github.io/master/images/migration_graph.png" />
+</div>
+<p>Many things are new in <code class="docutils literal notranslate"><span class="pre">pysal</span></code> 2.0. In order to ensure we can keep
+making new things easily and maintain what we have, we’ve released each
+of the <em>submodules</em> (those underneath <code class="docutils literal notranslate"><span class="pre">model</span></code>,<code class="docutils literal notranslate"><span class="pre">viz</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">explore</span></code>) as their own python packages on PyPI. We will also release
+the <code class="docutils literal notranslate"><span class="pre">lib</span></code> module as its own package, <code class="docutils literal notranslate"><span class="pre">libpysal</span></code>, on PyPI.</p>
+<p>This means that new users can make new submodules by following our
+<a class="reference external" href="getting_started.html">submodule contract</a>.
+Further, contributors should make pull requests to the submodules
+directly, not to <a class="reference external" href="https://github.com/pysal/pysal">pysal/pysal</a>.</p>
+<div class="section" id="choice-1-using-the-standard-pysal-for-a-stable-six-month-release-cycle">
+<h4>Choice 1: Using the standard <code class="docutils literal notranslate"><span class="pre">pysal</span></code> for a stable six-month release cycle<a class="headerlink" href="#choice-1-using-the-standard-pysal-for-a-stable-six-month-release-cycle" title="Permalink to this headline">¶</a></h4>
+<p>If you want to keep your usual stable <code class="docutils literal notranslate"><span class="pre">pysal</span></code> dependency, it is
+sufficient to update your imports according to the mappings we provide
+in the <a class="reference external" href="#module-lookup">Module Lookup</a> section. <code class="docutils literal notranslate"><span class="pre">pysal</span></code> will
+continue to stick to regular 6-month releases put out by multiple
+maintainers, with bug-fix releases as needed throughout the year.</p>
+<p>This version will still have nightly regression testing run and will be
+ensured to work with the latest releases of <code class="docutils literal notranslate"><span class="pre">numpy</span></code> and <code class="docutils literal notranslate"><span class="pre">scipy</span></code>. If
+you don’t have an urgent need to reduce your dependency size or the
+availability of PySAL, continuing to depend on <code class="docutils literal notranslate"><span class="pre">pysal</span></code> directly is the
+right choice.</p>
+</div>
+<div class="section" id="choice-2-using-the-appropriate-submodule-for-fresher-releases-more-stable-dependencies">
+<h4>Choice 2: Using the appropriate submodule for fresher releases &amp; more stable dependencies<a class="headerlink" href="#choice-2-using-the-appropriate-submodule-for-fresher-releases-more-stable-dependencies" title="Permalink to this headline">¶</a></h4>
+<p>If you only use one contained part of <code class="docutils literal notranslate"><span class="pre">pysal</span></code>, are interested in
+developing another statistical analysis package that only depends on
+<code class="docutils literal notranslate"><span class="pre">libpysal</span></code>, or simply want to keep your build as lean as possible, you
+can also install only the sub-modules you require, independently of
+<code class="docutils literal notranslate"><span class="pre">pysal</span></code>. This is the best option for those of you in restricted
+analysis environments where every line of code must be vetted by an
+expert, such as users in restricted data centers conducting academic
+work.</p>
+<p>To preview these changes, install the <code class="docutils literal notranslate"><span class="pre">pysal</span></code> 2.0 release candidate
+package <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code> using <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">pre</span> <span class="n">pysal</span>
+</pre></div>
+</div>
+<p>If your package works with <code class="docutils literal notranslate"><span class="pre">pysal==2.0rc1</span></code>, it should work on future releases <code class="docutils literal notranslate"><span class="pre">pysal==2.*</span></code>.</p>
+<p>All of the sub-packages included in <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code> contain a
+significant amount of new functionality, as well as interoperability
+tools for other packages, such as <code class="docutils literal notranslate"><span class="pre">networkx</span></code> and <code class="docutils literal notranslate"><span class="pre">geopandas</span></code>. In
+addition, most of the old tools from <code class="docutils literal notranslate"><span class="pre">pysal</span></code> are reorganized. In
+total, there are <code class="docutils literal notranslate"><span class="pre">12</span></code> distinct packages in <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code>, with more
+being added often. These packages are:
+- <code class="docutils literal notranslate"><span class="pre">libpysal</span></code>: the core of the library, containing computational geometry, graph construction, and read/write tools.
+- <code class="docutils literal notranslate"><span class="pre">esda</span></code>: the exploratory spatial data analysis toolkit, containing many statistical functions for characterizing spatial patterns.
+- <code class="docutils literal notranslate"><span class="pre">pointpats</span></code>: methods and statistical functions to statistically analyze spatial clustering in point patterns
+- <code class="docutils literal notranslate"><span class="pre">spaghetti</span></code>: methods and statistical functions to analyze geographic networks, including the statistical distribution of points on network topologies.
+- <code class="docutils literal notranslate"><span class="pre">giddy</span></code>: the geospatial distribution dynamics package, designed to study and characterize how distributions change and relate over space and time.
+- <code class="docutils literal notranslate"><span class="pre">mapclassify</span></code>: a package with map classification algorithms for cartography
+- <code class="docutils literal notranslate"><span class="pre">splot</span></code>: a collection of statistical visualizations for the analysis methods included across <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code>
+- <code class="docutils literal notranslate"><span class="pre">gwr</span></code>: geographically-weighted regression (both single- and multi-scale)
+- <code class="docutils literal notranslate"><span class="pre">spglm</span></code>: methods &amp; functions to fit sparse GLMs
+- <code class="docutils literal notranslate"><span class="pre">spint</span></code>: spatial interaction models
+- <code class="docutils literal notranslate"><span class="pre">spreg</span></code>: spatial econometric regression
+- <code class="docutils literal notranslate"><span class="pre">spvcm</span></code>: spatially-correlated variance components models, plus diagnostics and plotting for Bayesian models fit in <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code>.</p>
+<p>There are four main changes that have occurred in <code class="docutils literal notranslate"><span class="pre">pysal</span> <span class="pre">2.0rc1</span></code>. From
+legacy <code class="docutils literal notranslate"><span class="pre">pysal</span></code>, these are:</p>
+<ol class="arabic simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.contrib</span></code>: removed due to lack of unittesting and heterogeneous code quality; moved to independent modules where possible.</li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.esda.smoothing</span></code>: removed due to intractable and subtle numerical bugs in the code caused by porting to Python 3. There is an effort to re-implement this in Python, and will be added when/if this effort finishes.</li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.region</span></code>: removed because the new version has significantly more dependencies, including <code class="docutils literal notranslate"><span class="pre">pulp</span></code> and <code class="docutils literal notranslate"><span class="pre">scikit-learn</span></code>. Grab this as a standalone package using <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">region</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.meta</span></code>: removed.</li>
+</ol>
+<p>If you’d like to get code from submodules, they usually have a
+one-to-one replacement. This will be discussed later in the <a class="reference external" href="#Module-Lookup">Module Lookup</a> section.</p>
+</div>
+</div>
+<div class="section" id="id2">
+<h3>Module Lookup<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Here is a list of the locations of all of the commonly-used modules in
+legacy <code class="docutils literal notranslate"><span class="pre">pysal</span></code>, and where they will move in the next release of
+<code class="docutils literal notranslate"><span class="pre">pysal</span></code>.</p>
+<p>To preview these changes, install the <code class="docutils literal notranslate"><span class="pre">pysal</span></code> 2.0 release candidate
+package using <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">pre</span> <span class="n">pysal</span>
+</pre></div>
+</div>
+<p>If your package works with <code class="docutils literal notranslate"><span class="pre">pysal==2.0rc1</span></code>, it should work on
+<code class="docutils literal notranslate"><span class="pre">pysal==2.*</span></code> future releases.</p>
+<div class="section" id="modules-in-libpysal">
+<h4>Modules in <code class="docutils literal notranslate"><span class="pre">libpysal</span></code><a class="headerlink" href="#modules-in-libpysal" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.cg</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.lib.cg</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.weights</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.lib.weights</span></code>, and many weights construction classes now have <code class="docutils literal notranslate"><span class="pre">from_geodataframe</span></code> methods that can graphs directly from <code class="docutils literal notranslate"><span class="pre">geopandas</span></code> <code class="docutils literal notranslate"><span class="pre">GeoDataFrames</span></code>.</li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.open</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.lib.io.open</span></code>, and most of <code class="docutils literal notranslate"><span class="pre">pysal.core</span></code> will move to <code class="docutils literal notranslate"><span class="pre">pysal.lib.io</span></code>. Note: using <code class="docutils literal notranslate"><span class="pre">pysal.lib.io.open</span></code> for <strong>anything</strong> but reading/writing spatial weights matrices/graphs is not advised. Please migrate to <code class="docutils literal notranslate"><span class="pre">geopandas</span></code> for all spatial data read/write. Further, note that``WeightsConverter`` has also been deprecated; if you need to convert weights, do so manually using sequential <code class="docutils literal notranslate"><span class="pre">open</span></code> and <code class="docutils literal notranslate"><span class="pre">write</span></code> statements.</li>
+<li><code class="docutils literal notranslate"><span class="pre">pysal.examples</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.lib.examples</span></code></li>
+</ul>
+</div>
+<div class="section" id="modules-from-spatial-dynamics">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">spatial_dynamics</span></code><a class="headerlink" href="#modules-from-spatial-dynamics" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.spatial_dynamics</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.explore.giddy</span></code>.</li>
+</ul>
+</div>
+<div class="section" id="modules-from-inequality">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">inequality</span></code><a class="headerlink" href="#modules-from-inequality" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.inequality</span></code> will change to <code class="docutils literal notranslate"><span class="pre">pysal.explore.inequality</span></code></li>
+</ul>
+</div>
+<div class="section" id="modules-from-esda">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">esda</span></code><a class="headerlink" href="#modules-from-esda" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>These will mainly move into <code class="docutils literal notranslate"><span class="pre">pysal.explore.esda</span></code>, except for <code class="docutils literal notranslate"><span class="pre">smoothing</span></code> and <code class="docutils literal notranslate"><span class="pre">mixture_smoothing</span></code> (which will be deprecated) and <code class="docutils literal notranslate"><span class="pre">mapclassify</span></code>, which will move to <code class="docutils literal notranslate"><span class="pre">pysal.viz.mapclassify</span></code>.</li>
+</ul>
+</div>
+<div class="section" id="modules-from-network">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">network</span></code><a class="headerlink" href="#modules-from-network" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li>These will move directly into <code class="docutils literal notranslate"><span class="pre">pysal.explore.spaghetti</span></code></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">inequality</span></code><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.inequality</span></code> has been published as its own package, <code class="docutils literal notranslate"><span class="pre">inequality</span></code>, and moved to <code class="docutils literal notranslate"><span class="pre">pysal.explore.inequality</span></code>.</li>
+</ul>
+</div>
+<div class="section" id="modules-from-spreg">
+<h4>Modules from <code class="docutils literal notranslate"><span class="pre">spreg</span></code><a class="headerlink" href="#modules-from-spreg" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pysal.spreg</span></code> has been moved wholesale into <code class="docutils literal notranslate"><span class="pre">pysal.model.spreg</span></code>, which now contains many additional kinds of spatial regression models, including spatial interaction, Bayesian multilevel, and geographically-weighted regression methods.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="examples">
+<h3>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="reading-writing-data">
+<h4>Reading/Writing Data:<a class="headerlink" href="#reading-writing-data" title="Permalink to this headline">¶</a></h4>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pysal</span>
+<span class="n">file_handler</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.dbf&#39;</span><span class="p">))</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">file_handler</span><span class="o">.</span><span class="n">by_col</span><span class="p">(</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>becomes:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">geopandas</span>
+<span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">examples</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">geopandas</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.dbf&#39;</span><span class="p">))</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">values</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="reading-writing-graphs-or-spatial-weights">
+<h4>Reading/Writing Graphs or Spatial Weights:<a class="headerlink" href="#reading-writing-graphs-or-spatial-weights" title="Permalink to this headline">¶</a></h4>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pysal</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.gal&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>becomes</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">W</span><span class="o">.</span><span class="n">from_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.gal&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>or, building directly on top of the developer-focused <code class="docutils literal notranslate"><span class="pre">libpysal</span></code>
+package:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">libpysal</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">W</span><span class="o">.</span><span class="n">from_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.gal&#39;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="making-map-classifications">
+<h4>Making map classifications<a class="headerlink" href="#making-map-classifications" title="Permalink to this headline">¶</a></h4>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.esda.mapclassify</span> <span class="k">import</span> <span class="n">Jenks_Caspall</span>
+<span class="n">Jenks_Caspall</span><span class="p">(</span><span class="n">your_data</span><span class="p">)</span><span class="o">.</span><span class="n">yb</span>
+</pre></div>
+</div>
+<p>becomes</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.viz</span> <span class="k">import</span> <span class="n">mapclassify</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">mapclassify</span><span class="o">.</span><span class="n">Jenks_Caspall</span><span class="p">(</span><span class="n">features</span><span class="p">)</span><span class="o">.</span><span class="n">yb</span>
+</pre></div>
+</div>
+<p>Or, built directly on top of the developer-focused package
+<code class="docutils literal notranslate"><span class="pre">mapclassify</span></code>, which may have newer features in the future:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">mapclassify</span>
+<span class="n">labels</span> <span class="o">=</span> <span class="n">mapclassify</span><span class="o">.</span><span class="n">Jenks_Caspall</span><span class="p">(</span><span class="n">features</span><span class="p">)</span><span class="o">.</span><span class="n">yb</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="fitting-a-spatial-regression">
+<h4>Fitting a spatial regression:<a class="headerlink" href="#fitting-a-spatial-regression" title="Permalink to this headline">¶</a></h4>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pysal</span>
+<span class="n">file_handler</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.dbf&#39;</span><span class="p">))</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">file_handler</span><span class="o">.</span><span class="n">by_col</span><span class="p">(</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">))</span>
+<span class="n">X</span> <span class="o">=</span> <span class="n">file_handler</span><span class="o">.</span><span class="n">by_col_array</span><span class="p">([</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">])</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">queen_from_shapefile</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.shp&#39;</span><span class="p">))</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">spreg</span><span class="o">.</span><span class="n">ML_Lag</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="n">X</span><span class="p">,</span> <span class="n">w</span><span class="o">=</span><span class="n">graph</span><span class="p">,</span>
+<span class="n">name_x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">],</span>
+<span class="n">name_y</span> <span class="o">=</span> <span class="s1">&#39;HOVAL&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>becomes</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.model</span> <span class="k">import</span> <span class="n">spreg</span>
+<span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="kn">import</span> <span class="nn">geopandas</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">geopandas</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s2">&quot;columbus.dbf&quot;</span><span class="p">))</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">Queen</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span> <span class="c1"># Queen.from_shapefile also supported</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">spreg</span><span class="o">.</span><span class="n">ML_Lag</span><span class="p">(</span><span class="n">dataframe</span><span class="p">[[</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
+<span class="n">dataframe</span><span class="p">[[</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
+<span class="n">name_x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">],</span> <span class="n">name_y</span> <span class="o">=</span> <span class="s1">&#39;HOVAL&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Or, building on top of the standalone <code class="docutils literal notranslate"><span class="pre">spreg</span></code> package, which may have
+new bugfixes or compatibility options in the future:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.model</span> <span class="k">import</span> <span class="n">spreg</span>
+<span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="kn">import</span> <span class="nn">geopandas</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">geopandas</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s2">&quot;columbus.dbf&quot;</span><span class="p">))</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">Queen</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+<span class="n">model</span> <span class="o">=</span> <span class="n">spreg</span><span class="o">.</span><span class="n">ML_Lag</span><span class="p">(</span><span class="n">dataframe</span><span class="p">[[</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span> <span class="n">dataframe</span><span class="p">[[</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">]]</span><span class="o">.</span><span class="n">values</span><span class="p">,</span>
+<span class="n">name_x</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;CRIME&#39;</span><span class="p">,</span> <span class="s1">&#39;INC&#39;</span><span class="p">],</span> <span class="n">name_y</span> <span class="o">=</span> <span class="s1">&#39;HOVAL&#39;</span><span class="p">)</span>
+<span class="n">model2</span> <span class="o">=</span> <span class="n">spreg</span><span class="o">.</span><span class="n">ML_Lag</span><span class="o">.</span><span class="n">from_formula</span><span class="p">(</span><span class="s1">&#39;HOVAL ~ CRIME + INC&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">dataframe</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="computing-a-moran-statistic">
+<h4>Computing a Moran statistic:<a class="headerlink" href="#computing-a-moran-statistic" title="Permalink to this headline">¶</a></h4>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pysal</span>
+<span class="n">file_handler</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.dbf&#39;</span><span class="p">))</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">asarray</span><span class="p">(</span><span class="n">file_handler</span><span class="o">.</span><span class="n">by_col</span><span class="p">(</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">))</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">pysal</span><span class="o">.</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s1">&#39;columbus.gal&#39;</span><span class="p">))</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+<span class="n">moran_stat</span> <span class="o">=</span> <span class="n">pysal</span><span class="o">.</span><span class="n">Moran</span><span class="p">(</span><span class="n">y</span><span class="p">,</span><span class="n">graph</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">moran_stat</span><span class="o">.</span><span class="n">I</span><span class="p">,</span> <span class="n">moran_stat</span><span class="o">.</span><span class="n">p_z_sim</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>becomes</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pysal.explore</span> <span class="k">import</span> <span class="n">esda</span>
+<span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="kn">import</span> <span class="nn">geopandas</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">geopandas</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s2">&quot;columbus.dbf&quot;</span><span class="p">))</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">Queen</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+<span class="n">moran_stat</span> <span class="o">=</span> <span class="n">esda</span><span class="o">.</span><span class="n">Moran</span><span class="p">(</span><span class="n">dataframe</span><span class="p">[</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">],</span> <span class="n">graph</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">moran_stat</span><span class="o">.</span><span class="n">I</span><span class="p">,</span> <span class="n">moran_stat</span><span class="o">.</span><span class="n">p_z_sim</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>or, building directly off of the developer-focused package <code class="docutils literal notranslate"><span class="pre">esda</span></code> ,
+which may have features not yet available in <code class="docutils literal notranslate"><span class="pre">pysal</span></code> itself:</p>
+<div class="code python highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">esda</span>
+<span class="kn">from</span> <span class="nn">pysal.lib</span> <span class="k">import</span> <span class="n">weights</span><span class="p">,</span> <span class="n">examples</span>
+<span class="kn">import</span> <span class="nn">geopandas</span>
+<span class="n">dataframe</span> <span class="o">=</span> <span class="n">geopandas</span><span class="o">.</span><span class="n">read_file</span><span class="p">(</span><span class="n">examples</span><span class="o">.</span><span class="n">get_path</span><span class="p">(</span><span class="s2">&quot;columbus.dbf&quot;</span><span class="p">))</span>
+<span class="n">graph</span> <span class="o">=</span> <span class="n">weights</span><span class="o">.</span><span class="n">Queen</span><span class="o">.</span><span class="n">from_dataframe</span><span class="p">(</span><span class="n">dataframe</span><span class="p">)</span>
+<span class="n">moran_stat</span> <span class="o">=</span> <span class="n">esda</span><span class="o">.</span><span class="n">Moran</span><span class="p">(</span><span class="n">dataframe</span><span class="p">[</span><span class="s1">&#39;HOVAL&#39;</span><span class="p">],</span> <span class="n">graph</span><span class="p">,</span> <span class="n">fancy_new_option</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">moran_stat</span><span class="o">.</span><span class="n">I</span><span class="p">,</span> <span class="n">moran_stat</span><span class="o">.</span><span class="n">p_z_sim</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="i-really-don-t-want-to-change-anything-what-can-i-do">
+<h3>I really don’t want to change anything; what can I do?<a class="headerlink" href="#i-really-don-t-want-to-change-anything-what-can-i-do" title="Permalink to this headline">¶</a></h3>
+<h5 class="text-warning">This is not recommended!</h5><p>For a longer change window, feel free to
+<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pysal._legacy</span> <span class="pre">as</span> <span class="pre">pysal</span></code>. We urge you to not do this, since we
+plan on deprecating this as well. If you can make the changes described
+above, you will have a much more stable and future-proof API. We feel
+these changes are reasonable and will greatly enhance how easy it is for
+us to maintain <code class="docutils literal notranslate"><span class="pre">pysal</span></code> and move new functionality forward.</p>
+<p>Please contact us on <a class="reference external" href="https://gitter.com/pysal/pysal">gitter</a> if there are any remaining concerns or questions, and for help or advice.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2018 PySAL developers.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
