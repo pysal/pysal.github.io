@@ -1,0 +1,230 @@
+Contact
+=======
+
+.. raw:: html
+
+   <table class="table table-hover table-responsive">
+      <col width="30%">
+      <col width="35%">
+      <col width="35%">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Discussion room</th>
+          <th>Bug report/ Feature request</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PySAL legacy</td>
+          <td>
+            <a href="https://gitter.im/pysal/pysal">
+            <img alt="gitter" src="_static/images2/gitter.png" width="40">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/pysal/pysal/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="warning">
+          <td>LibPySAL</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/libpysal">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/libpysal/issues">
+              <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Esda</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/esda">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/esda/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Giddy</td>
+          <td>
+            <a href="https://gitter.im/pysal/giddy">
+            <img alt="gitter" src="_static/images2/gitter.png" width="40">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/pysal/giddy/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Pointpats</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/pointpats">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/pointpats/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Inequality</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/inequality">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <!--<a href="https://github.com/pysal/inequality/issues">-->
+            <!--<img alt="bug" src="_static/images2/bug_logo.png" width="40">-->
+            <!--</a>-->
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Region</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/region">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/region/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="danger">
+          <td>Spaghetti</td>
+          <td>
+            <a href="https://gitter.im/pysal/Spaghetti">
+            <img alt="gitter" src="_static/images2/gitter.png" width="40">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/pysal/spaghetti/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="success">
+          <td>Spreg</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/spreg">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <!--<a href="https://github.com/pysal/spreg/issues">-->
+            <!--<img alt="bug" src="_static/images2/bug_logo.png" width="40">-->
+            <!--</a>-->
+          </td>
+        </tr>
+        <tr class="success">
+          <td>MGWR</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/GWR">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/MGWR/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="success">
+          <td>Spvcm</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/spvcm">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/spvcm/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="success">
+          <td>Spint</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/spint">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/spint/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="success">
+          <td>Spglm</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/spglm">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/spglm/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="info">
+          <td>Mapclassify</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/mapclassify">-->
+            <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/mapclassify/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="info">
+          <td>Splot</td>
+          <td>
+            <a href="https://gitter.im/pysal/splot">
+            <img alt="gitter" src="_static/images2/gitter.png" width="40">
+            </a>
+          </td>
+          <td>
+            <a href="https://github.com/pysal/splot/issues">
+            <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+        <tr class="info">
+          <td>Legendgram</td>
+          <td>
+            <!--<a href="https://gitter.im/pysal/splot">-->
+              <!--<img alt="gitter" src="_static/images2/gitter.png" width="40">-->
+            <!--</a>-->
+          </td>
+          <td>
+            <a href="https://github.com/pysal/legendgram/issues">
+              <img alt="bug" src="_static/images2/bug_logo.png" width="40">
+            </a>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+
