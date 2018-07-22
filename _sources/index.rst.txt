@@ -17,8 +17,6 @@
    news
    team
    contact
-   references
-
 
 
 
