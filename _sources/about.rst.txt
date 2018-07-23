@@ -114,7 +114,7 @@ of the *submodules* (those underneath ``model``,\ ``viz``, and
 the ``lib`` module as its own package, ``libpysal``, on PyPI.
 
 This means that new users can make new submodules by following our
-`submodule contract <getting_started.html>`_.
+`submodule contract <getting_started.html#submodule-contract>`_.
 Further, contributors should make pull requests to the submodules
 directly, not to `pysal/pysal <https://github.com/pysal/pysal>`_.
 
