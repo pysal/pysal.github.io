@@ -43,8 +43,6 @@ Developers for PySAL and its submodules are expected to follow `Github Standard 
 
 In order for packages to be included into `pysal` as a submodule, it must follow the Submodule Contract below:
 
-
-
 .. _PySAL-Submodule-contract:
 
 Submodule Contract
@@ -105,12 +103,6 @@ style citations `sphinxcontrib-bibtex <http://sphinxcontrib-bibtex
 reference list which could be for those cited in a particular webpage or a
 bunch of webpages by feeding with a bib file.
 
-Example gallery
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Building a gallery of examples for your package could be very rewarding.
-We utilize the Sphinx extension `sphinx_gallery.gen_gallery
-<https://sphinx-gallery.github.io>`_ to build a gallery from Python scripts.
 
 
 
