@@ -15,8 +15,7 @@ Installing the PySAL Legacy
 
     <h3>Installing via pip</h3>
 
-The PySAL Legacy is available on the `Python Package Index
-<http://pypi.python.org/pypi/pysal>`_, which means it can be
+The PySAL Legacy is `available <http://pypi.python.org/pypi/pysal>`_ on the Python Package Index, which means it can be
 downloaded and installed manually or from the command line using
 `pip`, as follows::
 
@@ -46,8 +45,7 @@ Take ``giddy`` as an example:
 
     <h3>Installing via pip</h3>
 
-Since giddy has been released on the `Python Package Index
-<http://pypi.python.org/pypi/giddy>`_, users could
+Since giddy has been `released <http://pypi.python.org/pypi/giddy>`_ on the Python Package Index, users could
 download the distribution file and install it manually or from the command line using
 `pip`::
 

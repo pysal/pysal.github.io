@@ -396,4 +396,4 @@ above, you will have a much more stable and future-proof API. We feel
 these changes are reasonable and will greatly enhance how easy it is for
 us to maintain ``pysal`` and move new functionality forward.
 
-Please contact us on `gitter <https://gitter.com/pysal/pysal>`__ if there are any remaining concerns or questions, and for help or advice.
+Please contact us on `gitter <https://gitter.com/pysal/pysal>`_ if there are any remaining concerns or questions, and for help or advice.
