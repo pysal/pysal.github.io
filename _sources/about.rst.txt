@@ -123,7 +123,7 @@ Choice 1: Using the standard ``pysal`` for a stable six-month release cycle
 
 If you want to keep your usual stable ``pysal`` dependency, it is
 sufficient to update your imports according to the mappings we provide
-in the `Module Lookup <#module-lookup>`_ section. ``pysal`` will
+in the :ref:`Module-Lookup` section. ``pysal`` will
 continue to stick to regular 6-month releases put out by multiple
 maintainers, with bug-fix releases as needed throughout the year.
 
@@ -180,7 +180,9 @@ legacy ``pysal``, these are:
 4. ``pysal.meta``: removed.
 
 If you'd like to get code from submodules, they usually have a
-one-to-one replacement. This will be discussed later in the `Module Lookup <#Module-Lookup>`_ section.
+one-to-one replacement. This will be discussed later in the :ref:`Module-Lookup` section.
+
+.. _Module-Lookup:
 
 Module Lookup
 ^^^^^^^^^^^^^
@@ -394,4 +396,4 @@ above, you will have a much more stable and future-proof API. We feel
 these changes are reasonable and will greatly enhance how easy it is for
 us to maintain ``pysal`` and move new functionality forward.
 
-Please contact us on `gitter <https://gitter.com/pysal/pysal>`__ if there are any remaining concerns or questions, and for help or advice.
+Please contact us on `gitter <https://gitter.com/pysal/pysal>`_ if there are any remaining concerns or questions, and for help or advice.

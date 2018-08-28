@@ -457,8 +457,8 @@ PySAL Team
                             </div>
                             <div class="col-md-8">
                                 <h5 class="media-heading"><a href="https://github.com/sjsrey">Sergio Rey</a></h5>
-                                <a href= "mailto:sergio.rey@ucr.edu">anselin@uchicago.edu</a>
-                                <p>Founding Director, Center for Spatial Sciences<BR>Professor, School of Public Policy<BR>University of California, Riverside</p>
+                                <a href= "mailto:sergio.rey@ucr.edu">sergio.rey@ucr.edu</a>
+                                <p>Founding Director, Center for Geospatial Sciences<BR>Professor, School of Public Policy<BR>University of California, Riverside</p>
                             </div>
                         </div>
                     </div>
