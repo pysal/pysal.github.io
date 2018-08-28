@@ -136,10 +136,10 @@ We recommend building a documentation website for your package with:
 
 The workflow is briefly introduced as follows:
 
-Set up a `sphinx` project
+Set up a ``sphinx`` project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Install `sphinx`, `sphinx_bootstrap_theme` as well as several `sphinx` extensions which are very useful in generating an elegant and user-friendly online documentation from ``pip``::
+* Install ``sphinx``, ``sphinx_bootstrap_theme`` as well as several ``sphinx`` extensions which are very useful in generating an elegant and user-friendly online documentation from ``pip``::
 
    pip install sphinx sphinx_bootstrap_theme sphinxcontrib-bibtex numpydoc
 
