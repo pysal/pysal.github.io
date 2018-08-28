@@ -130,15 +130,16 @@ Building an online documentation for the submodule mimicking `giddy_docs`_
 
 We recommend building a documentation website for your package with:
 
-* `sphinx <http://www.sphinx-doc.org/en/master/>`_, the **Python Documentation Generator**, which semi-automatically creates beautiful documentation.
+* `sphinx`_, the **Python Documentation Generator**, which semi-automatically creates beautiful documentation.
+* `sphinx_bootstrap_theme`_, a python package providing Sphinx themes which integrates the Bootstrap CSS/JavaScript framework with various layout options.
 * `readthedocs`_, which pull the code from the github repository, build documentation and host it for free. It is capable of hosting multiple versions of documentation.
 
 The workflow is briefly introduced as follows:
 
-Set up a ``sphinx`` project
+Set up a `sphinx` project
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Install ``sphinx`` as well as several ``sphinx`` extensions which are very useful in generating an elegant and user-friendly online documentation from ``pip``::
+* Install `sphinx`, `sphinx_bootstrap_theme` as well as several `sphinx` extensions which are very useful in generating an elegant and user-friendly online documentation from ``pip``::
 
    pip install sphinx sphinx_bootstrap_theme sphinxcontrib-bibtex numpydoc
 
@@ -245,7 +246,7 @@ the online docs. Up to now, it is possible that the docs building will fail beca
 * Python interpreter: since the submodule supports 3.X only, you need to change the **Python interpreter** value from the default `CPython 2.x` to `CPython 3.x` in Admin-Advanced Settings.
 * Docs building dependencies: since we are relying on the python package `sphinx_bootstrap_theme`_ to build an elegant `bootstrap-Yeti <https://bootswatch.com/yeti/>`_ website, we need to configure `readthedocs` to install the package when building the docs. A successful exmaple of configuration is given with the help of a `readthedocs.yml <https://github.com/pysal/submodule_template/blob/master/readthedocs.yml>`_ and proper configuration of `tests and docs dependencies for setup.py <https://github.com/pysal/submodule_template/blob/master/setup.py#L22>`_ .
 
-
+.. _sphinx: http://www.sphinx-doc.org/en/master/
 .. _readthedocs: https://readthedocs.org/
 .. _doc/conf.py: https://github.com/pysal/submodule_template/blob/master/doc/conf.py
 .. _giddy_docs: http://giddy.readthedocs.io
