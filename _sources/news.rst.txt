@@ -23,13 +23,6 @@ News
               <td width="62%">The first stable version of mapclassify since pysal refactoring is released!</td>
               <td width="9%"><a href="https://files.pythonhosted.org/packages/e4/ec/2867c84f206655f08b7aaadd0b4b509fefc2efbff907f9dd454bf4dca04a/mapclassify-2.0.0.tar.gz">Download</a></td>
             </tr>
-            <tr class="info">
-              <td width="11%">2018-08-10</td>
-              <td width="9%"><a href="https://github.com/pysal/mapclassify">mapclassify</a></td>
-              <td width="9%"><a href="https://pypi.org/project/mapclassify/2.0.0/">2.0.0</a></td>
-              <td width="62%">The first stable version of mapclassify since pysal refactoring is released!</td>
-              <td width="9%"><a href="https://files.pythonhosted.org/packages/e4/ec/2867c84f206655f08b7aaadd0b4b509fefc2efbff907f9dd454bf4dca04a/mapclassify-2.0.0.tar.gz">Download</a></td>
-            </tr>
             <tr class="tdanger">
               <td width="11%" height="86px"><br>2017-07-27</td>
               <td width="9%" height="86px"><a href="https://github.com/pysal/giddy"><br>giddy</a></td>
@@ -129,11 +122,6 @@ News
         <div class="bodycontainer scrollable">
             <table class="table table-hover table-responsive table-scrollable">
               <tbody>
-                <tr>
-                  <td width="15%" height="63px">2017-11-08</td>
-                  <td width="65%" height="63px">A PySAL Workshop will be held at 64th Annual North American Meetings of the Regional Science Association International. Registration is currently available at the NARSC conference registration portal. Click <a href="http://www.narsc.org/newsite/conference/workshops-and-tutorials/">here</a> to learn more.</td>
-                  <td width="20%" height="63px">Vancouver, BC, Canada</td>
-                </tr>
                 <tr>
                   <td width="15%" height="63px">2017-11-08</td>
                   <td width="65%" height="63px">A PySAL Workshop will be held at 64th Annual North American Meetings of the Regional Science Association International. Registration is currently available at the NARSC conference registration portal. Click <a href="http://www.narsc.org/newsite/conference/workshops-and-tutorials/">here</a> to learn more.</td>
