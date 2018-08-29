@@ -16,6 +16,37 @@ News
             </tr>
           </thead>
           <tbody>
+
+            <tr class="danger">
+              <td width="11%">2018-08-26</td>
+              <td width="9%"><a href="https://github.com/pysal/giddy">giddy</a></td>
+              <td width="9%"><a href="https://pypi.python.org/pypi/giddy/2.0.0">2.0.0</a></td>
+              <td width="62%">
+                The first stable version of giddy since pysal refactoring is released!
+              </td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/0f/87/2f9873111a1f9716b047af8664699fbd0e886decd712f7579a5a0079ddc0/giddy-2.0.0.tar.gz">Download</a></td>
+            </tr>
+            <tr class="danger">
+              <td width="11%">2018-08-25</td>
+              <td width="9%"><a href="https://github.com/pysal/esda">esda</a></td>
+              <td width="9%"><a href="https://pypi.org/project/esda/">2.0.0</a></td>
+              <td width="62%">The first stable version of esda since pysal refactoring is released!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/3e/84/bff39fdd34fc7f2dd3e0a1b7a6b92cea8ca17ce0ab9359a96ed301947cd6/esda-2.0.0.tar.gz">Download</a></td>
+            </tr>
+            <tr class="success">
+              <td width="11%">2018-08-24</td>
+              <td width="9%"><a href="https://github.com/pysal/spreg">spreg</a></td>
+              <td width="9%"><a href="https://pypi.python.org/pypi/spreg/1.0.4">1.0.4</a></td>
+              <td width="62%">The first stable version of spreg since pysal refactoring is released!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/f2/09/c242c5927e2708b5136ace2f58dd0ce9c45f65204ccb8b3e3181404648f3/spreg-1.0.4.tar.gz">Download</a></td>
+            </tr>
+            <tr class="warning">
+              <td width="11%">2018-08-22</td>
+              <td width="9%"><a href="https://github.com/pysal/libpysal">libpysal</a></td>
+              <td width="9%"><a href="https://pypi.org/project/libpysal/">4.0.0</a></td>
+              <td width="62%">The first stable version of libpysal since pysal refactoring is released!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/8c/67/b18c448df173d28a2c1dad811f9c9500da54642eb929313553270eceb6b7/libpysal-4.0.0.tar.gz">Download</a></td>
+            </tr>
             <tr class="info">
               <td width="11%">2018-08-10</td>
               <td width="9%"><a href="https://github.com/pysal/mapclassify">mapclassify</a></td>
@@ -23,22 +54,36 @@ News
               <td width="62%">The first stable version of mapclassify since pysal refactoring is released!</td>
               <td width="9%"><a href="https://files.pythonhosted.org/packages/e4/ec/2867c84f206655f08b7aaadd0b4b509fefc2efbff907f9dd454bf4dca04a/mapclassify-2.0.0.tar.gz">Download</a></td>
             </tr>
-            <tr class="tdanger">
-              <td width="11%" height="86px"><br>2017-07-27</td>
-              <td width="9%" height="86px"><a href="https://github.com/pysal/giddy"><br>giddy</a></td>
-              <td width="9%" height="86px"><br><a href="https://pypi.python.org/pypi/giddy/1.2.0">1.2.0</a></td>
-              <td width="62%" height="86px">
+            <tr class="danger">
+              <td width="11%">2018-07-27</td>
+              <td width="9%"><a href="https://github.com/pysal/giddy">giddy</a></td>
+              <td width="9%"><a href="https://pypi.python.org/pypi/giddy/1.2.0">1.2.0</a></td>
+              <td width="62%">
                 This release features a more flexible specification for <a href="https://github.com/pysal/giddy/blob/master/giddy/markov.py#L169">the spatial Markov chains model</a>
                 and the launch of <a href="http://giddy.readthedocs.io/">giddy documentation website</a>!
               </td>
-              <td width="9%" height="86px"><br><a href="https://files.pythonhosted.org/packages/c6/97/39b02a12d60322059f985cb758224634b245385ce0b979f65da7ca1b2b62/giddy-1.2.0.tar.gz">Download</a></td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/c6/97/39b02a12d60322059f985cb758224634b245385ce0b979f65da7ca1b2b62/giddy-1.2.0.tar.gz">Download</a></td>
             </tr>
-            <tr class="tdanger">
-              <td width="11%" height="86px"><br>2017-06-21</td>
-              <td width="9%" height="86px"><a href="https://github.com/pysal/giddy"><br>giddy</a></td>
-              <td width="9%" height="86px"><br><a href="https://pypi.python.org/pypi/giddy/1.0.2">1.0.2</a></td>
-              <td width="62%" height="86px">Directional LISA, inference and visualization as rose diagram<br>Local indicator of mobility association (LIMA)<br>Inter- and intra-regional decomposition of mobility association and inference</td>
-              <td width="9%" height="86px"><br><a href="https://pypi.python.org/packages/8c/cd/1cb9a7308c407080a1e4f702b84aee6e13ed10869b5a90e4f2b9c6615b74/giddy-1.0.2.tar.gz">Download</a></td>
+            <tr class="danger">
+              <td width="11%">2018-07-27</td>
+              <td width="9%"><a href="https://github.com/pysal/spaghetti">spaghetti</a></td>
+              <td width="9%"><a href="https://pypi.org/project/spaghetti/">1.0.1</a></td>
+              <td width="62%">First release.</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/03/19/22f573dcf219cd8ec33dfb7c745a94c2a77eb6678cd0369274bab322d436/spaghetti-1.0.1.tar.gz">Download</a></td>
+            </tr>
+            <tr class="info">
+              <td width="11%">2018-05-11</td>
+              <td width="9%"><a href="https://github.com/pysal/legendgram">legendgram</a></td>
+              <td width="9%"><a href="https://pypi.org/project/legendgram/0.0.3/">0.0.3</a></td>
+              <td width="62%">A stable released!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/56/1e/28596cbe4bb73727ba59d1cf63f2ad69799a308840c6a3fd4d214111e26c/legendgram-0.0.3.tar.gz">Download</a></td>
+            </tr>
+            <tr class="danger">
+              <td width="11%">2017-06-21</td>
+              <td width="9%"><a href="https://github.com/pysal/giddy">giddy</a></td>
+              <td width="9%"><a href="https://pypi.python.org/pypi/giddy/1.0.2">1.0.2</a></td>
+              <td width="62%">Directional LISA, inference and visualization as rose diagram<br>Local indicator of mobility association (LIMA)<br>Inter- and intra-regional decomposition of mobility association and inference</td>
+              <td width="9%"><a href="https://pypi.python.org/packages/8c/cd/1cb9a7308c407080a1e4f702b84aee6e13ed10869b5a90e4f2b9c6615b74/giddy-1.0.2.tar.gz">Download</a></td>
             </tr>
             <tr class="warning">
               <td width="11%">2017-06-20</td>
