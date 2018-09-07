@@ -629,6 +629,21 @@ PySAL Team and Maintainers
                                 <p>Founding Director, Center for Geospatial Sciences<BR>Professor, School of Public Policy<BR>University of California, Riverside</p>
                             </div>
                         </div>
+                        <div class="row equal-height extra-bottom-padding">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-3">
+                                <a href="https://github.com/slumnitz">
+                                    <img alt="Stefanie" src="https://avatars3.githubusercontent.com/u/35147471?s=400&v=4" width="150">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="media-heading"><a href="https://github.com/slumnitz">Stefanie Lumnitz</a></h5>
+                                <h6><strong>Maintainer</strong></h6>
+                                <a href= "mailto:stefanie.lumnitz@gmail.com">stefanie.lumnitz@gmail.com</a>
+                                <p>Master Student<BR>Faculty of Forestry<BR>University of British Columbia</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane" id="LibPySAL">
                         <div class="row equal-height extra-bottom-padding">
