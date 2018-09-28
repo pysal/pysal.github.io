@@ -16,6 +16,14 @@ News
             </tr>
           </thead>
           <tbody>
+            <tr class="success">
+              <td width="11%">2018-09-28</td>
+              <td width="9%"><a href="https://github.com/pysal/mgwr">mgwr</a></td>
+              <td width="9%"><a href="https://pypi.org/project/mgwr/2.0.1/">2.0.1</a></td>
+              <td width="62%">The first stable version of mgwr since pysal refactoring is released together with the launch of the
+                <a href="https://mgwr.readthedocs.io/">mgwr documentation website</a>!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/31/6a/f79fd8867e7a5096b0581c5fef6076fd71547db43ea8e4ad2f9c19006af0/mgwr-2.0.1.tar.gz">Download</a></td>
+            </tr>
             <tr class="danger">
               <td width="11%">2018-08-26</td>
               <td width="9%"><a href="https://github.com/pysal/giddy">giddy</a></td>
