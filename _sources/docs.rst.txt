@@ -98,7 +98,7 @@ For Users
                     <h5><a href="https://github.com/pysal/pysal/tree/master/pysal/spreg">Spreg</a></h5>
                 </div>
                 <div class="col-md-2">
-                    <a href="https://github.com/TaylorOshan/MGWR">
+                    <a href="https://mgwr.readthedocs.io">
                         <img alt="GWR" src="_static/images2/GWR.png" width="64">
                     </a>
                     <h5><a href="https://github.com/TaylorOshan/MGWR">MGWR</a></h5>
