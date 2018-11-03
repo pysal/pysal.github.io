@@ -74,7 +74,7 @@
    </div>
 
 
-  <!--<p class="lead">PySAL (Python Spatial Analysis Library) is a Python based ecosystem of open source packages for spatial analysis and visualization. It consists of the following 14 packages which could be individually installed or installed as a meta package (a link to the introduction of the meta package) to obtain the full functionality of PySAL:</p> -->
+  <!--<p class="lead">PySAL (Python Spatial Analysis Library) is a Python based ecosystem of open source packages for spatial analysis and visualization. It consists of the following 14 packages which could be individually installed or installed together with the other packages as a meta package (a link to the introduction of the meta package) to obtain the full functionality of PySAL:</p> -->
 
 
 .. raw:: html
