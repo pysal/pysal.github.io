@@ -414,7 +414,7 @@
         <tr>
           <td>2018-10-28</td>
           <td><a href="https://pypi.org/project/mapclassify/2.0.1/">mapclassify 2.0.1</a> released and we are also launching
-              the <a href="https://mapclassify.readthedocs.io/">mapclassify documentation website</a>.</td>
+                  the <a href="https://mapclassify.readthedocs.io/">mapclassify documentation website</a>.</td>
         </tr>
         <tr>
           <td>2018-10-27</td>
