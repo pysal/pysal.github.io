@@ -9,6 +9,7 @@ Users can begin the journey with PySAL by exploring the courses, workshops, tuto
 Courses, Workshops, and Tutorials
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+* `NARSC 2018 <https://github.com/sjsrey/pysalnarsc18>`_
 * `SciPy 2018 <https://www.youtube.com/watch?v=kJXUUO5M4ok>`_
 * `GeoPython 2018 <https://github.com/ljwolf/geopython>`_
 * `NARSC 2017 <https://github.com/sjsrey/pysalnarsc17>`_
