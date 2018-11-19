@@ -471,7 +471,7 @@
 
 .. raw:: html
 
-   <h2>Funders</h2>
+   <h2>Funding</h2>
    <table class="table table-hover table-responsive" style="width: 100%">
       <tbody>
         <tr>
@@ -481,6 +481,7 @@
             </a>
           </td>
           <td style="width: 80%">
+            <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1831615">Scalable Geospatial Analytics for Social Science Research</a><BR>
             <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1421935">New Approaches to Spatial Distribution Dynamics</a><BR>
             <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1047916">CyberGIS Software Integration for Sustained Geospatial Innovation</a><BR>
             <a href="http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=0433132">An Exploratory Space-Time Data Analysis Toolkit for Spatial Social Science Research</a><BR>
