@@ -413,6 +413,10 @@
       <tbody>
       <tr>
         <td>2018-10-31</td>
+        <td><a href="https://pypi.org/project/spaghetti/1.1.1.post3/">spaghetti 1.1.1.post3</a> released and we are also launching
+                the <a href="https://pysal-spaghetti.readthedocs.io/">spaghetti documentation website</a>.</td>
+    </tr>
+        <td>2018-10-31</td>
         <td><a href="https://pypi.org/project/inequality/1.0.0/">inequality 1.0.0</a> released and we are also launching
                 the <a href="https://inequality.readthedocs.io/">inequality documentation website</a>.</td>
       </tr>

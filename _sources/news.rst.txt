@@ -18,6 +18,14 @@ News
           <tbody>
             <tr class="danger">
               <td width="11%">2018-10-31</td>
+              <td width="9%"><a href="https://github.com/pysal/spaghetti">spaghetti</a></td>
+              <td width="9%"><a href="https://pypi.org/project/spaghetti/1.1.1.post3/">1.1.1.post3</a></td>
+              <td width="62%">The second stable version of spaghetti since pysal refactoring is released together with the launch of the
+                <a href="https://pysal-spaghetti.readthedocs.io/">spaghetti documentation website</a>!</td>
+              <td width="9%"><a href="https://files.pythonhosted.org/packages/9a/01/f5b05077a5a83e987d44fd931b1b98b8e15e458618188815651e5c495f05/spaghetti-1.1.1.post3.tar.gz">Download</a></td>
+            </tr>
+            <tr class="danger">
+              <td width="11%">2018-10-31</td>
               <td width="9%"><a href="https://github.com/pysal/pointpats">pointpats</a></td>
               <td width="9%"><a href="https://pypi.org/project/pointpats/2.0.0/">2.0.0</a></td>
               <td width="62%">The first stable version of pointpats since pysal refactoring is released together with the launch of the

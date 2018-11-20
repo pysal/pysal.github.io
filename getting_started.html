@@ -2,25 +2,17 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Getting Started with PySAL &#8212; pysal.org</title>
     <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pysal-styles.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <link rel="stylesheet" type="text/css" href="_static/pysal-styles.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="_static/js/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
     <script type="text/javascript" src="_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
@@ -36,8 +28,7 @@
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
 <meta name="apple-mobile-web-app-capable" content="yes">
 
-  </head>
-  <body>
+  </head><body>
 
   <div id="navbar" class="navbar navbar-inverse navbar-default navbar-fixed-top">
     <div class="container">
@@ -177,7 +168,7 @@
 <ul class="simple">
 <li>must refer to data in <cite>libpysal.examples</cite></li>
 <li>must only have module-level imports that the package supports in its <cite>requirements.txt</cite></li>
-<li>must write <code class="docutils literal"><span class="pre">from</span> <span class="pre">submodule</span> <span class="pre">import</span> <span class="pre">function</span></code> instead of <code class="docutils literal"><span class="pre">import</span> <span class="pre">submodule.function</span></code> if it wants to use a function of a PySAL submodule</li>
+<li>must write <code class="docutils literal notranslate"><span class="pre">from</span> <span class="pre">submodule</span> <span class="pre">import</span> <span class="pre">function</span></code> instead of <code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">submodule.function</span></code> if it wants to use a function of a PySAL submodule</li>
 <li>all function-level imports (those made at the top of a function) must be decorated with the <a class="reference external" href="https://github.com/pysal/libpysal/blob/master/libpysal/common.py#L104">requires decorator</a> or raises an explicit exception (i.e. <cite>raise ImportError(‘this function requires `PACKAGE</cite>, which is not installed.’)) if its requirements are not met.</li>
 <li>must be pep8 compliant. We recommend using <a class="reference external" href="https://github.com/hhatto/autopep8">autopep8</a> to automatically convert non-compliant code, and using <a class="reference external" href="http://flake8.pycqa.org/en/latest/">flake8</a> thereafter.</li>
 </ul>
@@ -190,18 +181,18 @@
 <li><dl class="first docutils">
 <dt>how to configure travis-CI dual tests: <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/.travis.yml">.travis.yml</a></dt>
 <dd><ul class="first last simple">
-<li>assuming that <code class="docutils literal"><span class="pre">libpysal</span></code> is a dependency of the submodule, an example of dual travis-CI testing against <code class="docutils literal"><span class="pre">libpysal</span></code> is provided.</li>
-<li>basically, the dual testing configures travis-CI to test against two versions of <code class="docutils literal"><span class="pre">libpysal</span></code>: pypi released stable version and the github development version.</li>
+<li>assuming that <code class="docutils literal notranslate"><span class="pre">libpysal</span></code> is a dependency of the submodule, an example of dual travis-CI testing against <code class="docutils literal notranslate"><span class="pre">libpysal</span></code> is provided.</li>
+<li>basically, the dual testing configures travis-CI to test against two versions of <code class="docutils literal notranslate"><span class="pre">libpysal</span></code>: pypi released stable version and the github development version.</li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><p class="first">how to describes the metadata about the submodule: <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/setup.py">setup.py</a></p>
 </li>
-<li><p class="first">how to customize Sphinx input and output behavior for mimicking <code class="docutils literal"><span class="pre">giddy</span></code>’s <a class="reference external" href="http://giddy.readthedocs.io/">online documentation</a>: <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/conf.py">doc/conf.py</a></p>
+<li><p class="first">how to customize Sphinx input and output behavior for mimicking <code class="docutils literal notranslate"><span class="pre">giddy</span></code>’s <a class="reference external" href="http://giddy.readthedocs.io/">online documentation</a>: <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/conf.py">doc/conf.py</a></p>
 </li>
 <li><p class="first">how to structure the package:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">PACKAGE_NAME</span><span class="o">/</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PACKAGE_NAME</span><span class="o">/</span>
     <span class="n">LICENSE</span><span class="o">.</span><span class="n">txt</span>
     <span class="n">README</span><span class="o">.</span><span class="n">txt</span>
     <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
@@ -246,14 +237,14 @@ More details are given below.</p>
 </ul>
 <p>The workflow is briefly introduced as follows:</p>
 <div class="section" id="set-up-a-sphinx-project">
-<h4>Set up a <code class="docutils literal"><span class="pre">sphinx</span></code> project<a class="headerlink" href="#set-up-a-sphinx-project" title="Permalink to this headline">¶</a></h4>
+<h4>Set up a <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> project<a class="headerlink" href="#set-up-a-sphinx-project" title="Permalink to this headline">¶</a></h4>
 <ul>
-<li><p class="first">Install <code class="docutils literal"><span class="pre">sphinx</span></code>, <code class="docutils literal"><span class="pre">sphinx_bootstrap_theme</span></code> as well as several <code class="docutils literal"><span class="pre">sphinx</span></code> extensions which are very useful in generating an elegant and user-friendly online documentation from <code class="docutils literal"><span class="pre">pip</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx</span> <span class="n">sphinx_bootstrap_theme</span> <span class="n">sphinxcontrib</span><span class="o">-</span><span class="n">bibtex</span> <span class="n">numpydoc</span>
+<li><p class="first">Install <code class="docutils literal notranslate"><span class="pre">sphinx</span></code>, <code class="docutils literal notranslate"><span class="pre">sphinx_bootstrap_theme</span></code> as well as several <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> extensions which are very useful in generating an elegant and user-friendly online documentation from <code class="docutils literal notranslate"><span class="pre">pip</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">sphinx</span> <span class="n">sphinx_bootstrap_theme</span> <span class="n">sphinxcontrib</span><span class="o">-</span><span class="n">bibtex</span> <span class="n">numpydoc</span>
 </pre></div>
 </div>
 </li>
-<li><p class="first">Instead of initializing a new <code class="docutils literal"><span class="pre">sphinx</span></code> project using the tool, <strong>sphinx-quickstart</strong>, developers wishing to mimic the <a class="reference external" href="http://giddy.readthedocs.io">giddy_docs</a> can use the templates provided by the <a class="reference external" href="https://github.com/pysal/submodule_template">pysal/submodule_template</a> by copying its directory <a class="reference external" href="https://github.com/pysal/submodule_template/tree/master/doc">doc/</a> (together with all the files inside) to your submodule.</p>
+<li><p class="first">Instead of initializing a new <code class="docutils literal notranslate"><span class="pre">sphinx</span></code> project using the tool, <strong>sphinx-quickstart</strong>, developers wishing to mimic the <a class="reference external" href="http://giddy.readthedocs.io">giddy_docs</a> can use the templates provided by the <a class="reference external" href="https://github.com/pysal/submodule_template">pysal/submodule_template</a> by copying its directory <a class="reference external" href="https://github.com/pysal/submodule_template/tree/master/doc">doc/</a> (together with all the files inside) to your submodule.</p>
 <ul class="simple">
 <li>Open the copy of <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/conf.py">doc/conf.py</a> in your submodule, and change all the <cite>PACKAGE_NAME</cite> to your submodule name so that the Sphinx input and output behavior of your submodule are configured.</li>
 <li>Open the copy of <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/Makefile">doc/Makefile</a> and <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/make.bat">doc/make.bat</a> in your submodule, and change the <cite>PACKAGE_NAME</cite> to your submodule name.</li>
@@ -300,13 +291,13 @@ from docstrings:</p>
 docstrings in a semi-automatic way, you need to list all the classes/functions you wish to expose to users. As shown in
 <a class="reference external" href="https://github.com/pysal/submodule_template">pysal/submodule_template</a>, we recommend organizing classes/functions and listing them in <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/api.rst">doc/api.rst</a>.
 More specifically, open the copy of <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/api.rst">doc/api.rst</a> in your submodule, and change <cite>PACKAGE_NAME</cite> right after the
-directive <code class="docutils literal"><span class="pre">currentmodule</span></code> to your submodule. Then, replace the classes <code class="docutils literal"><span class="pre">giddy.markov.Markov</span></code> and
-<code class="docutils literal"><span class="pre">giddy.markov.Spatial_Markov</span></code> with the classes and functions of the submodule.</p>
+directive <code class="docutils literal notranslate"><span class="pre">currentmodule</span></code> to your submodule. Then, replace the classes <code class="docutils literal notranslate"><span class="pre">giddy.markov.Markov</span></code> and
+<code class="docutils literal notranslate"><span class="pre">giddy.markov.Spatial_Markov</span></code> with the classes and functions of the submodule.</p>
 <div class="section" id="interactive-python-examples">
 <h6>Interactive Python examples<a class="headerlink" href="#interactive-python-examples" title="Permalink to this headline">¶</a></h6>
 <p>It should be noted that the interactive Python examples in the docstring are not required, but if given, they are
 required to follow the <a class="reference external" href="https://docs.python.org/3.6/library/doctest.html">doctest</a> format and pass all doctests.
-They can be checked together with unit testing using <cite>nose</cite>: <code class="docutils literal"><span class="pre">nosetests</span> <span class="pre">--with-doctest</span> <span class="pre">submodule/</span></code></p>
+They can be checked together with unit testing using <cite>nose</cite>: <code class="docutils literal notranslate"><span class="pre">nosetests</span> <span class="pre">--with-doctest</span> <span class="pre">submodule/</span></code></p>
 <p>If <cite>matplotlib</cite> is imported in the interactive example, the <a class="reference external" href="https://matplotlib.org/devel/plot_directive.html">plot directive</a>
 should be used for including the matplotlib plot (a .png file) in the html docs. An example is given in the
 <a class="reference external" href="https://giddy.readthedocs.io/en/latest/generated/giddy.directional.Rose.html#giddy.directional.Rose">Rose</a> API of
@@ -323,15 +314,15 @@ online docs in <a class="reference external" href="https://github.com/pysal/subm
 the followings are needed:</p>
 <ul class="simple">
 <li>update <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/_static/references.bib">doc/_static/references.bib</a> with the relevant references of your submodule .</li>
-<li>change the format of citations in <em>docstrings</em> and no-inline documentation to follow <code class="docutils literal"><span class="pre">:cite:`Press2007`</span></code> in which <cite>Press2007</cite> is the key of a bibtex entry in <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/_static/references.bib">doc/_static/references.bib</a>.</li>
+<li>change the format of citations in <em>docstrings</em> and no-inline documentation to follow <code class="docutils literal notranslate"><span class="pre">:cite:`Press2007`</span></code> in which <cite>Press2007</cite> is the key of a bibtex entry in <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/_static/references.bib">doc/_static/references.bib</a>.</li>
 </ul>
 </div>
 <div class="section" id="generate-and-test-html-locally">
 <h4>Generate and test html locally<a class="headerlink" href="#generate-and-test-html-locally" title="Permalink to this headline">¶</a></h4>
 <p>Now that we have configured the behaviour of input and output of <cite>sphinx</cite> and added the content, we can run the build locally
 to test whether there is any issue and to see how the created html docs looks like. Since we have <a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/Makefile">doc/Makefile</a> and
-<a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/make.bat">doc/make.bat</a>, we can achieve that very easily by running <code class="docutils literal"><span class="pre">make</span> <span class="pre">html</span></code>:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">html</span>
+<a class="reference external" href="https://github.com/pysal/submodule_template/blob/master/doc/make.bat">doc/make.bat</a>, we can achieve that very easily by running <code class="docutils literal notranslate"><span class="pre">make</span> <span class="pre">html</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">html</span>
 </pre></div>
 </div>
 <p>A <cite>_build</cite> folder will be created where all the created html files live. You can double click to open the html files in
@@ -365,7 +356,7 @@ the online docs. Up to now, it is possible that the docs building will fail beca
     </p>
     <p>
         &copy; Copyright 2018 PySAL developers.<br/>
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.<br/>
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.2.<br/>
     </p>
   </div>
 </footer>
