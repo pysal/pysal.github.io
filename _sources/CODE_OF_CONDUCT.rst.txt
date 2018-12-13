@@ -140,8 +140,7 @@ themselves from considering your report. Alternatively, if for any
 reason you feel uncomfortable making a report to the committee, then you
 can also contact:
 
--  **somebody other than pysaler 1, Stefanie, or James**
--  **Julia Kochinsky is the current front runner**
+-  **Julia Kochinsky? Gina Helfrich?**
 
 
 Incident reporting resolution & Code of Conduct enforcement
