@@ -121,17 +121,18 @@ You can report issues to the PySAL Code of Conduct committee at
 **pysal/CoC**\ [create group and add link]. Currently, the committee
 consists of:
 
--  **pysaler 1**
-
-   -  e.mail@dot.com
-
--  **Stefanie Lumnitz**
+-  Stefanie Lumnitz
 
    -  stefanie.lumnitz@gmail.com
 
--  **James Gaboardi**
+-  James Gaboardi
 
    -  jgaboardi@gmail.com
+
+-  Serge Rey
+
+   -  sergio.rey@ucr.edu
+
 
 If your report involves any members of the committee, or if they feel
 they have a conflict of interest in handling it, then they will recuse
