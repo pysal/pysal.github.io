@@ -17,6 +17,7 @@
    news
    team
    contact
+   code_of_conduct
 
 
 
