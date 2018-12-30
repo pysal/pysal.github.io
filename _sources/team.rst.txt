@@ -101,6 +101,20 @@ PySAL Team and Maintainers
                             <div class="col-md-1">
                             </div>
                             <div class="col-md-3">
+                                <a href="https://github.com/renanxcortes">
+                                    <img alt="Cortes" src="https://spatial.ucr.edu/_static/images/people/Cortes.jpeg" width="150">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="media-heading"><a href="https://github.com/renanxcortes">Renan Xavier Cortes</a></h5>
+                                <a href= "mailto:renanxcortes@gmail.com">renanxcortes@gmail.com</a>
+                                <p>Postdoctoral Scholar<BR>Center for Geospatial Sciences<BR>University of California, Riverside</p>
+                            </div>
+                        </div>
+                        <div class="row equal-height extra-bottom-padding">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-3">
                                 <a href="https://github.com/carsonfarmer">
                                 <img alt="Carson" src="https://avatars3.githubusercontent.com/u/1220613?v=3&s=460" width="150">
                                 </a>
