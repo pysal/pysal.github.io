@@ -295,7 +295,7 @@ PySAL Team and Maintainers
                             </div>
                             <div class="col-md-3">
                                 <a href="https://github.com/pastephens">
-                                    <img alt="Philip" src="https://media.licdn.com/dms/image/C4E03AQGfA5DEsdiFYQ/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=9nR3eg-DMI4eVdYnQH7PTlRz8Dw-czlArLorA2mVisw" width="150">
+                                    <img alt="Philip" src="_static/images2/pastephens.jpg" width="150">
                                 </a>
                             </div>
                             <div class="col-md-8">
