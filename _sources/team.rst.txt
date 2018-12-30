@@ -287,7 +287,7 @@ PySAL Team and Maintainers
                             <div class="col-md-8">
                                 <h5 class="media-heading"><a href="https://github.com/shaohu">Hu Shao</a></h5>
                                 <a href= "mailto:shaohutiger@gmail.com">shaohutiger@gmail.com</a>
-                                <p>PhD Candidate<BR>School of Geographical Sciences & Urban Planning<BR>Arizona State University</p>
+                                <p>Software Developer<BR>Esri</p>
                             </div>
                         </div>
                         <div class="row equal-height extra-bottom-padding">
@@ -411,7 +411,7 @@ PySAL Team and Maintainers
                                 <h5 class="media-heading"><a href="https://github.com/shaohu">Hu Shao</a></h5>
                                 <h6><strong>Maintainer</strong></h6>
                                 <a href= "mailto:shaohutiger@gmail.com">shaohutiger@gmail.com</a>
-                                <p>PhD Candidate<BR>School of Geographical Sciences & Urban Planning<BR>Arizona State University</p>
+                                <p>Software Developer<BR>Esri</p>
                             </div>
                         </div>
                     </div>
