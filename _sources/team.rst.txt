@@ -101,6 +101,20 @@ PySAL Team and Maintainers
                             <div class="col-md-1">
                             </div>
                             <div class="col-md-3">
+                                <a href="https://github.com/renanxcortes">
+                                    <img alt="Cortes" src="https://spatial.ucr.edu/_static/images/people/Cortes.jpeg" width="150">
+                                </a>
+                            </div>
+                            <div class="col-md-8">
+                                <h5 class="media-heading"><a href="https://github.com/renanxcortes">Renan Xavier Cortes</a></h5>
+                                <a href= "mailto:renanxcortes@gmail.com">renanxcortes@gmail.com</a>
+                                <p>Postdoctoral Scholar<BR>Center for Geospatial Sciences<BR>University of California, Riverside</p>
+                            </div>
+                        </div>
+                        <div class="row equal-height extra-bottom-padding">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-3">
                                 <a href="https://github.com/carsonfarmer">
                                 <img alt="Carson" src="https://avatars3.githubusercontent.com/u/1220613?v=3&s=460" width="150">
                                 </a>
@@ -176,7 +190,7 @@ PySAL Team and Maintainers
                             <div class="col-md-8">
                                 <h5 class="media-heading"><a href="https://github.com/knaaptime">Elijah Knaap</a></h5>
                                 <a href= "mailto:knaaptime@gmail.com">knaaptime@gmail.com</a>
-                                <p>Postdoctoral Scholar<BR>Center for Geospatial Sciences<BR>University of California, Riverside</p>
+                                <p>Associate Director<BR>Center for Geospatial Sciences<BR>University of California, Riverside</p>
                             </div>
                         </div>
                         <div class="row equal-height extra-bottom-padding">
@@ -190,7 +204,7 @@ PySAL Team and Maintainers
                             <div class="col-md-8">
                                 <h5 class="media-heading"><a href="https://github.com/Makosak">Marynia Kolak</a></h5>
                                 <a href= "mailto:mkolak@uchicago.edu">mkolak@uchicago.edu</a>
-                                <p>Assistant Director for Health Informatics<BR>Center for Spatial Data Science<BR>The University of Chicago</p>
+                                <p>Lecturer in Geographic Information Science<BR>Assistant Director for Health Informatics<BR>Center for Spatial Data Science<BR>The University of Chicago</p>
                             </div>
                         </div>
                         <div class="row equal-height extra-bottom-padding">
@@ -287,7 +301,7 @@ PySAL Team and Maintainers
                             <div class="col-md-8">
                                 <h5 class="media-heading"><a href="https://github.com/shaohu">Hu Shao</a></h5>
                                 <a href= "mailto:shaohutiger@gmail.com">shaohutiger@gmail.com</a>
-                                <p>PhD Candidate<BR>School of Geographical Sciences & Urban Planning<BR>Arizona State University</p>
+                                <p>Software Developer<BR>Esri</p>
                             </div>
                         </div>
                         <div class="row equal-height extra-bottom-padding">
@@ -295,7 +309,7 @@ PySAL Team and Maintainers
                             </div>
                             <div class="col-md-3">
                                 <a href="https://github.com/pastephens">
-                                    <img alt="Philip" src="https://media.licdn.com/dms/image/C4E03AQGfA5DEsdiFYQ/profile-displayphoto-shrink_200_200/0?e=1541030400&v=beta&t=9nR3eg-DMI4eVdYnQH7PTlRz8Dw-czlArLorA2mVisw" width="150">
+                                    <img alt="Philip" src="_static/images2/pastephens.jpg" width="150">
                                 </a>
                             </div>
                             <div class="col-md-8">
@@ -411,7 +425,7 @@ PySAL Team and Maintainers
                                 <h5 class="media-heading"><a href="https://github.com/shaohu">Hu Shao</a></h5>
                                 <h6><strong>Maintainer</strong></h6>
                                 <a href= "mailto:shaohutiger@gmail.com">shaohutiger@gmail.com</a>
-                                <p>PhD Candidate<BR>School of Geographical Sciences & Urban Planning<BR>Arizona State University</p>
+                                <p>Software Developer<BR>Esri</p>
                             </div>
                         </div>
                     </div>
