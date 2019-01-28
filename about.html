@@ -441,13 +441,22 @@ which may have features not yet available in <code class="docutils literal notra
 </div>
 <div class="section" id="i-really-don-t-want-to-change-anything-what-can-i-do">
 <h3>I really don’t want to change anything; what can I do?<a class="headerlink" href="#i-really-don-t-want-to-change-anything-what-can-i-do" title="Permalink to this headline">¶</a></h3>
-<h5 class="text-warning">This is not recommended!</h5><p>For a longer change window, feel free to
-<code class="docutils literal notranslate"><span class="pre">import</span> <span class="pre">pysal._legacy</span> <span class="pre">as</span> <span class="pre">pysal</span></code>. We urge you to not do this, since we
-plan on deprecating this as well. If you can make the changes described
-above, you will have a much more stable and future-proof API. We feel
-these changes are reasonable and will greatly enhance how easy it is for
-us to maintain <code class="docutils literal notranslate"><span class="pre">pysal</span></code> and move new functionality forward.</p>
-<p>Please contact us on <a class="reference external" href="https://gitter.com/pysal/pysal">gitter</a> if there are any remaining concerns or questions, and for help or advice.</p>
+<p>Users (on python 2 or python 3) who want to continue using the legacy PySAL (PySAL 1.14.4)
+can install PySAL 1.14.4 using <cite>pip</cite> as:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">pysal</span><span class="o">==</span><span class="mf">1.14</span><span class="o">.</span><span class="mf">4.</span><span class="n">post2</span>
+</pre></div>
+</div>
+<p>Please note that this version only receives bug fixes.
+All new enhancements to PySAL will be in the 3.0 compatible releases,
+and are not available in 1.14.4.</p>
+<!--<h5 class="text-warning">This is not recommended!</h5>-->
+
+<!--For a longer change window, feel free to-->
+<!--``import pysal._legacy as pysal``. We urge you to not do this, since we-->
+<!--plan on deprecating this as well. If you can make the changes described-->
+<!--above, you will have a much more stable and future-proof API. We feel-->
+<!--these changes are reasonable and will greatly enhance how easy it is for-->
+<!--us to maintain ``pysal`` and move new functionality forward.--><p>Please contact us on <a class="reference external" href="https://gitter.im/pysal/pysal">gitter</a> if there are any remaining concerns or questions, and for help or advice.</p>
 </div>
 </div>
 </div>
@@ -464,7 +473,7 @@ us to maintain <code class="docutils literal notranslate"><span class="pre">pysa
       
     </p>
     <p>
-        &copy; Copyright 2018 PySAL developers.<br/>
+        &copy; Copyright 2019 PySAL developers.<br/>
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.8.3.<br/>
     </p>
   </div>

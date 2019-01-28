@@ -385,15 +385,24 @@ which may have features not yet available in ``pysal`` itself:
 I really don't want to change anything; what can I do?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Users (on python 2 or python 3) who want to continue using the legacy PySAL (PySAL 1.14.4)
+can install PySAL 1.14.4 using `pip` as::
+
+   pip install pysal==1.14.4.post2
+
+Please note that this version only receives bug fixes.
+All new enhancements to PySAL will be in the 3.0 compatible releases,
+and are not available in 1.14.4.
+
 .. raw:: html
 
-    <h5 class="text-warning">This is not recommended!</h5>
+    <!--<h5 class="text-warning">This is not recommended!</h5>-->
 
-For a longer change window, feel free to
-``import pysal._legacy as pysal``. We urge you to not do this, since we
-plan on deprecating this as well. If you can make the changes described
-above, you will have a much more stable and future-proof API. We feel
-these changes are reasonable and will greatly enhance how easy it is for
-us to maintain ``pysal`` and move new functionality forward.
+    <!--For a longer change window, feel free to-->
+    <!--``import pysal._legacy as pysal``. We urge you to not do this, since we-->
+    <!--plan on deprecating this as well. If you can make the changes described-->
+    <!--above, you will have a much more stable and future-proof API. We feel-->
+    <!--these changes are reasonable and will greatly enhance how easy it is for-->
+    <!--us to maintain ``pysal`` and move new functionality forward.-->
 
-Please contact us on `gitter <https://gitter.com/pysal/pysal>`_ if there are any remaining concerns or questions, and for help or advice.
+Please contact us on `gitter <https://gitter.im/pysal/pysal>`_ if there are any remaining concerns or questions, and for help or advice.
