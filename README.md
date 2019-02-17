@@ -76,8 +76,7 @@ and mark the correct link as the "current" one.
 Create `my_page.html` (will have url `https://pysal.org/my_page.html`)
 or `my_page/index.html` (will have url `https://pysal.org/my_page/`), start with the following:
 ```
--
--
+---
 layout: default
 title: My Page
 ---
