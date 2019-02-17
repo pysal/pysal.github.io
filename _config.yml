@@ -1,0 +1,18 @@
+# Site settings
+title: PySAL
+email: pysal-dev@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+      Python Spatial Analysis Library (PySAL)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://jupyter.org" # the base hostname & protocol for your site
+twitter_username: pysal
+github_username:  pysal
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+exclude: [vendor]
+
+plugins:
+  - jekyll-redirect-from
