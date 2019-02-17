@@ -1,0 +1,15 @@
+- name: foss4g
+  date: 2019-04-18
+  summary: A PySAL workshop will be held at <a href="https://2019.foss4g-na.org/">FOSS4G in San Diego</a>.
+
+- name: pysal 2.0.0
+  date: 2019-01-31
+  summary: First stable release of PySAL as a meta-package.
+  
+- name: Spaghetti 1.1.1
+  date: 2018-10-31
+  summary: Second stable release of spaghetti since pysal refactoring together with new website.
+
+- name: pointpats 2.0.0
+  date: 2018-10-31
+  summary: First stable release of pointpats since pysal refactoring.
