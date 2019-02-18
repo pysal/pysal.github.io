@@ -15,7 +15,7 @@
       {% for member in sorted %}
       <div class="col-md-4 material">
         <img class="core-member-photo" alt="{{member.first}} {{member.last}}'s avatar picture" src='{{member.avatar}}' />
-        <p class="card-header">{{member.first}} {{member.last}}</p>
+        <h4 class="card-title">{{member.first}} {{member.last}}</h4>
         <p class="card-info">{{member.affiliation}}<br><a href="https://github.com/{{member.gh_handle}}" target="_blank"><em>@{{member.gh_handle}}</em></a> on GitHub</p>
       </div>
       {% endfor %}
