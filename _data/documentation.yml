@@ -2,7 +2,7 @@
 
 PySAL meta-package:
   Project-wide Documentation: https://pysal.readthedocs.io
-  Contributing to PySAL: https://pysal.readthedocs.io/en/latest/contributor/content-contributor.html
+  Contributing to PySAL: https://github.com/pysal/pysal/wiki
 
 lib:
   libpysal: https://libpysal.readthedocs.io/en/latest/

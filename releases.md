@@ -1,9 +1,9 @@
 ---
 title: Releases
-layout: default
+layout: page_md
 ---
 
-<table  class="table-striped">
+<table  class="table-hover">
 <colgroup>
 <col width="15%" />
 <col width="15%" />

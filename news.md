@@ -1,10 +1,10 @@
 ---
 title: News
-layout: default
+layout: page_md
 permalink: /news
 ---
 
-<table  class="table-striped">
+<table  class="table-hover">
 <colgroup>
 <col width="25%" />
 <col width="75%" />
