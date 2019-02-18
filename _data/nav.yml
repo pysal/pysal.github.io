@@ -1,7 +1,7 @@
 head:
     - Home
     - title: Install
-      url: https://pysal.readthedocs.io/en/latest/installation.html
+      url: /install
     - About Us
     - Documentation
     - title: News
