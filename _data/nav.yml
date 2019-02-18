@@ -4,6 +4,8 @@ head:
       url: /install
     - About Us
     - Documentation
+    - title: Community Guidelines
+      url: /community
     - title: News
       url: /news
     - title: Releases
