@@ -1,3 +1,7 @@
+- name: spaghetti 1.2
+  date: 2019-02-27
+  summary: Third stable release of <a href="https://pypi.org/project/spaghetti/">spaghetti (1.2)</a>.
+
 - name: foss4g
   date: 2019-02-15
   summary: A PySAL workshop will be held at <a href="https://2019.foss4g-na.org/">FOSS4G in San Diego, on April 19, 2019</a>.
@@ -6,9 +10,9 @@
   date: 2019-01-31
   summary: First stable release of <a href="https://pypi.org/project/pysal/2.0.0/">PySAL 2.0 as a meta-package</a>.
   
-- name: Spaghetti 1.1.1
+- name: spaghetti 1.1.1
   date: 2018-10-31
-  summary: Second stable release of spaghetti (<a href="https://pypi.org/project/spaghetti/1.1.1.post3/">1.1.1.post3</a>) since PySAL refactoring together with new <a href="https://pysal-spaghetti.readthedocs.io/">website</a>.
+  summary: Second stable release of <a href="https://pypi.org/project/spaghetti/1.1.1.post3/">spaghetti (1.1.1.post3)</a> since PySAL refactoring together with new <a href="https://pysal-spaghetti.readthedocs.io/">website</a>.
 
 - name: pointpats 2.0.0
   date: 2018-10-31
