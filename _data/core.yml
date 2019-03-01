@@ -1,0 +1,71 @@
+coredevs:
+  - first: Stefanie
+    last: Lumnitz
+    avatar: https://avatars2.githubusercontent.com/u/35147471?v=4&s=400 
+    affiliation: University of British Columbia
+    gh_handle: slumnitz
+  - first: Levi
+    last: Wolf  
+    avatar: https://avatars3.githubusercontent.com/u/2250995?v=4&s=400
+    affiliation: University of Bristol
+    gh_handle: ljwolf
+  - first: Pedro
+    last: Amaral
+    avatar: https://avatars0.githubusercontent.com/u/4238922?v=4&s=400
+    affiliation: Universidade Federal de Minas Gerais
+    gh_handle: pedrovma 
+  - first: Dani
+    last: Arribas-Bel
+    avatar: https://avatars3.githubusercontent.com/u/417363?v=4&s=400
+    affiliation: University of Liverpool
+    gh_handle: darribas
+  - first: Serge
+    last: Rey
+    avatar: https://avatars1.githubusercontent.com/u/118042?v=4&s=400 
+    affiliation: UC Riverside
+    gh_handle: sjsrey
+  - first: Wei
+    last: Kang
+    avatar: https://avatars0.githubusercontent.com/u/7359284?s=400&v=4
+    affiliation: UC Riverside
+    gh_handle: weikang9009
+  - first: Luc
+    last: Anselin
+    avatar: https://avatars2.githubusercontent.com/u/4008351?s=400&v=4
+    affiliation: University of Chicago
+    gh_handle: lanselin
+  - first: James
+    last: Gaboardi
+    avatar:  https://avatars2.githubusercontent.com/u/8590583?s=400&v=4
+    affiliation: Florida State University
+    gh_handle: jGaboardi
+  - first: Marynia
+    last: Kolak
+    avatar:  https://avatars2.githubusercontent.com/u/4277692?s=400&v=4
+    affiliation: University of Chicago
+    gh_handle: Makosak
+  - first: Ran
+    last: Wei
+    avatar: https://avatars0.githubusercontent.com/u/7330759?s=400&v=4
+    affiliation: UC Riverside
+    gh_handle: rwei5
+  - first: Elijah
+    last: Knaap
+    avatar: https://avatars1.githubusercontent.com/u/4213368?s=400&v=4
+    affiliation: UC Riverside
+    gh_handle: knaaptime
+  - first: Renan
+    last: Cortes
+    avatar: https://avatars2.githubusercontent.com/u/22593188?s=400&v=4
+    affiliation: UC Riverside
+    gh_handle: renanxcortes
+  - first: Hu
+    last: Shao
+    avatar: https://avatars0.githubusercontent.com/u/1808706?s=400&v=4
+    affiliation: esri
+    gh_handle: shaohu
+  - first: Taylor
+    last: Oshan
+    avatar: https://avatars3.githubusercontent.com/u/8117709?s=400&v=4
+    affiliation: University of Maryland
+    gh_handle: tayloroshan

@@ -1,0 +1,51 @@
+- name: foss4g
+  date: 2019-02-15
+  summary: A PySAL workshop will be held at <a href="https://2019.foss4g-na.org/">FOSS4G in San Diego, on April 19, 2019</a>.
+
+- name: pysal 2.0.0
+  date: 2019-01-31
+  summary: First stable release of <a href="https://pypi.org/project/pysal/2.0.0/">PySAL 2.0 as a meta-package</a>.
+  
+- name: Spaghetti 1.1.1
+  date: 2018-10-31
+  summary: Second stable release of spaghetti (<a href="https://pypi.org/project/spaghetti/1.1.1.post3/">1.1.1.post3</a>) since PySAL refactoring together with new <a href="https://pysal-spaghetti.readthedocs.io/">website</a>.
+
+- name: pointpats 2.0.0
+  date: 2018-10-31
+  summary: First stable release of pointpats (<a href="https://pypi.org/project/pointpats/2.0.0/">2.0.0</a>) since PySAL refactoring together with the launch of the <a href="https://pointpats.readthedocs.io">pointpats documentation website</a>! 
+
+- name: mapclassify 2.0.1
+  date: 2018-10-28
+  summary: <a href="https://pypi.org/project/mapclassify/2.0.1/">mapclassify 2.0.1</a> released with new <a href="https://mapclassify.readthedocs.io/">mapclassify documentation website</a>! 
+
+- name: libpysal 4.0.1
+  date: 2018-10-27
+  summary: <a href="https://pypi.org/project/libpysal/4.0.1/">libpysal 4.0.1</a> released and we are also launching the <a href="https://libpysal.readthedocs.io/en/latest/ ">libpysal documentation website</a>.
+
+- name: mgwr 2.0.1
+  date: 2018-09-28
+  summary: <a href="https://pypi.org/project/mgwr/2.0.1/">mgwr 2.0.1 released</a> and we are also launching the <a href="https://mgwr.readthedocs.io/">mgwr documentation website</a>.
+
+- name: narsc18
+  date: 2018-11-07
+  summary: A <a href="https://github.com/sjsrey/pysalnarsc18">PySAL Workshop</a> was be held at 65th Annual North American Meetings of the Regional Science Association International, San Antonio, Texas. 
+
+- name: giddy 2.0.0
+  date: 2018-08-26
+  summary: <a href="https://pypi.python.org/pypi/giddy/2.0.0">giddy 2.0.0</a> released.
+
+- name: esda 2.0.0
+  date: 2018-08-25
+  summary: <a href="https://pypi.org/project/esda/2.0.0/">esda 2.0.0</a> released.
+
+- name: spreg 1.0.4
+  date: 2018-08-24
+  summary: <a href="https://pypi.python.org/pypi/spreg/1.0.4">spreg 1.0.4</a> released.
+
+- name: libpysal 4.0.0
+  date: 2018-08-22
+  summary: <a href="https://pypi.org/project/libpysal/4.0.0">libpysal 4.0.0</a> released.
+  
+- name: mapclassify 2.0.0
+  date: 2018-08-10
+  summary: <a href="https://pypi.org/project/mapclassify/2.0.0">mapclassify 2.0.0</a> released.
