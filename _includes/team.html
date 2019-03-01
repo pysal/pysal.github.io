@@ -14,7 +14,7 @@
       {% assign sorted = site.data.core.coredevs | sort: "last" %}
       {% for member in sorted %}
       <div class="col-md-4 material">
-        <img class="core-member-photo" alt="{{member.last}} {{member.first}}'s avatar picture" src='{{member.avatar}}' />
+        <img class="core-member-photo" alt="{{member.first}}, {{member.last}}'s avatar picture" src='{{member.avatar}}' />
         <h4 class="card-title">{{member.last}}, {{member.first}}</h4>
         <p class="card-info">{{member.affiliation}}<br><a href="https://github.com/{{member.gh_handle}}" target="_blank"><em>@{{member.gh_handle}}</em></a> on GitHub</p>
       </div>
