@@ -5,7 +5,7 @@
             <img src="{{site.url}}/assets/globe-model.svg" class="section-icon img-responsive" alt="steering committee icon">
                 <h3 class="col-sm-12 section-header">Core Developers</h3>
                 <p class="col-sm-12 support-paragraph">
-                    (in alphabetical order).
+                    (in alphabetical order)
                 </p>
             </div>
         </div>
@@ -17,6 +17,20 @@
         <img class="core-member-photo" alt="{{member.first}} {{member.last}}'s avatar picture" src='{{member.avatar}}' />
         <h4 class="card-title">{{member.first}} {{member.last}}</h4>
         <p class="card-info">{{member.affiliation}}<br><a href="https://github.com/{{member.gh_handle}}" target="_blank"><em>@{{member.gh_handle}}</em></a> on GitHub</p>
+      </div>
+      {% endfor %}
+  </div>
+  <div class="col-md-12 section-content section-center">
+      <h3 class="col-sm-12 section-header">Alumni Core Developers</h3>
+      <p class="col-sm-12 support-paragraph">
+          (in alphabetical order)
+          </p>
+  {% assign sorted = site.data.core.alumdevs | sort: "last" %}
+      {% for member in sorted %}
+      <div class="col-md-4 material">
+      <img class="core-member-photo" alt="{{member.first}} {{member.last}}'s avatar picture" src='{{member.avatar}}' />
+      <h4 class="card-title">{{member.first}} {{member.last}}</h4>
+      <p class="card-info">{{member.affiliation}}<br><a href="https://github.com/{{member.gh_handle}}" target="_blank"><em>@{{member.gh_handle}}</em></a> on GitHub</p>
       </div>
       {% endfor %}
   </div>

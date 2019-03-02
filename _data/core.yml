@@ -39,11 +39,6 @@ coredevs:
     avatar:  https://avatars2.githubusercontent.com/u/8590583?s=400&v=4
     affiliation: Florida State University
     gh_handle: jGaboardi
-  - first: Marynia
-    last: Kolak
-    avatar:  https://avatars2.githubusercontent.com/u/4277692?s=400&v=4
-    affiliation: University of Chicago
-    gh_handle: Makosak
   - first: Ran
     last: Wei
     avatar: https://avatars0.githubusercontent.com/u/7330759?s=400&v=4
@@ -69,3 +64,54 @@ coredevs:
     avatar: https://avatars3.githubusercontent.com/u/8117709?s=400&v=4
     affiliation: University of Maryland
     gh_handle: tayloroshan
+  - first: Ziqi
+    last: Li
+    avatar:  https://avatars1.githubusercontent.com/u/5518908?s=460&v=4 
+    affiliation: Arizona State University
+    gh_handle: Ziqi-Li
+  - first: Philip
+    last: Stephens
+    avatar:   https://avatars3.githubusercontent.com/u/871844?s=400&v=4 
+    affiliation: Arizona State University
+    gh_handle: pastephens
+alumdevs:
+  - first: Marynia
+    last: Kolak
+    avatar:  https://avatars2.githubusercontent.com/u/4277692?s=400&v=4
+    affiliation: University of Chicago
+    gh_handle: Makosak
+  - first: Jay
+    last: Laura
+    avatar: https://avatars1.githubusercontent.com/u/2105468?s=400&v=4 
+    affiliation: USGS
+    gh_handle: jlaura
+  - first: Charles
+    last: Schmidt
+    avatar: https://avatars2.githubusercontent.com/u/1403099?s=400&v=4
+    affiliation: geoscore
+    gh_handle: schmidtc
+  - first: Carson
+    last: Farmer
+    avatar: https://avatars3.githubusercontent.com/u/1220613?s=400&v=4
+    affiliation: University of Colorado
+    gh_handle: carsonfarmer
+  - first: David C.
+    last: Folch
+    avatar: https://avatars3.githubusercontent.com/u/1322332?s=400&v=4
+    affiliation: Florida State University
+    gh_handle: dfolch
+  - first: Myunghwa
+    last: Hwang 
+    avatar: https://avatars1.githubusercontent.com/u/4752901?s=400&v=4
+    affiliation: Arizona State University
+    gh_handle: myunghwa
+  - first: Matthew
+    last: Conway
+    avatar: https://avatars2.githubusercontent.com/u/566958?s=460&v=4
+    affiliation: Arizona State University
+    gh_handle: mattwigway
+  - first: Sizhe
+    last: Wang
+    avatar: https://avatars0.githubusercontent.com/u/6888006?s=400&v=4
+    affiliation: Arizona State University
+    gh_handle: sa9us
