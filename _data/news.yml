@@ -1,3 +1,7 @@
+- name: gsoc19 
+  date: 2019-03-03
+  summary: PySAL is participating in Google Summer of Code under the <a href="http://python-gsoc.org/">Python Organization GSOC</a>.
+
 - name: spaghetti 1.2
   date: 2019-02-27
   summary: Third stable release of <a href="https://pypi.org/project/spaghetti/">spaghetti (1.2)</a>.
