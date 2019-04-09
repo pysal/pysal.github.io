@@ -1,4 +1,8 @@
-- name: gsoc19 
+- name: giddy 2.1.0
+  date: 2019-04-08
+  summary: Release of <a href="https://pypi.org/project/giddy">giddy 2.1.0</a> featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.
+  
+- name: gsoc19
   date: 2019-03-03
   summary: PySAL is participating in Google Summer of Code under the <a href="http://python-gsoc.org/">Python Organization GSOC</a>.
 
