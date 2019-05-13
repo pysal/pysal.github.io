@@ -1,3 +1,7 @@
+- name: spaghetti 1.2
+  date: 2019-05-11
+  summary: <a href="https://github.com/conda-forge/spaghetti-feedstock">spaghetti (1.2)</a> now available via <a href="https://conda-forge.org">conda-forge</a>.
+
 - name: giddy 2.1.0
   date: 2019-04-08
   summary: Release of <a href="https://pypi.org/project/giddy">giddy 2.1.0</a> featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.
