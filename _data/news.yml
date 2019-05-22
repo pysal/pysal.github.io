@@ -1,3 +1,7 @@
+- name: spaghetti 1.3
+  date: 2019-05-22
+  summary: <a href="https://pysal-spaghetti.readthedocs.io/en/latest/">spaghetti 1.3</a> released on <a href="https://pypi.org/project/spaghetti/1.3/">PyPI</a> and <a https://anaconda.org/conda-forge/spaghetti">conda-forge</a>.
+
 - name: spaghetti 1.2
   date: 2019-05-11
   summary: <a href="https://github.com/conda-forge/spaghetti-feedstock">spaghetti (1.2)</a> now available via <a href="https://conda-forge.org">conda-forge</a>.
