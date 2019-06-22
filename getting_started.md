@@ -13,6 +13,7 @@ workshops, tutorials, and presentations:
 
 ### Courses, Workshops, and Tutorials
 
+-   [FOSS4G 2019](https://github.com/sjsrey/pysalfoss4g19)
 -   [NARSC 2018](https://github.com/sjsrey/pysalnarsc18)
 -   [SciPy 2018](https://www.youtube.com/watch?v=kJXUUO5M4ok)
 -   [GeoPython 2018](https://github.com/ljwolf/geopython)
