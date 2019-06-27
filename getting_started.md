@@ -57,9 +57,9 @@ follow the Submodule Contract below:
 
 ### Submodule Contract
 
-#### Python version
+#### Python Version
 
--   must support python 3.
+-   must support python 3.6 and 3.7.
 
 #### Structure
 
@@ -70,7 +70,7 @@ follow the Submodule Contract below:
         as comparison output for testing.
     -   **notebooks** is outside of the package folder.
 
-#### Documentation & testing
+#### Documentation & Testing
 
 -   must have unittesting on user-facing classes (those exposed by the
     API)
@@ -99,6 +99,12 @@ follow the Submodule Contract below:
     [autopep8](https://github.com/hhatto/autopep8) to automatically
     convert non-compliant code, and using
     [flake8](http://flake8.pycqa.org/en/latest/) thereafter.
+    
+#### Release Instructions
+
+The submodules are expected to release on [The Python Package Index (PyPI)](https://pypi.org/), 
+[github](https://help.github.com/en/articles/creating-releases), and [conda-forge](https://conda-forge.org/).
+Detailed instructions of releasing a submodule can be found in [the wiki page of pysal/submodule_template](https://github.com/pysal/submodule_template/wiki/Release-Instructions).
 
 ### Submodule Template
 
