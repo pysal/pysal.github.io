@@ -111,7 +111,6 @@ provides a useful template for submodules covering:
     -   basically, the dual testing configures travis-CI to test
             against two versions of `libpysal`: pypi released stable
             version and the github development version.
-
 -   how to describes the metadata about the submodule:
     [setup.py](https://github.com/pysal/submodule_template/blob/master/setup.py)
 -   how to customize Sphinx input and output behavior for mimicking
@@ -176,7 +175,6 @@ The workflow is briefly introduced as follows:
     and user-friendly online documentation from `pip`:
 
         pip install sphinx sphinx_bootstrap_theme sphinxcontrib-bibtex numpydoc
-
 -   Instead of initializing a new `sphinx` project using the tool,
     **sphinx-quickstart**, developers wishing to mimic the
     [giddy\_docs](http://giddy.readthedocs.io) can use the templates
