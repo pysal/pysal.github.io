@@ -1,9 +1,19 @@
+- name: splot 1.1.0
+  date: 2019-06-27
+  summary: <a href="https://pypi.org/project/splot/">splot 1.1.0</a> released with new <a href="https://splot.readthedocs.io/en/latest/">splot documentation website</a>!
+  
+- name: mapclassify 2.1.0
+  date: 2019-06-26
+  summary: Release of <a href="https://pypi.org/project/mapclassify/">mapclassify 2.1.0</a> including new plot methods!
+
 - name: SciPy 2019
   date: 2019-07-08
   summary: A <a href="https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis">PySAL workshop</a> will be held at <a href="https://www.scipy2019.scipy.org/">SciPy 2019 in Austin, Texas, on July 8, 2019</a>.
+
 - name: numfocus
   date: 2019-06-22
   summary: PySAL is now a <a href="https://numfocus.org/sponsored-projects/affiliated-projects">NumFOCUS affilated project</a>.
+
 - name: spaghetti 1.3
   date: 2019-05-22
   summary: <a href="https://pysal-spaghetti.readthedocs.io/en/latest/">spaghetti 1.3</a> released on <a href="https://pypi.org/project/spaghetti/1.3/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This is the first version that officially supports Python 3.6 and 3.7 exclusively.
@@ -32,6 +42,14 @@
   date: 2019-01-31
   summary: First stable release of <a href="https://pypi.org/project/pysal/2.0.0/">PySAL 2.0 as a meta-package</a>.
   
+- name: splot 1.0.0
+  date: 2018-11-30
+  summary: First stable release of our new visualization package <a href="https://pypi.org/project/splot/1.0.0/">splot </a>.
+
+- name: narsc18
+  date: 2018-11-07
+  summary: A <a href="https://github.com/sjsrey/pysalnarsc18">PySAL Workshop</a> was be held at 65th Annual North American Meetings of the Regional Science Association International, San Antonio, Texas. 
+  
 - name: spaghetti 1.1.1
   date: 2018-10-31
   summary: Second stable release of <a href="https://pypi.org/project/spaghetti/1.1.1.post3/">spaghetti (1.1.1.post3)</a> since PySAL refactoring together with new <a href="https://pysal-spaghetti.readthedocs.io/">website</a>.
@@ -51,10 +69,6 @@
 - name: mgwr 2.0.1
   date: 2018-09-28
   summary: <a href="https://pypi.org/project/mgwr/2.0.1/">mgwr 2.0.1 released</a> and we are also launching the <a href="https://mgwr.readthedocs.io/">mgwr documentation website</a>.
-
-- name: narsc18
-  date: 2018-11-07
-  summary: A <a href="https://github.com/sjsrey/pysalnarsc18">PySAL Workshop</a> was be held at 65th Annual North American Meetings of the Regional Science Association International, San Antonio, Texas. 
 
 - name: giddy 2.0.0
   date: 2018-08-26
