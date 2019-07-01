@@ -1,3 +1,11 @@
+- name: SciPy 2019
+  date: 2019-07-08
+  summary: A <a href="https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis">PySAL workshop</a> will be held at <a href="https://www.scipy2019.scipy.org/">SciPy 2019 in Austin, Texas, on July 8, 2019</a>.
+
+- name: esda 2.1.0
+  date: 2019-06-30
+  summary: <a href="https://esda.readthedocs.io/en/latest/">esda 2.1.0</a> released. <a href="https://github.com/pysal/esda/releases">Changelog</a>.
+  
 - name: splot 1.1.0
   date: 2019-06-27
   summary: <a href="https://pypi.org/project/splot/">splot 1.1.0</a> released with new <a href="https://splot.readthedocs.io/en/latest/">splot documentation website</a>!
@@ -5,10 +13,6 @@
 - name: mapclassify 2.1.0
   date: 2019-06-26
   summary: Release of <a href="https://pypi.org/project/mapclassify/">mapclassify 2.1.0</a> including new plot methods!
-
-- name: SciPy 2019
-  date: 2019-07-08
-  summary: A <a href="https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis">PySAL workshop</a> will be held at <a href="https://www.scipy2019.scipy.org/">SciPy 2019 in Austin, Texas, on July 8, 2019</a>.
 
 - name: numfocus
   date: 2019-06-22
