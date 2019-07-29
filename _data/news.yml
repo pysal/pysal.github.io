@@ -2,6 +2,11 @@
   date: 2019-07-29
   summary: <a href="https://pysal-spaghetti.readthedocs.io/en/latest/">spaghetti 1.3.1</a> released on <a href="https://pypi.org/project/spaghetti/1.3.1/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>.
 
+- name: giddy 2.2.1
+  date: 2019-07-25
+  summary: <a href="https://giddy.readthedocs.io/en/latest/">giddy 2.2.1</a> released on <a href="https://pypi.org/project/giddy/2.2.1/">PyPI</a> and <a href="https://anaconda.org/conda-forge/giddy">conda-forge</a>.
+           This release features an addition of several alignment-based sequence analysis methods.
+           Refer to <a href="https://github.com/pysal/giddy/blob/master/notebooks/Sequence.ipynb">this example notebook</a> to learn more.
 
 - name: pointpats 2.1.0
   date: 2019-07-01
