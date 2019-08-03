@@ -1,7 +1,7 @@
 
 
 PySAL meta-package:
-  Project-wide Documentation: https://pysal.readthedocs.io
+  pysal: https://pysal.org/pysal
   Contributing to PySAL: https://github.com/pysal/pysal/wiki
   Migrating to PySAL 2.0:   https://github.com/pysal/pysal/blob/master/MIGRATING.md
 
@@ -26,7 +26,7 @@ PySAL model:
 
 PySAL viz:
   legendgram: https://github.com/pysal/legendgram
-  mapclassify: https://mapclassify.readthedocs.io/en/stable/
+  mapclassify: https://pysal.org/mapclassify
   splot: https://splot.readthedocs.io/en/latest/
 
 PySAL Notebooks:
