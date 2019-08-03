@@ -1,3 +1,7 @@
+- name: pysal 2.1.0
+  date: 2019-07-29
+  summary: PySAL 2.1.0 is released, representing 6 months of enhancements, bug-fixes, widening of test coverage, and improved documentation. All users are encouraged to upgrade to this version as there are numerous optimizations as well as new features that have been implemented. See the <a href="https://github.com/pysal/pysal/releases/tag/v2.1.0">release notes</a> for details.
+
 - name: SciPy 2019
   date: 2019-07-08
   summary: A <a href="https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis">PySAL workshop</a> will be held at <a href="https://www.scipy2019.scipy.org/">SciPy 2019 in Austin, Texas, on July 8, 2019</a>.
