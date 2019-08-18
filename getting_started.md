@@ -171,6 +171,9 @@ We recommend building a documentation website for your package with:
 -   [readthedocs](https://readthedocs.org/), which pull the code from
     the github repository, build documentation and host it for free. It
     is capable of hosting multiple versions of documentation.
+-   An alternative host of the documentation website to [readthedocs](https://readthedocs.org/)
+    is [Github Page](https://pages.github.com/). The instruction of publishing the docs website with Github Page
+    will also be given.
 
 The workflow is briefly introduced as follows:
 
@@ -358,5 +361,24 @@ will fail because of some configuration issues:
     configuration is given with the help of a
     [readthedocs.yml](https://github.com/pysal/submodule_template/blob/master/readthedocs.yml)
     and proper configuration of [tests and docs dependencies for
-    setup.py](https://github.com/pysal/submodule_template/blob/master/setup.py#L22)
-    .
+    setup.py](https://github.com/pysal/submodule_template/blob/master/setup.py#L22).
+
+#### Publishing the docs with [Github Page](https://pages.github.com/)
+
+Publishing the documentation website wih [Github Page](https://pages.github.com/) can avoid the 
+the additional efforts of configuring and debugging [readthedocs](https://readthedocs.org/)
+as the locally built webpages will be published. Follow the procedure below to set up:
+
+1.  Assuming you already have a sphinx project for your submodule following the instructions above, and 
+    assuming the name of the folder for this project is `doc`, what you need to do is 
+    (1) rename `doc` to `docsrc`
+    (2) replace the old Makefile with [a new one from pysal/submodule_template](https://github.com/pysal/submodule_template/blob/master/docsrc/Makefile)
+    (3) copy the folder [`docs`](https://github.com/pysal/submodule_template/tree/master/docs) from pysal/submodule_template to your package
+2.  Generating the documentation html files locally by running `make html` from the command line (make sure you are currently in the `docsrc` directory).
+    Then run  `make sync` to move the generated html files to the `docs` directory.
+3.  [Update settings of your github repo](https://github.blog/2016-08-22-publish-your-project-documentation-with-github-pages/) as seen below:
+    ![setting](https://github.blog/wp-content/uploads/2016/08/47c2ecc4-6533-11e6-828a-91980daa7297.gif?fit=1360%2C500)
+
+Having setting up the github page for your project documentation website, you need to follow procedure 2 (`make html` and `make sync`)
+to update the website to reflect any changes you have made to the package. 
+    
