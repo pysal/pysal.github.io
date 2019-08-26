@@ -14,7 +14,7 @@ PySAL explore:
   inequality:  https://inequality.readthedocs.io/en/latest/ 
   pointpats: https://pointpats.readthedocs.io/en/latest/
   segregation: https://github.com/pysal/segregation
-  spaghetti: https://github.com/pysal/spaghetti
+  spaghetti: https://pysal.org/spaghetti
   region: https://github.com/pysal/region
 
 PySAL model:
