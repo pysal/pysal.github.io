@@ -24,13 +24,8 @@ installed in a variety of ways.
 
 ## Installing individual packages
 
-Each individual package could be installed by itself via pip or from
-source. However, it should be noted that some packages rely on others as
-dependencies. For example, `giddy` has `esda`, `mapclassify` and
-`libpysal` as dependencies, which means that the installation of `giddy`
-will automatically install `esda`, `mapclassify` and `libpysal` if your
-machine does not have these three packages pre-installed. Take `giddy`
-as an example:
+Each individual package in the PySAL ecosystem can also installed individually
+via pip or from source.  Take `giddy` as an example:
 
 ### Installing via pip
 
