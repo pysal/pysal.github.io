@@ -6,7 +6,7 @@ PySAL meta-package:
   Migrating to PySAL 2.0:   https://github.com/pysal/pysal/blob/master/MIGRATING.md
 
 lib:
-  libpysal: https://libpysal.readthedocs.io/en/latest/
+  libpysal: https://pysal.org/libpysal
 
 PySAL explore:
   esda: https://esda.readthedocs.io/en/latest/
