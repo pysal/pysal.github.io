@@ -1,3 +1,9 @@
+- name: Geocomputation 2019
+  date: 2019-09-18
+  summary: Spatial Data Science with PySAL workshop at <a href="https://github.com/sjsrey/pysalworkshop/tree/2019-geocomputation">Gecomputation 2019</a>.
+- name: gds-book
+  date: 2019-08-30
+  summary: A new book is in the works! <a href="https://twitter.com/darribas/status/1167038806488432640"> Geographic Data Science with PySAL and the PyData Stack</a>.
 - name: pysal 2.1.0
   date: 2019-07-29
   summary: PySAL 2.1.0 is released, representing 6 months of enhancements, bug-fixes, widening of test coverage, and improved documentation. All users are encouraged to upgrade to this version as there are numerous optimizations as well as new features that have been implemented. See the <a href="https://github.com/pysal/pysal/releases/tag/v2.1.0">release notes</a> for details.
