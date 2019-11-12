@@ -16,7 +16,7 @@ installed in a variety of ways.
 
 ### Installing PySAL via Conda
    
-    conda install pysal
+    conda install --channel conda-forge pysal
    
 ### Install PySAL via pip
 
