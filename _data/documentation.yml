@@ -21,7 +21,7 @@ PySAL model:
   mgwr:  https://mgwr.readthedocs.io/en/latest/
   spglm: https://github.com/pysal/spglm
   spint: https://github.com/pysal/spint
-  spreg: https://github.com/pysal/spreg
+  spreg: https://spreg.readthedocs.io/
   spvcm: https://github.com/pysal/spvcm
 
 PySAL viz:
