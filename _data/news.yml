@@ -1,6 +1,6 @@
 - name: spaghetti 1.4.1
-    date: 2020-01-25
-    summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.4.1</a> released on <a href="https://pypi.org/project/spaghetti/1.4.1/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes new functionality with handling PySAL geometries and shortest path extraction, among other <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.1">enhancements and bug fixes</a>.
+  date: 2020-01-25
+  summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.4.1</a> released on <a href="https://pypi.org/project/spaghetti/1.4.1/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes new functionality with handling PySAL geometries and shortest path extraction, among other <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.1">enhancements and bug fixes</a>.
 
 - name: mapclassify 2.2.0
   date: 2020-01-04
