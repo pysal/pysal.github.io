@@ -1,3 +1,11 @@
+- name: esda 2.2.1
+  date: 2020-02-01
+  summary: <a href="https://pysal.org/esda/">esda 2.2.1</a> released on <a href="https://pypi.org/project/esda/2.2.1/">PyPI</a>. This release includes bug fixes related to the Pandas 1.0 release. <a href="https://github.com/pysal/esda/releases/tag/v2.2.1">Release Notes</a>.
+
+- name: libpysal 4.2.2
+  date: 2020-02-01
+  summary: <a href="https://pysal.org/libpysal/">libpysal 4.2.2</a> released on <a href="https://pypi.org/project/libpysal/4.2.2/">PyPI</a>. This release includes bug fixes related to the Pandas 1.0 release. <a href="https://github.com/pysal/libpysal/releases/tag/v4.2.2">Release Notes</a>.
+
 - name: spaghetti 1.4.1
   date: 2020-01-25
   summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.4.1</a> released on <a href="https://pypi.org/project/spaghetti/1.4.1/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes new functionality with handling PySAL geometries and shortest path extraction, among other <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.1">enhancements and bug fixes</a>.
