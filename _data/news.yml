@@ -1,6 +1,10 @@
+- name: pysal 2.2.0
+  date: 2020-02-13
+  summary: <a href="https://pysal.org/pysal/">pysal 2.2.0</a> released on <a href="https://pypi.org/project/pysal/2.2.0/">PyPI</a>. <a href="https://github.com/pysal/pysal/releases/tag/v2.2.0">Release Notes</a>.
+
 - name: esda 2.2.1
   date: 2020-02-01
-  summary: <a href="https://pysal.org/esda/">esda 2.2.1</a> released on <a href="https://pypi.org/project/esda/2.2.1/">PyPI</a>. This release includes bug fixes related to the Pandas 1.0 release. <a href="https://github.com/pysal/esda/releases/tag/v2.2.1">Release Notes</a>.
+  summary: <a href="https://pysal.org/esda/">esda 2.2.1</a> released on <a href="https://pypi.org/project/esda/2.2.1/">PyPI</a>. This release includes bug fixes related to the Pandas 1.0 release. <a href="https://github.com/pysal/esda/releases/tag/v2.2.1">Release Notes are here</a>.
 
 - name: libpysal 4.2.2
   date: 2020-02-01
