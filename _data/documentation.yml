@@ -9,7 +9,7 @@ lib:
   libpysal: https://pysal.org/libpysal
 
 PySAL explore:
-  esda: https://esda.readthedocs.io/en/latest/
+  esda: https://pysal.org/esda
   giddy: https://giddy.readthedocs.io/en/latest/
   inequality:  https://inequality.readthedocs.io/en/latest/ 
   pointpats: https://pointpats.readthedocs.io/en/latest/
