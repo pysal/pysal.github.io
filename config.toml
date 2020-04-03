@@ -38,7 +38,7 @@ hasChildren = true
   [[menu.main]]
   parent = "Documentation"
   name = "Installation"
-  url = "installation"
+  url = "docs/install"
   weight = 1
 
   [[menu.main]]
@@ -64,14 +64,14 @@ logo_white = "pysal_nav_logo.svg"
 
 # customize color
 primary_color = "#2f638e"
-body_color = "#f9f9f9"
+body_color = "#ffffff"
 text_color = "#636363"
 text_color_dark = "#242738"
 white_color = "#ffffff"
 light_color = "#f8f9fa"
 
 # font family
-font_family = "lato" # Choose font family from : https://fonts.google.com/
+font_family = "Inria Sans" # Choose font family from : https://fonts.google.com/
 
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
@@ -93,23 +93,23 @@ languageName = "En"
 languageCode = "en-us"
 weight = 1
 home = "Home"
+copyright = "© PySAL Developers"
+
 
 # banner
 [Languages.en.params.banner]
 title = "PySAL"
 subtitle='The Python Spatial Analysis Library'
 bg_image = "pysal_logo.svg"
-placeholder = "Looking for Something Specific?"
+phrase1 = "open-source, cross-platform"
+phrase2 = "`geographic data science`"
 
 # call to action
 [Languages.en.params.cta]
 enable = true
-title = "open source, cross-platform, geospatial data science"
-content = "PySAL, the Python spatial analysis library, is an open source cross-platform library for geospatial data science with an emphasis on geospatial vector data written in Python. It supports the development of high level applications for spatial analysis"
+content = "PySAL is an open source cross-platform library for geospatial data science with an emphasis on geospatial vector data"
+
 
 # call to action button
 [Languages.en.params.cta.button]
 enable = false
-label = "contact us"
-link = "contact"
-

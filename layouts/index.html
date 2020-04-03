@@ -7,9 +7,21 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <div class="section px-3 bg-white shadow text-center">
-        <h2 class="mb-4">{{ .title | markdownify }}</h2>
-        <p class="mb-4">{{ .content | markdownify }}</p>
+        <div class="px-3 mt-5  text-center">
+          <h3>{{ .phrase1 | markdownify }}</h3>
+          <h2 class="text-white">{{ .Site.Params.banner.phrase2 | markdownify }}</h2>
+
+        <p style="font-size:x-large">{{ .content | markdownify }}</p>
+        <div class="col-md-12">
+          <p style=font-size:large>PySAL supports the development of high level applications for spatial analysis</p>
+        <ul class="text-left" style="display:inline-block;vertical-align:middle;" style="text-align: left;">
+          <li>-  detection of spatial clusters, hot-spots, and outliers</li>
+          <li>- construction of graphs from spatial data</li>
+          <li>- spatial regression and statistical modeling on geographically embedded networks</li>
+          <li>- spatial econometrics</li>
+          <li>- exploratory spatio-temporal data analysis</li>
+        </ul>
+      </div>
         {{ if .button.enable }}
         {{ with .button }}
         <a href="{{ .link | relLangURL }}" class="btn btn-primary">{{ .label }}</a>
@@ -40,6 +52,8 @@
           </a>
         </div>
         {{ end }}
+        <h4 class="mt-4">PySAL is structured as a family of independent Python modules organized into four thematic domains</h4>
+
       </div>
     </div>
   {{ "<!-- /topics -->" | safeHTML }}
