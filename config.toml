@@ -1,0 +1,115 @@
+
+################################# Default configuration ###################
+# provide your domain here
+baseURL = "https://pysal.org"
+
+# theme
+theme = "dot"
+
+# site title
+title = "PySAL"
+
+[markup.goldmark.renderer]
+unsafe= true
+
+################################# navigation ################################
+[[menu.main]]
+name = "Packages"
+url = "packages"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "about"
+weight = 2
+
+[[menu.main]]
+name = "News"
+url = "/news"
+weight = 3
+
+# Dropdown menu
+[[menu.main]]
+weight = 4
+name ="Documentation"
+url = "docs"
+hasChildren = true
+
+  [[menu.main]]
+  parent = "Documentation"
+  name = "Installation"
+  url = "installation"
+  weight = 1
+
+  [[menu.main]]
+  parent = "Documentation"
+  name = "User Docs"
+  url = "https://pysal.github.io/notebooks"
+  weight = 2
+
+  [[menu.main]]
+  parent = "Documentation"
+  name = "Developer Docs"
+  url = "docs/devs"
+  weight = 3
+
+
+############################# Default Parameters ##########################
+[params]
+# logo is for all page
+logo = "pysal_nav_logo.svg"
+# logo white is for homepage logo, you can use colorful logo too...
+logo_white = "pysal_nav_logo.svg"
+# when logo is empty, it will shown your site title
+
+# customize color
+primary_color = "#2f638e"
+body_color = "#f9f9f9"
+text_color = "#636363"
+text_color_dark = "#242738"
+white_color = "#ffffff"
+light_color = "#f8f9fa"
+
+# font family
+font_family = "lato" # Choose font family from : https://fonts.google.com/
+
+# contact form action
+contact_form_action = "#" # contact form works with : https://formspree.io
+
+
+############################## social links ##############################
+
+[[params.social]]
+icon = "ti-twitter-alt" # themify icon pack : https://themify.me/themify-icons
+link = "https://twitter.com/pysal_devs"
+  
+[[params.social]]
+icon = "ti-github" # themify icon pack : https://themify.me/themify-icons
+link = "https://github.com/pysal"
+  
+################################ English Language ######################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+
+# banner
+[Languages.en.params.banner]
+title = "PySAL"
+subtitle='The Python Spatial Analysis Library'
+bg_image = "pysal_logo.svg"
+placeholder = "Looking for Something Specific?"
+
+# call to action
+[Languages.en.params.cta]
+enable = true
+title = "open source, cross-platform, geospatial data science"
+content = "PySAL, the Python spatial analysis library, is an open source cross-platform library for geospatial data science with an emphasis on geospatial vector data written in Python. It supports the development of high level applications for spatial analysis"
+
+# call to action button
+[Languages.en.params.cta.button]
+enable = false
+label = "contact us"
+link = "contact"
+
