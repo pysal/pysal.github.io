@@ -113,7 +113,7 @@ copyright = "© PySAL Developers"
 [Languages.en.params.banner]
 title = "PySAL"
 subtitle='The Python Spatial Analysis Library'
-bg_image = "pysal_logo.svg"
+#bg_image = "pysal_logo.svg"
 phrase1 = "open-source, cross-platform"
 phrase2 = "`geographic data science`"
 

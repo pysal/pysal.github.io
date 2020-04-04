@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+<div class="row">
+<div class="col-12 mt-3">
+  <img src="pysal_logo.svg" height="200px" style="display:inline-block; text-align: center;  display: block;margin-left: auto; margin-right: auto; width: 50%;"></img>
+</div>
+</div>
+
 {{ if .Site.Params.cta.enable }}
 {{ with .Site.Params.cta }}
 {{ "<!-- call to action -->" | safeHTML }}

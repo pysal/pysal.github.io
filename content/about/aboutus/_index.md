@@ -2,7 +2,7 @@
 layout: page_md
 title: "About Us"
 tagline: Some information about PySAL and our Community
-permalink: /aboutus
+permalink: about/aboutus
 ---
 
 PySAL is an open-source project designed to support spatial data science. It released under the 
