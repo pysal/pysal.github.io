@@ -32,13 +32,13 @@ hasChildren = true
   [[menu.main]]
   parent = "About"
   name = "About Us"
-  url = "about/aboutus"
+  url = "about"
   weight = 1
 
   [[menu.main]]
   parent = "About"
   name = "Team"
-  url = "about/team"
+  url = "team"
   weight = 2
 
 # Dropdown menu

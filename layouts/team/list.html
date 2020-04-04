@@ -10,12 +10,15 @@
       {{ "<!-- topic-item -->" | safeHTML }}
       {{ range (where .Site.Pages "Type" "dev") }}
       <div class="col-lg-3 col-sm-6 mb-3">
+        <container>
         <a href="{{ .Permalink }}" class="px-4 py-5 bg-white shadow text-center d-block match-height">
           <i class="{{ .Params.Icon }} icon text-primary d-block mb-4"></i>
           <h3 class="mb-3 mt-0">{{ .Title }}</h3>
-          <h4>{{ .Affiliation }}</h4>
+          <img src="{{ .Params.Avatar}}"></img>
+          <h4>{{ .Params.Affiliation }}</h4>
           <p class="mb-0">{{ .Params.Description }}</p>
         </a>
+      </container>
       </div>
       {{ end }}
 
