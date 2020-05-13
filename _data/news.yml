@@ -1,6 +1,11 @@
+- name: spaghetti 1.5.0
+  date: 2020-05-04
+  summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.5.0</a> released on <a href="https://pypi.org/project/spaghetti/1.5.0/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes new functionality with spanning tree extraction and improved tutorials, among other <a href="https://github.com/pysal/spaghetti/releases/tag/v1.5.0">enhancements and bug fixes</a>.
+
 - name: New splot JOSS paper.
   date: 2020-03-28
   summary: A new <a href="https://joss.theoj.org/papers/10.21105/joss.01882">JOSS paper</a> has been published that highlights <a href="https://splot.readthedocs.io/en/latest">splot</a>.
+
 - name: spaghetti 1.4.2.post2
   date: 2020-02-24
   summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.4.2.post2</a> released on <a href="https://pypi.org/project/spaghetti/1.4.2.post2/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release focuses on improved testing and functionality, specifically component and shortest path feature extraction. See the <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.2">v1.4.2</a>, <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.2post1">v1.4.2.post1</a>, and <a href="https://github.com/pysal/spaghetti/releases/tag/v1.4.2.post2">v1.4.2.post2</a> release notes for more details.
