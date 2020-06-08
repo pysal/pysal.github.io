@@ -10,7 +10,7 @@ lib:
 
 PySAL explore:
   esda: https://pysal.org/esda
-  giddy: https://giddy.readthedocs.io/en/latest/
+  giddy: https://pysal.org/giddy
   inequality:  https://inequality.readthedocs.io/en/latest/ 
   pointpats: https://pointpats.readthedocs.io/en/latest/
   segregation: https://github.com/pysal/segregation
