@@ -1,3 +1,11 @@
+- name: giddy 2.3.3
+  date: 2020-06-10
+  summary: <a href="https://pysal.org/giddy">giddy 2.3.3</a> released on <a href="https://pypi.org/project/giddy/2.3.3/">PyPI</a> and <a href="https://anaconda.org/conda-forge/giddy">conda-forge</a>.
+    This release does not add new functionalities for spatiotemporal analytics. Instead, it features the additional support of python 3.8 and the migration of the documentation website host from readthedocs to GitHub Page.
+    The new doc website is <a href="http://pysal.org/giddy">http://pysal.org/giddy</a>.
+    In addition, two GitHub workflows for (1) continuous integration and (2) building and releasing the package to pypi and github are configured to automate these maintenance process with GitHub Actions.
+    Refer to <a href="https://github.com/pysal/giddy/releases/tag/v2.3.3">the GitHhub release notes</a> for details.
+
 - name: spaghetti 1.5.0
   date: 2020-05-04
   summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.5.0</a> released on <a href="https://pypi.org/project/spaghetti/1.5.0/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes new functionality with spanning tree extraction and improved tutorials, among other <a href="https://github.com/pysal/spaghetti/releases/tag/v1.5.0">enhancements and bug fixes</a>.
