@@ -122,7 +122,7 @@ provides a useful template for submodules covering:
 -   how to describes the metadata about the submodule:
     [setup.py](https://github.com/pysal/submodule_template/blob/master/setup.py)
 -   how to customize Sphinx input and output behavior for mimicking
-    `giddy`\'s [online documentation](http://giddy.readthedocs.io/):
+    `giddy`\'s [online documentation](http://pysal.org/giddy):
     [doc/conf.py](https://github.com/pysal/submodule_template/blob/master/doc/conf.py)
 -   how to structure the package:
 
@@ -158,7 +158,7 @@ All the files in the [doc/](https://github.com/pysal/submodule_template/tree/mas
 are essential for building the online docs for the submodule. More
 details are given below.
 
-### Building an online documentation for the submodule mimicking [giddy\_docs](http://giddy.readthedocs.io) {#PySAL-submodule-docs}
+### Building an online documentation for the submodule mimicking [giddy\_docs](http://pysal.org/giddy) {#PySAL-submodule-docs}
 
 ![giddy](img/giddy_docs.png)
 
@@ -188,7 +188,7 @@ The workflow is briefly introduced as follows:
         pip install sphinx sphinx_bootstrap_theme sphinxcontrib-bibtex numpydoc
 -   Instead of initializing a new `sphinx` project using the tool,
     **sphinx-quickstart**, developers wishing to mimic the
-    [giddy\_docs](http://giddy.readthedocs.io) can use the templates
+    [giddy\_docs](http://pysal.org/giddy) can use the templates
     provided by the
     [pysal/submodule\_template](https://github.com/pysal/submodule_template)
     by copying its directory
@@ -196,18 +196,18 @@ The workflow is briefly introduced as follows:
     (together with all the files inside) to your submodule.
     -   Open the copy of
         [doc/conf.py](https://github.com/pysal/submodule_template/blob/master/doc/conf.py)
-        in your submodule, and change all the
-        `PACKAGE\_NAME` to your submodule name so that the
+        in your submodule, and replace all the
+        `PACKAGE_NAME` with your submodule name so that the
         Sphinx input and output behavior of your submodule are
         configured.
     -   Open the copy of
         [doc/Makefile](https://github.com/pysal/submodule_template/blob/master/doc/Makefile)
         and
         [doc/make.bat](https://github.com/pysal/submodule_template/blob/master/doc/make.bat)
-        in your submodule, and change the `PACKAGE\_NAME` to
+        in your submodule, and replace the `PACKAGE_NAME` with
         your submodule name.
 -   Now the online docs should be rendered in the same fashion as
-    [giddy\_docs](http://giddy.readthedocs.io). The next steps will be
+    [giddy\_docs](http://pysal.org/giddy). The next steps will be
     to fill in the content.
 
 #### Creating documentation for Python docstrings
@@ -229,7 +229,7 @@ versions), ePub, etc) files from the .rst sources. Currently, four .rst
 files are living in
 [doc/](https://github.com/pysal/submodule_template/tree/master/doc) of
 [pysal/submodule\_template](https://github.com/pysal/submodule_template),
-each of which will be read and built into four HTML files by \`sphinx\`:
+each of which will be read and built into four HTML files by `sphinx`:
 
 -   [doc/index.rst](https://github.com/pysal/submodule_template/blob/master/doc/index.rst):
     landing page for the online documentation. Should contain a brief
@@ -280,7 +280,7 @@ we recommend organizing classes/functions and listing them in
 [doc/api.rst](https://github.com/pysal/submodule_template/blob/master/doc/api.rst).
 More specifically, open the copy of
 [doc/api.rst](https://github.com/pysal/submodule_template/blob/master/doc/api.rst)
-in your submodule, and change `PACKAGE\_NAME` right after
+in your submodule, and change `PACKAGE_NAME` right after
 the directive `currentmodule` to your submodule. Then, replace the
 classes `giddy.markov.Markov` and `giddy.markov.Spatial_Markov` with the
 classes and functions of the submodule.
@@ -291,13 +291,14 @@ It should be noted that the interactive Python examples in the docstring
 are not required, but if given, they are required to follow the
 [doctest](https://docs.python.org/3.6/library/doctest.html) format and
 pass all doctests. They can be checked together with unit testing using
-\`nose\`: `nosetests --with-doctest submodule/`
+`nose`: `nosetests --with-doctest submodule/` 
+or `pytest`:`pytest --doctest-modules submodule/`
 
 If `matplotlib` is imported in the interactive example, the
 [plot directive](https://matplotlib.org/devel/plot_directive.html)
 should be used for including the matplotlib plot (a .png file) in the
 html docs. An example is given in the
-[Rose](https://giddy.readthedocs.io/en/latest/generated/giddy.directional.Rose.html#giddy.directional.Rose)
+[Rose](http://pysal.org/giddy/generated/giddy.directional.Rose.html#giddy.directional.Rose)
 API of the giddy docs.
 
 #### Bibliography and cross-reference
@@ -316,9 +317,9 @@ the followings are needed:
     [doc/\_static/references.bib](https://github.com/pysal/submodule_template/blob/master/doc/_static/references.bib)
     with the relevant references of your submodule .
 -   change the format of citations in *docstrings* and no-inline
-    documentation to follow `` :cite:`Press2007 `` in which
+    documentation to follow `` :cite:`Press2007` `` in which
     `Press2007` is the key of a bibtex entry in
-    [doc/\_static/references.bib]().
+    [doc/\_static/references.bib](https://github.com/pysal/submodule_template/blob/master/doc/_static/references.bib).
 
 #### Generate and test html locally
 
@@ -333,7 +334,7 @@ we can achieve that very easily by running `make html`:
 
     make html
 
-A `\_build` folder will be created where all the created
+A `build` folder will be created where all the created
 html files live. You can double click to open the html files in a
 default browser to check the content and layout.
 
