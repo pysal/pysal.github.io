@@ -1,3 +1,12 @@
+- name: libpysal 4.3.0
+  date: 2020-06-28
+  summary:  <a href="https://pysal.org/libpysal">libpysal 4.3.0</a> released on <a href="https://pypi.org/project/libpysal/4.3.0/">PyPI</a>. 
+    Refer to <a href="https://github.com/pysal/libpysal/releases/tag/v4.3.0">the GitHhub release notes</a> for details.
+
+- name: mapclassify 2.3.0
+  date: 2020-06-13
+  summary:  <a href="https://pysal.org/mapclassify">mapclassify 2.3.0</a> released on <a href="https://pypi.org/project/mapclassify/2.3.0/">PyPI</a>. This release includes support for pooled classifiers and topological coloring. Refer to <a href="https://pysal.org/mapclassify/tutorial.html">the tutorial</a> for details.
+
 - name: giddy 2.3.3
   date: 2020-06-10
   summary: <a href="https://pysal.org/giddy">giddy 2.3.3</a> released on <a href="https://pypi.org/project/giddy/2.3.3/">PyPI</a> and <a href="https://anaconda.org/conda-forge/giddy">conda-forge</a>.
