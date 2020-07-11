@@ -12,6 +12,7 @@ Users can begin the journey with PySAL by exploring the courses,
 workshops, tutorials, and presentations:
 
 ### Courses, Workshops, and Tutorials
+-   [SciPy 2020](https://github.com/knaaptime/pysal-scipy20)
 -   [NARSC 2019](https://github.com/sjsrey/pysalnarsc19)
 -   [GeoComputation 2019](https://github.com/sjsrey/pysalworkshop/tree/2019-geocomputation)
 -   [SciPy 2019](https://github.com/pysal/scipy2019-intermediate-gds)
