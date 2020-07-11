@@ -1,4 +1,9 @@
 coredevs:
+  - first: Martin
+    last: Fleischmann
+    avatar: https://avatars2.githubusercontent.com/u/36797143?v=4&s=400 
+    affiliation: University of Liverpool
+    gh_handle: martinfleis
   - first: Stefanie
     last: Lumnitz
     avatar: https://avatars2.githubusercontent.com/u/35147471?v=4&s=400 
