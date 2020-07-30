@@ -1,3 +1,6 @@
+- name: PySAL 2.3.0 
+  date: 2020-07-30
+  summary: <a href="https://github.com/pysal/pysal/releases/tag/v2.3.0">PySAL 2.3.0 is released</a>. 
 - name: SciPy 2020
   date: 2020-07-10
   summary: <a href="https://github.com/knaaptime/pysal-scipy20">PySAL tutorial</a> given at SciPy 2020.
