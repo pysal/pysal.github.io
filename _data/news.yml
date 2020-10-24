@@ -1,4 +1,8 @@
-- name: PySAL 2.3.0 
+- name: spaghetti 1.5.2
+  date: 2020-10-22
+  summary: <a href="https://pysal.org/spaghetti/">spaghetti 1.5.2</a> released on <a href="https://pypi.org/project/spaghetti/1.5.2/">PyPI</a> and <a href="https://anaconda.org/conda-forge/spaghetti">conda-forge</a>. This release includes a <a href="https://github.com/pysal/spaghetti/releases/tag/v1.5.2">critical bug fix</a> concerning the results from splitting network segments.
+
+- name: PySAL 2.3.0
   date: 2020-07-30
   summary: <a href="https://github.com/pysal/pysal/releases/tag/v2.3.0">PySAL 2.3.0 is released</a>. 
 - name: SciPy 2020
