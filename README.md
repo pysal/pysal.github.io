@@ -110,7 +110,8 @@ be sure to include the three dashes for YAML. Use "lastname.md" for the file nam
 ## news
 ### how to update
 Add another markdown file with the following format to the `content/news/` directory:
-```---
+```
+---
 title: "esda 2.0.0"
 date: 2018-08-25
 month: "08.25"
@@ -121,4 +122,4 @@ type: "news"
 url: "pypi.org/project/esda/2.0.0/"
 ---
 ```
-
+ 

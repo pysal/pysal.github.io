@@ -6,6 +6,7 @@ type: "news"
 month: "02.15"
 year: "2019"
 rls: "02.15.2019"
+link: "https://2019.foss4g-na.org/"
 ---
 
 A PySAL workshop will be held at <a href="https://2019.foss4g-na.org/">FOSS4G in San Diego, on April 19, 2019</a>.
