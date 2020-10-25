@@ -47,7 +47,7 @@ Open your browser to `localhost:1313/`
 
 Hugo is a fast site generator and will rebuild pages almost instantly. Depending on your text editor, you may have to manually save the file(s) you are working on to see the changes made to the website. 
 
-To stop the server simply press `Ctrl - C` in your terminal. 
+To stop the server simply press `Ctrl` - `C` in your terminal. 
 
 # Site Structure
 
@@ -69,5 +69,5 @@ The PySAL wesbite structure emulates this directory structure.
 
 We have set up the website so that Hugo will automatically use the `partials` files under the `layouts` folder to render markdown files under the `content` folder. Unless the format/appereance needs to be changed, the files under `layouts` should be kept the same. 
 
-The magic will happen once new files are added to the appropiate `content` folder which includes all of the files needed to render the site's content.
+The magic will happen once new files are added to the appropiate `content` folder which includes all of the files needed to render the site.
   
