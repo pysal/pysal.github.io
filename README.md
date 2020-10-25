@@ -63,13 +63,11 @@ Hugo uses the following [directory structure](https://gohugo.io/getting-started/
 ├── static
 └── themes
 ```
-The PySAL wesbite structure emulates the same directory structure. 
+The PySAL wesbite structure emulates this directory structure. 
 
 # Updating the website
 
-All of PySAL's webiste pages have been set up so that they can be easily updated through markdown files under the content folder(s). 
+We have set up the website so that Hugo will automatically use the `partials` files under the `layouts` folder to render markdown files under the `content` folder. Unless the format/appereance needs to be changed, the files under `layouts` should be kept the same. 
 
-We have set up the website so that Hugo will automatically use the `partials` files under the '`layouts` folder to render files under the `content` folder. Unless the format/appereance needs to be changed, the files under `layouts` should be kept the same. 
-
-The magic will happen once new files are added to the respective `content` folder. 
- 
+The magic will happen once new files are added to the appropiate `content` folder which includes all of the files needed to render the site's content.
+  
