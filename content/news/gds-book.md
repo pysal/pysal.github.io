@@ -8,5 +8,3 @@ year: "2019"
 rls: "08.30.2019"
 link: "https://twitter.com/darribas/status/1167038806488432640"
 ---
-
-A new book is in the works! <a href="https://twitter.com/darribas/status/1167038806488432640"> Geographic Data Science with PySAL and the PyData Stack</a>.

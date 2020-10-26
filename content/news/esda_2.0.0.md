@@ -6,7 +6,6 @@ year: "2018"
 rls: "08.25.2018"
 description: "esda 2.0.0 released" 
 type: "news"
-url: "pypi.org/project/esda/2.0.0/"
-link: "https://pypi.org/project/esda/2.0.0/"
+link: "pypi.org/project/esda/2.0.0"
 ---
 
