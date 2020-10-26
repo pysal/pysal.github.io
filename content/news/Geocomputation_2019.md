@@ -8,3 +8,5 @@ year: "2019"
 rls: "09.18.2019"
 link: "https://github.com/sjsrey/pysalworkshop/tree/2019-geocomputation"
 ---
+
+
