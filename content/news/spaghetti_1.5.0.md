@@ -1,6 +1,9 @@
 ---
 title: spaghetti 1.5.0
 date: 2020-05-04
+month: "05.04"
+year: "2020"
+rls: "05.04.2020"
 description: This release includes new functionality with spanning tree extraction and improved tutorials, among other enhancements and bug fixes.
 type: news
 ---

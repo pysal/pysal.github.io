@@ -79,7 +79,10 @@ Hugo uses lines 263-286 in `layouts/partials/news.html` to loop over the content
 # Making updates to pysal.org
 
 ## News
-Add another markdown file with the following format to the `content/news/` directory. Be sure to include the three dashes for YAML.
+Add another markdown file with the following format to the `content/news/`
+directory. Be sure to include the three dashes for YAML. Date, month, year, 
+and rls are all required variables for the news page to render the dates 
+correctly.
 ```
 ---
 title: "esda 2.0.0"
