@@ -1,5 +1,16 @@
 {{ define "main" }}
-
+<head>
+  <style>
+    .header{
+  padding: 30px;
+  text-align: center;
+  color: rgb(1, 1, 1);
+  background-color: #00A8CC;
+  font-size: 50px;
+  font-family: 'Inria Sans';
+}
+  </style>
+</head>
 <!-- carousel-->
 
   <div id="demo" class="carousel slide" data-ride="carousel">
@@ -61,6 +72,63 @@
       </div>
     </div>
   {{ "<!-- /topics -->" | safeHTML }}
+
+<!--sponsors-->
+<br>
+<br>
+<div class="header">
+<h3>Funding & Partners</h3>
+</div>
+
+<div class="container" style="padding-top:10px; text-align: center;z-index: 0">
+  <div class="row equal-height">
+  <div class="col-sm-4">
+  <a href="https://www.nsf.gov/">
+      <img alt="nsf" class="img-responsive center-block" src="/nsf_logo_square.jpg" width="150px">
+  </a>
+  </div>
+  <div class="col-sm-4">
+  <a href="http://www.ucr.edu/">
+      <img class="img-responsive center-block" alt="ucr" src="/UCR_logo_square.png" width="150px">
+  </a>
+  </div>
+  
+  <div class="col-sm-4">
+  <a href="https://www.esri.com/en-us/home">
+      <img class="img-responsive center-block" alt="ucr" src="/edc_logo_square.png" width="300px">
+  </a>
+  </div>
+  </div>
+  <div class="row equal-height">
+  <div class="col-sm-3">
+  <a href="http://nitc.trec.pdx.edu/">
+      <img alt="nitc" class="img-responsive center-block" src="/nitc_logo_square.jpg" width="180px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="http://www.nationalacademies.org">
+      <img alt="NASEM" class="img-responsive center-block" src="/NASEM_logo_square.jpeg" width="210px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="https://www.rideuta.com/">
+      <img alt="uta" class="img-responsive center-block" src="/uta-logo_square.jpg" width="180px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="https://www.transportation.gov/">
+      <img alt="USDOT" class="img-responsive center-block" src="/USDOT_logo_square.jpg" width="150px">
+  </a>
+  </div>
+  <div class="col-sm-12">
+    <a href="https://numfocus.org/">
+        <img alt="USDOT" class="img-responsive center-block" src="/NumFocus_LRG.png" width="150px">
+    </a>
+    </div>
+  </div>
+  </div> 
+
+
 
 
 {{ end }}
