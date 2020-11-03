@@ -25,6 +25,7 @@
   position: relative;
   backface-visibility: hidden;
   transition: all .3s;
+  transform: rotateX(0deg)
 }
 .flipcard .card-front {
   z-index: 2;
@@ -40,6 +41,7 @@
   border-style: solid;
   border-color: #999 #fff;
   border-radius: .25rem 0 0 0;
+  -moz-backface-visibility: hidden;
 }
 .flipcard .card-back {
   position: absolute;
