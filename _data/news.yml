@@ -1,3 +1,11 @@
+- name: NARSC20 Tutorial
+  date: 2020-11-09
+  summary: PySAL Tutorial at <a href=" https://github.com/sjsrey/pysal-narsc20">NARSC20</a>.
+
+- name: SpatialAPI20 Tutorial
+  date: 2020-11-03
+  summary: PySAL Tutorial at <a href="https://www.youtube.com/watch?v=xhZ1Tl6BBwk&feature=youtu.be">SpatialAPI20</a>.
+
 - name: Dani Arribas-Bel, SDSC Award
   date: 2020-10-23
   summary: Congratulations to <a href="https://github.com/darribas">Dani Arribas-Bel</a> for being named <a href="https://carto.com/blog/announcing-spatial-data-scientist-of-the-year-2020/">Spatial Data Scientist of the Year</a>!
