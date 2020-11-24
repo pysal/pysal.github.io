@@ -122,4 +122,36 @@ type: "news"
 url: "pypi.org/project/esda/2.0.0/"
 ---
 ```
- 
+
+## Deploying to GitHub Pages
+
+In order to deploy the site you will need to follow the following commands, assuming you have cloned the repo locally, otherwise the changes may not be reflected on the site.
+
+1. Make sure to `cd` into the directory where the site files are stored.  
+2. Run the command `rm -rf public` to remove the public folder that may have been created by accident. *Note that you only have to run this command once. Running it after this step may cause problems in the deployment.
+3. You will need to add the repository where the site will live as a submodule with the following command:
+   
+``` 
+git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public
+```
+* Make sure that the correct repositories are filled in. 
+* You may get an error message similar to this: 
+```
+fatal: 'origin/master' is not a commit and a branch 'master' cannot be created from it
+Unable to checkout submodule 'public'
+```
+ You can ignore this message. 
+
+4.  Create the `deploy.sh` file using [Hugo's script](https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script). Make sure to save it on the main directory for the project. 
+5.  Go back to your terminal and run the command:
+```
+./deploy.sh "your optional commit message"
+```
+The site should now live under the `<USERNAME>.github.io` or whichever custom domain it may have.
+
+1. In order to make changes to the already deployed site, all you need to do is make any desired edits and follow the git workflow. Push the changes to the repo and don't forget to run the 
+```
+./deploy.sh "optional message" 
+```
+command. This command will collect the changes from the site files repo and push them to the deployed site. 
+
