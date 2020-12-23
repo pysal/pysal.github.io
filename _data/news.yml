@@ -1,3 +1,7 @@
+- name: tobler 0.5.0
+  date: 2020-12-22
+  summary: tobler <a href="https://github.com/pysal/tobler/releases/tag/v0.5.4">0.5.4</a> released.
+
 - name: SciPy India Tutorial
   date: 2020-12-19
   summary: PySAL Tutorial at <a href="https://github.com/sjsrey/2020-scipy-india">SciPy India 2020</a>.
