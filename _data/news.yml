@@ -1,3 +1,15 @@
+- name: tobler 0.5.0
+  date: 2020-12-22
+  summary: tobler <a href="https://github.com/pysal/tobler/releases/tag/v0.5.4">0.5.4</a> released.
+
+- name: SciPy India Tutorial
+  date: 2020-12-19
+  summary: PySAL Tutorial at <a href="https://github.com/sjsrey/2020-scipy-india">SciPy India 2020</a>.
+
+- name: mapclassify 2.4.0
+  date: 2020-12-13
+  summary: mapclassify <a href="https://github.com/pysal/mapclassify/releases/tag/v2.4.0">2.4.0</a> released.
+
 - name: NARSC20 Tutorial
   date: 2020-11-09
   summary: PySAL Tutorial at <a href=" https://github.com/sjsrey/pysal-narsc20">NARSC20</a>.
