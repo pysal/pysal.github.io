@@ -85,7 +85,7 @@ logo_white = "pysal_nav_logo.svg"
 # when logo is empty, it will shown your site title
 
 # customize color 
-primary_color = "#00acc1"
+primary_color = "#00A8CC"
 body_color = "#ffffff"
 text_color = "#636363"
 text_color_dark = "#242738"

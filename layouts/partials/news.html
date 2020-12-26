@@ -1,3 +1,6 @@
+{{ "<!-- banner -->" | safeHTML }}
+
+<!DOCTYPE html>
 <head>
     <style>
 body{
@@ -274,10 +277,11 @@ body{
                                     </div>
                                 </div>
                                 <div class="timeline-content">
-                                    <h5 class="title" href="{{.Params.Link}}"> {{.Title}} </h5>
-                                    <p class="description"> {{.Description}} </p>
+                                   <h3> <a href="{{.Params.Link}}" style="color:rgb(217, 42, 106) ;"> {{.Title}} </a> </h3>
+                                    <p class="description"> {{.Description}} </p>  
                                 </div>
                             </div>
                             <!-- end experience section-->
+                            
     {{end}}
     </div>

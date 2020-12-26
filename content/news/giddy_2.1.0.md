@@ -6,6 +6,5 @@ type: news
 month: "04.08"
 year: "2019"
 rls: "04.08.2019"
+link: "https://pypi.org/project/giddy"
 ---
-
-Release of <a href="https://pypi.org/project/giddy">giddy 2.1.0</a> featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.

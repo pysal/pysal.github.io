@@ -1,3 +1,6 @@
+{{ "<!-- banner -->" | safeHTML }}
+
+<!DOCTYPE html>
 <head>
     <style>
 
@@ -15,6 +18,7 @@
   transition: transform 0.6s;
   transform-style: preserve-3d;
 }
+
 .flipcard .card-front, 
 .flipcard .card-back {
   width: 112%;
@@ -22,6 +26,7 @@
   position: relative;
   backface-visibility: hidden;
   transition: all .3s;
+  transform: rotateX(0deg)
 }
 .flipcard .card-front {
   z-index: 2;

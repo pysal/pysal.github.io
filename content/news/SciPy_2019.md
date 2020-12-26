@@ -6,6 +6,5 @@ type: news
 month: "07.08"
 year: "2019"
 rls: "07.08.2019"
+link: "https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis"
 ---
-
-A <a href="https://www.scipy2019.scipy.org/tutorial/Intermediate-Methods-for-Geospatial-Data-Analysis">PySAL workshop</a> will be held at <a href="https://www.scipy2019.scipy.org/">SciPy 2019 in Austin, Texas, on July 8, 2019</a>.
