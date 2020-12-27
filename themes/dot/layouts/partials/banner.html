@@ -1,0 +1,13 @@
+{{ "<!-- banner -->" | safeHTML }}
+<div class="container section">
+	<div class="row">
+		<div class="col-lg-8 text-center mx-auto">
+			<h1 class="text-white mb-3">{{ .Site.Params.banner.title | markdownify }}</h1>
+			<p class="text-white mb-3">{{ .Site.Params.banner.subtitle | markdownify }}</p>
+			<h3 class="text-white">{{ .Site.Params.banner.phrase1 | markdownify }}</h3>
+			<h2 class="text-white">{{ .Site.Params.banner.phrase2 | markdownify }}</h2>
+			
+		</div>
+	</div>
+</div>
+{{ "<!-- /banner -->" | safeHTML }}
