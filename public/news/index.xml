@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on PySAL</title>
+    <link>https://pysal.org/news/</link>
+    <description>Recent content in News on PySAL</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© PySAL Developers</copyright>
+    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://pysal.org/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New splot JOSS paper.</title>
+      <link>https://pysal.org/news/new_splot_joss_paper/</link>
+      <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/new_splot_joss_paper/</guid>
+      <description>A new JOSS paper has been published that highlights splot.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.4.2.post2</title>
+      <link>https://pysal.org/news/spaghetti_1.4.2.post2/</link>
+      <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.4.2.post2/</guid>
+      <description>spaghetti 1.4.2.post2 released on PyPI and conda-forge. This release focuses on improved testing and functionality, specifically component and shortest path feature extraction. See the v1.4.2, v1.4.2.post1, and v1.4.2.post2 release notes for more details.</description>
+    </item>
+    
+    <item>
+      <title>pysal 2.2.0</title>
+      <link>https://pysal.org/news/pysal_2.2.0/</link>
+      <pubDate>Thu, 13 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pysal_2.2.0/</guid>
+      <description>pysal 2.2.0 released on PyPI. Release Notes.</description>
+    </item>
+    
+    <item>
+      <title>esda 2.2.1</title>
+      <link>https://pysal.org/news/esda_2.2.1/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/esda_2.2.1/</guid>
+      <description>esda 2.2.1 released on PyPI. This release includes bug fixes related to the Pandas 1.0 release. Release Notes are here.</description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.2.2</title>
+      <link>https://pysal.org/news/libpysal_4.2.2/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal_4.2.2/</guid>
+      <description>libpysal 4.2.2 released on PyPI. This release includes bug fixes related to the Pandas 1.0 release. Release Notes.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.4.1</title>
+      <link>https://pysal.org/news/spaghetti_1.4.1/</link>
+      <pubDate>Sat, 25 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.4.1/</guid>
+      <description>spaghetti 1.4.1 released on PyPI and conda-forge. This release includes new functionality with handling PySAL geometries and shortest path extraction, among other enhancements and bug fixes.</description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.2.0</title>
+      <link>https://pysal.org/news/mapclassify_2.2.0/</link>
+      <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.2.0/</guid>
+      <description>mapclassify 2.2.0 released on PyPI. This release includes new legend formatting functionality among other enhancements and bug fixes.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.4.0</title>
+      <link>https://pysal.org/news/spaghetti_1.4.0/</link>
+      <pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.4.0/</guid>
+      <description>spaghetti 1.4.0 released on PyPI and conda-forge. This release includes major improvements to the API documentation and notebooks/tutorials.</description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.2.0</title>
+      <link>https://pysal.org/news/libpysal_4.2.0/</link>
+      <pubDate>Sat, 14 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal_4.2.0/</guid>
+      <description>libpysal 4.2.0 released and available on PyPI and conda-forge.</description>
+    </item>
+    
+    <item>
+      <title>Geocomputation 2019</title>
+      <link>https://pysal.org/news/geocomputation_2019/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/geocomputation_2019/</guid>
+      <description>Spatial Data Science with PySAL workshop at Gecomputation 2019.</description>
+    </item>
+    
+    <item>
+      <title>gds-book</title>
+      <link>https://pysal.org/news/gds-book/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/gds-book/</guid>
+      <description>A new book is in the works! Geographic Data Science with PySAL and the PyData Stack.</description>
+    </item>
+    
+    <item>
+      <title>pysal 2.1.0</title>
+      <link>https://pysal.org/news/pysal_2.1.0/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pysal_2.1.0/</guid>
+      <description>PySAL 2.1.0 is released, representing 6 months of enhancements, bug-fixes, widening of test coverage, and improved documentation. All users are encouraged to upgrade to this version as there are numerous optimizations as well as new features that have been implemented. See the release notes for details.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.3.1</title>
+      <link>https://pysal.org/news/spaghetti_1.3.1/</link>
+      <pubDate>Mon, 29 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.3.1/</guid>
+      <description>spaghetti 1.3.1 released on PyPI and conda-forge.</description>
+    </item>
+    
+    <item>
+      <title>giddy 2.2.1</title>
+      <link>https://pysal.org/news/giddy_2.2.1/</link>
+      <pubDate>Thu, 25 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.2.1/</guid>
+      <description>giddy 2.2.1 released on PyPI and conda-forge. This release features an addition of several alignment-based sequence analysis methods. Refer to this example notebook to learn more.</description>
+    </item>
+    
+    <item>
+      <title>SciPy 2019</title>
+      <link>https://pysal.org/news/scipy_2019/</link>
+      <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/scipy_2019/</guid>
+      <description>A PySAL workshop will be held at SciPy 2019 in Austin, Texas, on July 8, 2019.</description>
+    </item>
+    
+    <item>
+      <title>pointpats 2.1.0</title>
+      <link>https://pysal.org/news/pointpats_2.1.0/</link>
+      <pubDate>Mon, 01 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pointpats_2.1.0/</guid>
+      <description>pointpats 2.1.0 released on PyPI and conda-forge. This is the first version that officially supports Python 3.6 and 3.7 exclusively.</description>
+    </item>
+    
+    <item>
+      <title>esda 2.1.0</title>
+      <link>https://pysal.org/news/esda_2.1.0/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/esda_2.1.0/</guid>
+      <description>esda 2.1.0 released. Changelog.</description>
+    </item>
+    
+    <item>
+      <title>splot 1.1.0</title>
+      <link>https://pysal.org/news/splot_1.1.0/</link>
+      <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/splot_1.1.0/</guid>
+      <description>splot 1.1.0 released with new splot documentation website!</description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.1.0</title>
+      <link>https://pysal.org/news/mapclassify_2.1.0/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.1.0/</guid>
+      <description>Release of mapclassify 2.1.0 including new plot methods!</description>
+    </item>
+    
+    <item>
+      <title>numfocus</title>
+      <link>https://pysal.org/news/numfocus/</link>
+      <pubDate>Sat, 22 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/numfocus/</guid>
+      <description>PySAL is now a NumFOCUS affilated project.</description>
+    </item>
+    
+    <item>
+      <title>giddy 2.2.0</title>
+      <link>https://pysal.org/news/giddy_2.2.0/</link>
+      <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.2.0/</guid>
+      <description>giddy 2.2.0 released on PyPI and conda-forge. This is the first version that officially supports Python 3.6 and 3.7 exclusively.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.3</title>
+      <link>https://pysal.org/news/spaghetti_1.3/</link>
+      <pubDate>Wed, 22 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.3/</guid>
+      <description>spaghetti 1.3 released on PyPI and conda-forge. This is the first version that officially supports Python 3.6 and 3.7 exclusively.</description>
+    </item>
+    
+    <item>
+      <title>giddy 2.1.0</title>
+      <link>https://pysal.org/news/giddy_2.1.0/</link>
+      <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.1.0/</guid>
+      <description>Release of giddy 2.1.0 featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.</description>
+    </item>
+    
+    <item>
+      <title>gsoc19</title>
+      <link>https://pysal.org/news/gsoc19/</link>
+      <pubDate>Sun, 03 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/gsoc19/</guid>
+      <description>PySAL is participating in Google Summer of Code under the Python Organization GSOC.</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.2</title>
+      <link>https://pysal.org/news/spaghetti_1.2/</link>
+      <pubDate>Wed, 27 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.2/</guid>
+      <description>Third stable release of spaghetti (1.2).</description>
+    </item>
+    
+    <item>
+      <title>foss4g</title>
+      <link>https://pysal.org/news/foss4g/</link>
+      <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/foss4g/</guid>
+      <description>A PySAL workshop will be held at FOSS4G in San Diego, on April 19, 2019.</description>
+    </item>
+    
+    <item>
+      <title>pysal 2.0.0</title>
+      <link>https://pysal.org/news/pysal_2.0.0/</link>
+      <pubDate>Thu, 31 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pysal_2.0.0/</guid>
+      <description>First stable release of PySAL 2.0 as a meta-package.</description>
+    </item>
+    
+    <item>
+      <title>splot 1.0.0</title>
+      <link>https://pysal.org/news/splot_1.0.0/</link>
+      <pubDate>Fri, 30 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/splot_1.0.0/</guid>
+      <description>First stable release of our new visualization package splot .</description>
+    </item>
+    
+    <item>
+      <title>narsc18</title>
+      <link>https://pysal.org/news/narsc18/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/narsc18/</guid>
+      <description>A PySAL Workshop was be held at 65th Annual North American Meetings of the Regional Science Association International, San Antonio, Texas.</description>
+    </item>
+    
+    <item>
+      <title>pointpats 2.0.0</title>
+      <link>https://pysal.org/news/pointpats_2.0.0/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pointpats_2.0.0/</guid>
+      <description>First stable release of pointpats (2.0.0) since PySAL refactoring together with the launch of the pointpats documentation website!</description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.1.1</title>
+      <link>https://pysal.org/news/spaghetti_1.1.1/</link>
+      <pubDate>Wed, 31 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.1.1/</guid>
+      <description>Second stable release of spaghetti (1.1.1.post3) since PySAL refactoring together with new website.</description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.0.1</title>
+      <link>https://pysal.org/news/mapclassify_2.0.1/</link>
+      <pubDate>Sun, 28 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.0.1/</guid>
+      <description>mapclassify 2.0.1 released with new mapclassify documentation website!</description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.0.1</title>
+      <link>https://pysal.org/news/libpysal_4.0.1/</link>
+      <pubDate>Sat, 27 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal_4.0.1/</guid>
+      <description>libpysal 4.0.1 released and we are also launching the libpysal documentation website.</description>
+    </item>
+    
+    <item>
+      <title>mgwr 2.0.1</title>
+      <link>https://pysal.org/news/mgwr_2.0.1/</link>
+      <pubDate>Fri, 28 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mgwr_2.0.1/</guid>
+      <description>mgwr 2.0.1 released and we are also launching the mgwr documentation website.</description>
+    </item>
+    
+    <item>
+      <title>giddy 2.0.0</title>
+      <link>https://pysal.org/news/giddy_2.0.0/</link>
+      <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.0.0/</guid>
+      <description>giddy 2.0.0 released.</description>
+    </item>
+    
+    <item>
+      <title>esda 2.0.0</title>
+      <link>https://pysal.org/news/esda_2.0.0/</link>
+      <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/esda_2.0.0/</guid>
+      <description>esda 2.0.0 released.</description>
+    </item>
+    
+    <item>
+      <title>spreg 1.0.4</title>
+      <link>https://pysal.org/news/spreg_1.0.4/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spreg_1.0.4/</guid>
+      <description>spreg 1.0.4 released.</description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.0.0</title>
+      <link>https://pysal.org/news/libpysal_4.0.0/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal_4.0.0/</guid>
+      <description>libpysal 4.0.0 released.</description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.0.0</title>
+      <link>https://pysal.org/news/mapclassify_2.0.0/</link>
+      <pubDate>Fri, 10 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.0.0/</guid>
+      <description>mapclassify 2.0.0 released.</description>
+    </item>
+    
+  </channel>
+</rss>
