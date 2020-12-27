@@ -172,8 +172,7 @@ and
 we can achieve that very easily by running <code>make html</code>:</p><pre><code>make html
 </code></pre><p>A <code>\_build</code> folder will be created where all the created
 html files live. You can double click to open the html files in a
-default browser to check the content and layout.</p><h4 id=building-versioning-and-hosting-the-docs-with-readthedocshttpsreadthedocsorg>Building, versioning, and hosting the docs with <a href=https://readthedocs.org/>readthedocs</a></h4><p>We recommend hosting the online docs with
-<a href=https://readthedocs.org/>readthedocs</a> since it is free and able to
+default browser to check the content and layout.</p><h4 id=hosting>Hosting</h4><p>There are two options for publishing the documentation:</p><ul><li>readthedocs</li><li>github pages</li></ul><h5 id=building-versioning-and-hosting-the-docs-with-readthedocshttpsreadthedocsorg>Building, versioning, and hosting the docs with <a href=https://readthedocs.org/>readthedocs</a></h5><p><a href=https://readthedocs.org/>readthedocs</a> is free and able to
 host and build multiple versions.</p><p>After signing in with github to <a href=https://readthedocs.org/>readthedocs</a>,
 you can click <em>Import a Project</em> to import the submodule and start to
 build the online docs. Up to now, it is possible that the docs building
@@ -189,7 +188,7 @@ the package when building the docs. A successful example of
 configuration is given with the help of a
 <a href=https://github.com/pysal/submodule_template/blob/master/readthedocs.yml>readthedocs.yml</a>
 and proper configuration of <a href=https://github.com/pysal/submodule_template/blob/master/setup.py#L22>tests and docs dependencies for
-setup.py</a>.</li></ul><h4 id=publishing-the-docs-with-github-pagehttpspagesgithubcom>Publishing the docs with <a href=https://pages.github.com/>Github Page</a></h4><p>Publishing the documentation website wih <a href=https://pages.github.com/>Github Page</a> can avoid the
+setup.py</a>.</li></ul><h5 id=publishing-the-docs-with-github-pagehttpspagesgithubcom>Publishing the docs with <a href=https://pages.github.com/>Github Page</a></h5><p>Publishing the documentation website wih <a href=https://pages.github.com/>Github Page</a> can avoid the
 the additional efforts of configuring and debugging <a href=https://readthedocs.org/>readthedocs</a>
 as the locally built webpages will be published. Follow the procedure below to set up:</p><ol><li>Assuming you already have a sphinx project for your submodule following the instructions above, and
 assuming the name of the folder for this project is <code>doc</code>, what you need to do is
