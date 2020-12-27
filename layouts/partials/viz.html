@@ -1,0 +1,99 @@
+{{ "<!-- banner -->" | safeHTML }}
+
+<!DOCTYPE html>
+<head>
+  <style>
+
+
+.flipcard {
+perspective: 1000px;
+margin-bottom: 2.5rem;
+margin-left: 2rem;
+}
+.flipcard .flipcard-wrap {
+position: relative;
+width: 90%;
+height: 100%;
+text-align: center;
+transition: transform 0.6s;
+transform-style: preserve-3d;
+}
+.flipcard .card-front, 
+.flipcard .card-back {
+width: 112%;
+height: 100%;
+position: relative;
+backface-visibility: hidden; 
+transition: all .3s;
+transform: rotateX(0deg)
+}
+.flipcard .card-front {
+z-index: 2;
+}
+.flipcard .card-front::after {
+content: "";
+display: block;
+width: 0;
+position: absolute;
+bottom: -1px;
+right: -1px;
+border-width: 16px 16px 0 0;
+border-style: solid;
+border-color: #999 #fff;
+border-radius: .25rem 0 0 0;
+}
+.flipcard .card-back {
+position: absolute;
+top: 0;
+text-align: left;
+z-index: 1;
+transform: rotateY(180deg);
+overflow-y: auto;
+}
+/* the flippy magic */ 
+.flipcard:hover .flipcard-wrap {
+transform: rotateY(-180deg);
+}
+
+  </style>
+</head>
+
+<br>
+<div class="header" style="text-align: center;">
+  <h1> PySAL Viz Module </h1>
+</div>   
+<br> 
+
+
+<div class="container">
+  <div class="row">
+    {{ range (where .Site.Pages "Type" "viz") }} 
+      <div class="col-md-4 col-sm-3 col-lg-4 col-lg-4 d-flex align-items-stretch">
+          <div class="flipcard">
+              <div class="flipcard-wrap">
+                  <div class="card card-front">
+                      <img src={{.Params.Image}} alt="" class="card-img-top img-fluid">
+                      <div class="card-body">
+                      </div>
+                      <div class="card-footer">
+                          <h3 style="color: #00acc1">{{.Title}} </h3>
+                      </div>
+                  </div>
+                  <div class="card card-back">
+                      <div class="card-body">
+                          <p> {{.Params.Description}} </p>
+                      </div>
+                          <div class="card-footer">
+                              <button class="btn btn-success" style="background-color:rgb(32, 161, 208);margin:auto;display:block">
+                                 <a href="{{.Params.Link}}" style="color:rgb(255, 255, 255)">Visit the Page</a> 
+                             </button>                         
+                          </div> 
+                  </div>
+              </div> 
+          </div>
+        </div>
+    {{end}}       
+  </div>
+</div>
+
+
