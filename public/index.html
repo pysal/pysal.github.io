@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>PySAL</title>
 
-  <meta name="generator" content="Hugo 0.74.3" />
+  <meta name="generator" content="Hugo 0.79.1" />
 
   <!-- mobile responsive meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -27,7 +27,7 @@
   
   <style>
   :root{
-    --primary-color:#2f638e;
+    --primary-color:#00A8CC;
     --body-color:#ffffff;
     --text-color:#636363;
     --text-color-dark:#242738;
@@ -62,7 +62,7 @@
   <body>
     
     <!-- header -->
-    <header class="banner overlay bg-cover" data-background="https://pysal.org/pysal_logo.svg">
+    <header class="banner overlay bg-cover" data-background="https://pysal.org">
       <nav class="navbar navbar-expand-md navbar-dark">
   <div class="container">
     <a class="navbar-brand px-2" href="/">
@@ -110,6 +110,8 @@
             
             <a class="dropdown-item" href="/team">Team</a>
             
+            <a class="dropdown-item" href="/community">Community Guidelines</a>
+            
           </div>
         </li>
         
@@ -138,60 +140,91 @@
   </div>
 </nav>
       <!-- banner -->
-<div class="container section">
-	<div class="row">
-		<div class="col-lg-8 text-center mx-auto">
-			<h1 class="text-white mb-3">PySAL</h1>
-			<h3 style="color:charcoal" class="text-gray mb-3">The Python Spatial Analysis Library</h3>
-			<h4 class="text-white">open-source, cross-platform</h4>
-			<h4 class="text-white mb-0"><code>geographic data science</code></h4>
-			
-		</div>
-	</div>
-</div>
+
+<!DOCTYPE html>
+<head>
+  <title>Bootstrap 4 Image Slider</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner img {
+      width: 65% !important;
+      height: 100%;
+  }
+    
+  .carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  </style>
+</head>
+
+
 <!-- /banner -->
+
+
     </header>
     <!-- /header -->
     
     
+<head>
+  <style>
+    .header{
+  padding: 30px;
+  text-align: center;
+  color: rgb(1, 1, 1);
+  background-color: #00A8CC;
+  font-size: 50px;
+  font-family: 'Inria Sans';
+}
+  </style>
+</head>
 
-<div class="row">
-<div class="col-12 mt-3">
-  <img src="pysal_logo.svg" height="200px" style="display:inline-block; text-align: center;  display: block;margin-left: auto; margin-right: auto; width: 50%;"></img>
-</div>
-</div>
 
-
-
-<!-- call to action -->
-<section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="px-3 mt-5  text-center">
-          <h3></h3>
-          <h2 class="text-white"></h2>
-
-        <p style="font-size:x-large">PySAL is a family of Python packages for geographic data science</p>
-        <div class="col-md-12">
-          <div class='mt-0'><p style=font-size:large>supporting high level applications for spatial analysis, such as</p></div>
-        <ul class="text-left" style="display:inline-block;vertical-align:middle;" style="text-align: left;">
-          <li>-  detection of spatial clusters, hot-spots, and outliers</li>
-          <li>- construction of graphs from spatial data</li>
-          <li>- spatial regression and statistical modeling on geographically embedded networks</li>
-          <li>- spatial econometrics</li>
-          <li>- exploratory spatio-temporal data analysis</li>
-        </ul>
+  <div id="demo" class="carousel slide" data-ride="carousel">
+  
+    
+    <ol class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+      <li data-target="#demo" data-slide-to="3"></li>
+    </ol> 
+    
+    
+    <div class="carousel-inner" align="center">
+      <div class="carousel-item active">
+      <img src="pysal1.png">
       </div>
-        
+      <div class="carousel-item">
+        <img src="dani.png">
         </div>
+      <div class="carousel-item">
+        <a href="http://pysal.org/notebooks/explore/giddy/directional.html"></a> 
+        <img src="LISA.png">
+      </div>
+      <div class="carousel-item">
+        <img src="hisp.png">
       </div>
     </div>
-  </div>
-</section>
-<!-- /call to action -->
+    
+    
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+    </div>
 
-
+    
 
   <!-- topics -->
     <div class="container">
@@ -201,32 +234,32 @@
         </div>
         <!-- topic-item -->
         
-        <div class="col-lg-3 col-sm-6 mb-3">
-          <a href="https://pysal.org/packages/explore/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <div class="col-lg-3 col-sm-6 mb-3 d-flex align-items-stretch">
+          <a href="https://pysal.org/lib/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+            <i class="ti-map icon text-primary d-block mb-4"></i>
+            <h3 class="mb-3 mt-0">Lib</h3>
+            <p class="mb-0">Core spatial data structures, file IO. Construction and interactive editing of spatial weights matrices &amp; graphs. Alpha shapes, spatial indices, and spatial-topological relationships</p>
+          </a>
+        </div>
+        
+        <div class="col-lg-3 col-sm-6 mb-3 d-flex align-items-stretch">
+          <a href="https://pysal.org/explore/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-map icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Explore</h3>
             <p class="mb-0">Modules to conduct exploratory analysis of spatial and spatio-temporal data</p>
           </a>
         </div>
         
-        <div class="col-lg-3 col-sm-6 mb-3">
-          <a href="https://pysal.org/packages/lib/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
-            <i class="ti-vector icon text-primary d-block mb-4"></i>
-            <h3 class="mb-3 mt-0">Lib</h3>
-            <p class="mb-0">Core spatial data structures, file IO. Construction and interactive editing of spatial weights matrices &amp; graphs. Alpha shapes, spatial indices, and spatial-topological relationships</p>
-          </a>
-        </div>
-        
-        <div class="col-lg-3 col-sm-6 mb-3">
-          <a href="https://pysal.org/packages/model/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <div class="col-lg-3 col-sm-6 mb-3 d-flex align-items-stretch">
+          <a href="https://pysal.org/model/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-panel icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Model</h3>
             <p class="mb-0">Estimation of spatial relationships in data with a variety of linear, generalized-linear, generalized-additive, and nonlinear models</p>
           </a>
         </div>
         
-        <div class="col-lg-3 col-sm-6 mb-3">
-          <a href="https://pysal.org/packages/viz/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
+        <div class="col-lg-3 col-sm-6 mb-3 d-flex align-items-stretch">
+          <a href="https://pysal.org/viz/" class="px-4 py-5 bg-white shadow text-center d-block match-height">
             <i class="ti-gallery icon text-primary d-block mb-4"></i>
             <h3 class="mb-3 mt-0">Viz</h3>
             <p class="mb-0">Visualize patterns in spatial data to detect clusters, outliers, and hot-spots</p>
@@ -237,6 +270,57 @@
       </div>
     </div>
   <!-- /topics -->
+
+
+<br>
+<br>
+<div class="header">
+<h3>Funding & Partners</h3>
+</div>
+
+<div class="container" style="padding-top:10px; text-align: center;z-index: 0">
+  <div class="row equal-height">
+  <div class="col-sm-4">
+  <a href="https://www.nsf.gov/">
+      <img alt="nsf" class="img-responsive center-block" src="/nsf_logo_square.jpg" width="150px">
+  </a>
+  </div>
+  <div class="col-sm-4">
+  <a href="http://www.ucr.edu/">
+      <img class="img-responsive center-block" alt="ucr" src="/UCR_logo_square.png" width="150px">
+  </a>
+  </div>
+  
+  <div class="col-sm-12">
+    <a href="https://numfocus.org/">
+        <img alt="USDOT" class="img-responsive center-block" src="/NumFocus_LRG.png" width="150px">
+    </a>
+    </div>
+  </div>
+  <div class="row equal-height">
+  <div class="col-sm-3">
+  <a href="http://nitc.trec.pdx.edu/">
+      <img alt="nitc" class="img-responsive center-block" src="/nitc_logo_square.jpg" width="180px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="http://www.nationalacademies.org">
+      <img alt="NASEM" class="img-responsive center-block" src="/NASEM_logo_square.jpeg" width="210px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="https://www.rideuta.com/">
+      <img alt="uta" class="img-responsive center-block" src="/uta-logo_square.jpg" width="180px">
+  </a>
+  </div>
+  <div class="col-sm-3">
+  <a href="https://www.transportation.gov/">
+      <img alt="USDOT" class="img-responsive center-block" src="/USDOT_logo_square.jpg" width="150px">
+  </a>
+  </div>
+  </div> 
+
+
 
 
 

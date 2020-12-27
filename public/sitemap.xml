@@ -3,17 +3,86 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://pysal.org/news/new_splot_joss_paper/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <loc>https://pysal.org/lib/</loc>
   </url>
   
   <url>
     <loc>https://pysal.org/news/</loc>
-    <lastmod>2020-03-28T00:00:00+00:00</lastmod>
+    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://pysal.org/</loc>
+    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/tobler_0.5.0/</loc>
+    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/scipyindia20/</loc>
+    <lastmod>2020-12-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/mapclassify_2.4.0/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/narsc2020/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/spatialapi20/</loc>
+    <lastmod>2020-11-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/sdsc_award_arribas-bel/</loc>
+    <lastmod>2020-10-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/spaghetti_1.5.2/</loc>
+    <lastmod>2020-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/pysal_2.3.0/</loc>
+    <lastmod>2020-07-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/scipy_2020/</loc>
+    <lastmod>2020-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/libpysal-4.3.0/</loc>
+    <lastmod>2020-06-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/mapclassify_2.3.0/</loc>
+    <lastmod>2020-06-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/giddy_2.3.3/</loc>
+    <lastmod>2020-06-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/spaghetti_1.5.0/</loc>
+    <lastmod>2020-05-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/news/new_splot_joss_paper/</loc>
     <lastmod>2020-03-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -208,11 +277,36 @@
   </url>
   
   <url>
+    <loc>https://pysal.org/packages/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://pysal.org/about/</loc>
   </url>
   
   <url>
+    <loc>https://pysal.org/team/farmer/</loc>
+  </url>
+  
+  <url>
     <loc>https://pysal.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/schmidt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/community/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/arribas/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/folch/</loc>
   </url>
   
   <url>
@@ -228,7 +322,23 @@
   </url>
   
   <url>
-    <loc>https://pysal.org/packages/explore/</loc>
+    <loc>https://pysal.org/explore/esda/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/giddy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/shao/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/inequality/</loc>
   </url>
   
   <url>
@@ -236,23 +346,71 @@
   </url>
   
   <url>
-    <loc>https://pysal.org/packages/lib/</loc>
+    <loc>https://pysal.org/team/gaboardi/</loc>
   </url>
   
   <url>
-    <loc>https://pysal.org/packages/model/</loc>
+    <loc>https://pysal.org/team/laura/</loc>
   </url>
   
   <url>
-    <loc>https://pysal.org/packages/</loc>
+    <loc>https://pysal.org/team/sauer/</loc>
   </url>
   
   <url>
-    <loc>https://pysal.org/team/rey/</loc>
+    <loc>https://pysal.org/viz/legendgram/</loc>
   </url>
   
   <url>
-    <loc>https://pysal.org/tags/</loc>
+    <loc>https://pysal.org/team/wolf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/lib/libpysal/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/lanselin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/viz/mapclassify/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/fleischmann/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/kolak/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/conway/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/mgwr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/hwang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/amaral/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/stephens/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/pointpats/</loc>
   </url>
   
   <url>
@@ -260,11 +418,83 @@
   </url>
   
   <url>
+    <loc>https://pysal.org/team/wei/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/cortes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/segregation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/rey/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/sizhe/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/explore/spaghetti/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/spglm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/spint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/viz/splot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/spreg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/spvcm/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/lumnitz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/oshan/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/model/tobler/</loc>
+  </url>
+  
+  <url>
     <loc>https://pysal.org/docs/users/</loc>
   </url>
   
   <url>
-    <loc>https://pysal.org/packages/viz/</loc>
+    <loc>https://pysal.org/viz/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/kang/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/feng/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pysal.org/team/ziqi/</loc>
   </url>
   
 </urlset>

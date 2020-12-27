@@ -7,10 +7,123 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© PySAL Developers</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pysal.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tobler 0.5.0 released</title>
+      <link>https://pysal.org/news/tobler_0.5.0/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/tobler_0.5.0/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://pysal.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SciPy India 2020</title>
+      <link>https://pysal.org/news/scipyindia20/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/scipyindia20/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>mapclassify 2.4.0 released</title>
+      <link>https://pysal.org/news/mapclassify_2.4.0/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.4.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySAL NARSC20 Tutorial</title>
+      <link>https://pysal.org/news/narsc2020/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/narsc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpatialAPI20 Tutorial</title>
+      <link>https://pysal.org/news/spatialapi20/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spatialapi20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dani Arribas-Bel, SDSC Award</title>
+      <link>https://pysal.org/news/sdsc_award_arribas-bel/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/sdsc_award_arribas-bel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.5.2</title>
+      <link>https://pysal.org/news/spaghetti_1.5.2/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.5.2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySAL 2.3.0</title>
+      <link>https://pysal.org/news/pysal_2.3.0/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pysal_2.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SciPy 2020</title>
+      <link>https://pysal.org/news/scipy_2020/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/scipy_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.3.0</title>
+      <link>https://pysal.org/news/libpysal-4.3.0/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal-4.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.3.0</title>
+      <link>https://pysal.org/news/mapclassify_2.3.0/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>giddy 2.3.3</title>
+      <link>https://pysal.org/news/giddy_2.3.3/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.3.3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.5.0</title>
+      <link>https://pysal.org/news/spaghetti_1.5.0/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.5.0/</guid>
+      <description>spaghetti 1.5.0 released on PyPI and conda-forge.</description>
+    </item>
     
     <item>
       <title>New splot JOSS paper.</title>
@@ -18,7 +131,7 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/new_splot_joss_paper/</guid>
-      <description>A new JOSS paper has been published that highlights splot.</description>
+      <description></description>
     </item>
     
     <item>
@@ -27,7 +140,7 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/spaghetti_1.4.2.post2/</guid>
-      <description>spaghetti 1.4.2.post2 released on PyPI and conda-forge. This release focuses on improved testing and functionality, specifically component and shortest path feature extraction. See the v1.4.2, v1.4.2.post1, and v1.4.2.post2 release notes for more details.</description>
+      <description></description>
     </item>
     
     <item>
@@ -45,7 +158,7 @@
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.2.1/</guid>
-      <description>esda 2.2.1 released on PyPI. This release includes bug fixes related to the Pandas 1.0 release. Release Notes are here.</description>
+      <description></description>
     </item>
     
     <item>
@@ -99,7 +212,7 @@
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/geocomputation_2019/</guid>
-      <description>Spatial Data Science with PySAL workshop at Gecomputation 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -108,7 +221,7 @@
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/gds-book/</guid>
-      <description>A new book is in the works! Geographic Data Science with PySAL and the PyData Stack.</description>
+      <description></description>
     </item>
     
     <item>
@@ -144,7 +257,7 @@
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/scipy_2019/</guid>
-      <description>A PySAL workshop will be held at SciPy 2019 in Austin, Texas, on July 8, 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -162,7 +275,7 @@
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.1.0/</guid>
-      <description>esda 2.1.0 released. Changelog.</description>
+      <description></description>
     </item>
     
     <item>
@@ -198,7 +311,7 @@
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.2.0/</guid>
-      <description>giddy 2.2.0 released on PyPI and conda-forge. This is the first version that officially supports Python 3.6 and 3.7 exclusively.</description>
+      <description></description>
     </item>
     
     <item>
@@ -216,7 +329,7 @@
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.1.0/</guid>
-      <description>Release of giddy 2.1.0 featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.</description>
+      <description></description>
     </item>
     
     <item>
@@ -243,7 +356,7 @@
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/foss4g/</guid>
-      <description>A PySAL workshop will be held at FOSS4G in San Diego, on April 19, 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -324,7 +437,7 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.0.0/</guid>
-      <description>giddy 2.0.0 released.</description>
+      <description></description>
     </item>
     
     <item>
@@ -333,7 +446,7 @@
       <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.0.0/</guid>
-      <description>esda 2.0.0 released.</description>
+      <description></description>
     </item>
     
     <item>
@@ -364,11 +477,254 @@
     </item>
     
     <item>
-      <title>Elijah Knaap</title>
+      <title>Carson Farmer</title>
+      <link>https://pysal.org/team/farmer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/farmer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Charles Schmidt</title>
+      <link>https://pysal.org/team/schmidt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/schmidt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dani Arribas-Bel</title>
+      <link>https://pysal.org/team/arribas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/arribas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David C. Folch</title>
+      <link>https://pysal.org/team/folch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/folch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Eli Knaap</title>
       <link>https://pysal.org/team/knaap/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/team/knaap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esda</title>
+      <link>https://pysal.org/explore/esda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/esda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>giddy</title>
+      <link>https://pysal.org/explore/giddy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/giddy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hu Shao</title>
+      <link>https://pysal.org/team/shao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/shao/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inequality</title>
+      <link>https://pysal.org/explore/inequality/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/inequality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>James Gaboardi</title>
+      <link>https://pysal.org/team/gaboardi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/gaboardi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jay Laura</title>
+      <link>https://pysal.org/team/laura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/laura/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jeff Sauer</title>
+      <link>https://pysal.org/team/sauer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/sauer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>legendgram</title>
+      <link>https://pysal.org/viz/legendgram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/viz/legendgram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Levi Wolf</title>
+      <link>https://pysal.org/team/wolf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/wolf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libpysal</title>
+      <link>https://pysal.org/lib/libpysal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/lib/libpysal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Luc Anselin</title>
+      <link>https://pysal.org/team/lanselin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/lanselin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapclassify</title>
+      <link>https://pysal.org/viz/mapclassify/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/viz/mapclassify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Martin Fleischmann</title>
+      <link>https://pysal.org/team/fleischmann/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/fleischmann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marynia Kolak</title>
+      <link>https://pysal.org/team/kolak/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/kolak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matthew Conway</title>
+      <link>https://pysal.org/team/conway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/conway/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mgwr</title>
+      <link>https://pysal.org/model/mgwr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/mgwr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Myunghwa Hwang</title>
+      <link>https://pysal.org/team/hwang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/hwang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pedro Amaral</title>
+      <link>https://pysal.org/team/amaral/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/amaral/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Philip Stephens</title>
+      <link>https://pysal.org/team/stephens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/stephens/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>pointpats</title>
+      <link>https://pysal.org/explore/pointpats/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/pointpats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ran Wei</title>
+      <link>https://pysal.org/team/wei/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/wei/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Renan Cortes</title>
+      <link>https://pysal.org/team/cortes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/cortes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>segregation</title>
+      <link>https://pysal.org/explore/segregation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/segregation/</guid>
       <description></description>
     </item>
     
@@ -378,6 +734,123 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/team/rey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sizhe Wang</title>
+      <link>https://pysal.org/team/sizhe/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/sizhe/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti</title>
+      <link>https://pysal.org/explore/spaghetti/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/explore/spaghetti/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spglm</title>
+      <link>https://pysal.org/model/spglm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/spglm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spint</title>
+      <link>https://pysal.org/model/spint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/spint/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>splot</title>
+      <link>https://pysal.org/viz/splot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/viz/splot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spreg</title>
+      <link>https://pysal.org/model/spreg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/spreg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spvcm</title>
+      <link>https://pysal.org/model/spvcm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/spvcm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Stefanie Lumnitz</title>
+      <link>https://pysal.org/team/lumnitz/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/lumnitz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taylor Oshan</title>
+      <link>https://pysal.org/team/oshan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/oshan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tobler</title>
+      <link>https://pysal.org/model/tobler/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/model/tobler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wei Kang</title>
+      <link>https://pysal.org/team/kang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/kang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xin Feng</title>
+      <link>https://pysal.org/team/feng/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/feng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ziqi Li</title>
+      <link>https://pysal.org/team/ziqi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/team/ziqi/</guid>
       <description></description>
     </item>
     

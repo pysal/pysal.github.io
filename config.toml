@@ -13,8 +13,6 @@ title = "PySAL"
 unsafe= true
 
 
-publishDir = "docs"
-
 ################################# navigation ################################
 [[menu.main]]
 name = "Packages"

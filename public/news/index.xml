@@ -1,16 +1,129 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>News on PySAL</title>
+    <title>PySAL</title>
     <link>https://pysal.org/news/</link>
-    <description>Recent content in News on PySAL</description>
+    <description>Recent content on PySAL</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© PySAL Developers</copyright>
-    <lastBuildDate>Sat, 28 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://pysal.org/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>tobler 0.5.0 released</title>
+      <link>https://pysal.org/news/tobler_0.5.0/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/tobler_0.5.0/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="https://pysal.org/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SciPy India 2020</title>
+      <link>https://pysal.org/news/scipyindia20/</link>
+      <pubDate>Sat, 19 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/scipyindia20/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>mapclassify 2.4.0 released</title>
+      <link>https://pysal.org/news/mapclassify_2.4.0/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.4.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySAL NARSC20 Tutorial</title>
+      <link>https://pysal.org/news/narsc2020/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/narsc2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpatialAPI20 Tutorial</title>
+      <link>https://pysal.org/news/spatialapi20/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spatialapi20/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dani Arribas-Bel, SDSC Award</title>
+      <link>https://pysal.org/news/sdsc_award_arribas-bel/</link>
+      <pubDate>Fri, 23 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/sdsc_award_arribas-bel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.5.2</title>
+      <link>https://pysal.org/news/spaghetti_1.5.2/</link>
+      <pubDate>Thu, 22 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.5.2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PySAL 2.3.0</title>
+      <link>https://pysal.org/news/pysal_2.3.0/</link>
+      <pubDate>Thu, 30 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/pysal_2.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SciPy 2020</title>
+      <link>https://pysal.org/news/scipy_2020/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/scipy_2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>libpysal 4.3.0</title>
+      <link>https://pysal.org/news/libpysal-4.3.0/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/libpysal-4.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mapclassify 2.3.0</title>
+      <link>https://pysal.org/news/mapclassify_2.3.0/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/mapclassify_2.3.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>giddy 2.3.3</title>
+      <link>https://pysal.org/news/giddy_2.3.3/</link>
+      <pubDate>Wed, 10 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/giddy_2.3.3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spaghetti 1.5.0</title>
+      <link>https://pysal.org/news/spaghetti_1.5.0/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://pysal.org/news/spaghetti_1.5.0/</guid>
+      <description>spaghetti 1.5.0 released on PyPI and conda-forge.</description>
+    </item>
     
     <item>
       <title>New splot JOSS paper.</title>
@@ -18,7 +131,7 @@
       <pubDate>Sat, 28 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/new_splot_joss_paper/</guid>
-      <description>A new JOSS paper has been published that highlights splot.</description>
+      <description></description>
     </item>
     
     <item>
@@ -27,7 +140,7 @@
       <pubDate>Mon, 24 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/spaghetti_1.4.2.post2/</guid>
-      <description>spaghetti 1.4.2.post2 released on PyPI and conda-forge. This release focuses on improved testing and functionality, specifically component and shortest path feature extraction. See the v1.4.2, v1.4.2.post1, and v1.4.2.post2 release notes for more details.</description>
+      <description></description>
     </item>
     
     <item>
@@ -45,7 +158,7 @@
       <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.2.1/</guid>
-      <description>esda 2.2.1 released on PyPI. This release includes bug fixes related to the Pandas 1.0 release. Release Notes are here.</description>
+      <description></description>
     </item>
     
     <item>
@@ -99,7 +212,7 @@
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/geocomputation_2019/</guid>
-      <description>Spatial Data Science with PySAL workshop at Gecomputation 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -108,7 +221,7 @@
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/gds-book/</guid>
-      <description>A new book is in the works! Geographic Data Science with PySAL and the PyData Stack.</description>
+      <description></description>
     </item>
     
     <item>
@@ -144,7 +257,7 @@
       <pubDate>Mon, 08 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/scipy_2019/</guid>
-      <description>A PySAL workshop will be held at SciPy 2019 in Austin, Texas, on July 8, 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -162,7 +275,7 @@
       <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.1.0/</guid>
-      <description>esda 2.1.0 released. Changelog.</description>
+      <description></description>
     </item>
     
     <item>
@@ -198,7 +311,7 @@
       <pubDate>Thu, 20 Jun 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.2.0/</guid>
-      <description>giddy 2.2.0 released on PyPI and conda-forge. This is the first version that officially supports Python 3.6 and 3.7 exclusively.</description>
+      <description></description>
     </item>
     
     <item>
@@ -216,7 +329,7 @@
       <pubDate>Mon, 08 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.1.0/</guid>
-      <description>Release of giddy 2.1.0 featuring the addition of two rank-based Markov classes for spatial distribution dynamics research.</description>
+      <description></description>
     </item>
     
     <item>
@@ -243,7 +356,7 @@
       <pubDate>Fri, 15 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/foss4g/</guid>
-      <description>A PySAL workshop will be held at FOSS4G in San Diego, on April 19, 2019.</description>
+      <description></description>
     </item>
     
     <item>
@@ -324,7 +437,7 @@
       <pubDate>Sun, 26 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/giddy_2.0.0/</guid>
-      <description>giddy 2.0.0 released.</description>
+      <description></description>
     </item>
     
     <item>
@@ -333,7 +446,7 @@
       <pubDate>Sat, 25 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://pysal.org/news/esda_2.0.0/</guid>
-      <description>esda 2.0.0 released.</description>
+      <description></description>
     </item>
     
     <item>
