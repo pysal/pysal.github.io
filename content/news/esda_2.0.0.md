@@ -8,4 +8,3 @@ description: "esda 2.0.0 released"
 type: "news"
 link: "pypi.org/project/esda/2.0.0"
 ---
-
