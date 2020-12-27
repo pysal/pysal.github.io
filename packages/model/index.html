@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+  <meta charset="utf-8">
+  <title>Model</title>
+
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://pysal.org/plugins/bootstrap/bootstrap.min.css">
+
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="https://pysal.org/plugins/themify-icons/themify-icons.css">
+
+  <!-- highlight -->
+  <link rel="stylesheet" href="https://pysal.org/plugins/highlight/hybrid.css">
+
+  <!--Favicon-->
+  <link rel="icon" href="https://pysal.org/images/favicon.png" type="image/x-icon">
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Inria%20Sans:300,400,700&display=swap" rel="stylesheet">
+  
+  <style>
+  :root{
+    --primary-color:#2f638e;
+    --body-color:#ffffff;
+    --text-color:#636363;
+    --text-color-dark:#242738;
+    --white-color:#ffffff;
+    --light-color:#f8f9fa;
+    --font-family:Inria Sans;
+  }
+  </style>
+
+<!-- Main Stylesheet -->
+
+<link rel="stylesheet" href="https://pysal.org/css/style.min.css" media="screen">
+
+<!-- jquiry -->
+<script src="https://pysal.org/plugins/jquery/jquery-1.12.4.js"></script>
+
+<!-- jquary ui -->
+<script src="https://pysal.org/plugins/jquery/jquery-ui.js"></script>
+
+<!-- Bootstrap JS -->
+<script src="https://pysal.org/plugins/bootstrap/bootstrap.min.js"></script>
+
+<!-- match-height JS -->
+<script src="https://pysal.org/plugins/match-height/jquery.matchHeight-min.js"></script>
+
+<!-- highlight -->
+<script src="https://pysal.org/plugins/highlight/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+</head>
+  
+  <body>
+    
+    <!-- header -->
+    <header class="shadow-bottom sticky-top bg-white">
+      <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
+    <a class="navbar-brand px-2" href="/">
+      
+      
+      
+      
+      <img class="img-fluid" src="https://pysal.org/pysal_nav_logo.svg" alt="PySAL">
+      
+      
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation"
+      aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="navigation">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/">Home</a>
+        </li>
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/packages">Packages</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="/news">News</a>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            About
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="/about">About Us</a>
+            
+            <a class="dropdown-item" href="/team">Team</a>
+            
+          </div>
+        </li>
+        
+        
+        
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Documentation
+          </a>
+          <div class="dropdown-menu">
+            
+            <a class="dropdown-item" href="/docs/install">Installation</a>
+            
+            <a class="dropdown-item" href="/docs/users">User Docs</a>
+            
+            <a class="dropdown-item" href="/docs/devs">Developer Docs</a>
+            
+          </div>
+        </li>
+        
+        
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+    </header>
+    <!-- /header -->
+    
+    
+
+<!-- details page -->
+<section class="single section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="bg-white pl-lg-4 py-4 pr-4 mb-5 mb-lg-0 sticky-top top-100 overflow-hidden">
+          <ul class="list-styled">
+            
+            <a class="d-block h4 back-btn" href="/"></a>
+            
+              
+            
+              
+            
+              
+            
+               
+              
+
+
+
+
+
+
+
+
+<li data-nav-id="https://pysal.org/packages/" title="Packages" class="sidelist
+  ">
+  <a href="https://pysal.org/packages/">
+    Packages
+  </a>
+  
+  
+    <ul>
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://pysal.org/packages/explore/" title="Explore" class="sidelist
+  ">
+  <a href="https://pysal.org/packages/explore/">
+    Explore
+  </a>
+  
+  
+</li>
+
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://pysal.org/packages/lib/" title="Lib" class="sidelist
+  ">
+  <a href="https://pysal.org/packages/lib/">
+    Lib
+  </a>
+  
+  
+</li>
+
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://pysal.org/packages/model/" title="Model" class="sidelist
+  active">
+  <a href="https://pysal.org/packages/model/">
+    Model
+  </a>
+  
+  
+</li>
+
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+<li data-nav-id="https://pysal.org/packages/viz/" title="Viz" class="sidelist
+  ">
+  <a href="https://pysal.org/packages/viz/">
+    Viz
+  </a>
+  
+  
+</li>
+
+
+        
+      
+    </ul>
+  
+</li>
+
+
+              
+            
+              
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-9">
+        <div class="p-lg-5 p-4 bg-white">
+          <h2 class="mb-5">Model</h2>
+          
+          <div class="content"><p>In contrast to <code>explore</code>, the <code>model</code> layer focuses on confirmatory analysis. In particular, its packages focus on the estimation of spatial relationships in data with a variety of linear, generalized-linear, generalized-additive, nonlinear, multi-level, and local regression models.</p>
+<h3 id="mgwrhttpsmgwrreadthedocsioenlatest"><a href="https://mgwr.readthedocs.io/en/latest/">mgwr</a></h3>
+<p><code>mgwr</code> provides scalable algorithms for estimation, inference, and prediction using single- and multi-scale geographically-weighted regression models in a variety of generalized linear model frameworks, as well model diagnostics tools</p>
+<h3 id="spglmhttpsgithubcompysalspglm"><a href="https://github.com/pysal/spglm">spglm</a></h3>
+<p><code>spglm</code> implements a set of generalized linear regression techniques, including Gaussian, Poisson, and Logistic regression, that allow for sparse matrix operations in their computation and estimation to lower memory overhead and decreased computation time.</p>
+<h3 id="spinthttpsgithubcompysalspint"><a href="https://github.com/pysal/spint">spint</a></h3>
+<p><code>spint</code> provides a collection of tools to study spatial interaction processes and analyze spatial interaction data. It includes functionality to facilitate the calibration and interpretation of a family of gravity-type spatial interaction models, including those with <em>production</em> constraints, <em>attraction</em> constraints, or a combination of the two.</p>
+<h3 id="spreghttpsspregreadthedocsio"><a href="https://spreg.readthedocs.io/">spreg</a></h3>
+<p><code>spreg</code> supports the estimation of classic and spatial econometric models. Currently it contains methods for estimating standard Ordinary Least Squares (OLS), Two Stage Least Squares (2SLS) and Seemingly Unrelated Regressions (SUR), in addition to various tests of homokestadicity, normality, spatial randomness, and different types of spatial autocorrelation. It also includes a suite of tests for spatial dependence in models with binary dependent variables.</p>
+<h3 id="spvcmhttpsgithubcompysalspvcm"><a href="https://github.com/pysal/spvcm">spvcm</a></h3>
+<p><code>spvcm</code> provides a general framework for estimating spatially-correlated variance components models. This class of models allows for spatial dependence in the variance components, so that nearby groups may affect one another. It also also provides a general-purpose framework for estimating models using Gibbs sampling in Python, accelerated by the <code>numba</code> package.</p>
+<h3 id="toblerhttppysalorgtobler"><a href="http://pysal.org/tobler/">tobler</a></h3>
+<p><code>tobler</code> provides functionality for for areal interpolation and dasymetric mapping. Its name is an homage to the legendary geographer Waldo Tobler a pioneer of dozens of spatial analytical methods. <code>tobler</code> includes functionality for interpolating data using area-weighted approaches, regression model-based approaches that leverage remotely-sensed raster data as auxiliary information, and hybrid approaches.</p>
+</div>
+          
+          <p class="post-meta border-bottom pb-3 mb-0 mt-3">Updated on 01 Jan 0001</p>
+          <nav class="pagination mt-3">
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            
+            
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            
+            <a class="nav nav-prev" href="https://pysal.org/packages/lib/"><i class="ti-arrow-left mr-2"></i> <span class="d-none d-md-block">Lib</span></a>
+            
+            
+            <a class="nav nav-next" href="https://pysal.org/packages/viz/"> <span class="d-none d-md-block">Viz</span><i class="ti-arrow-right ml-2"></i></a>
+            
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /details page -->
+
+
+
+
+
+    <!-- footer -->
+<footer class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 text-md-left text-center">
+       <p>© PySAL Developers</p>
+      </div>
+      <div class="col-md-4 text-md-right text-center">
+        <ul class="list-inline mb-3">
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://twitter.com/pysal_devs"><i class="ti-twitter-alt"></i></a></li>
+          
+          <li class="list-inline-item"><a class="text-color d-inline-block p-2" href="https://github.com/pysal"><i class="ti-github"></i></a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+<!-- Main Script -->
+
+<script src="https://pysal.org/js/script.min.js"></script>
+  </body>
+
+</html>
