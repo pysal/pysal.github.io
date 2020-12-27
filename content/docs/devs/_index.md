@@ -292,10 +292,16 @@ A `\_build` folder will be created where all the created
 html files live. You can double click to open the html files in a
 default browser to check the content and layout.
 
-#### Building, versioning, and hosting the docs with [readthedocs](https://readthedocs.org/)
+#### Hosting
 
-We recommend hosting the online docs with
-[readthedocs](https://readthedocs.org/) since it is free and able to
+There are two options for publishing the documentation:
+
+- readthedocs
+- github pages
+
+##### Building, versioning, and hosting the docs with [readthedocs](https://readthedocs.org/)
+
+[readthedocs](https://readthedocs.org/) is free and able to
 host and build multiple versions.
 
 After signing in with github to [readthedocs](https://readthedocs.org/),
@@ -320,7 +326,7 @@ will fail because of some configuration issues:
     and proper configuration of [tests and docs dependencies for
     setup.py](https://github.com/pysal/submodule_template/blob/master/setup.py#L22).
 
-#### Publishing the docs with [Github Page](https://pages.github.com/)
+##### Publishing the docs with [Github Page](https://pages.github.com/)
 
 Publishing the documentation website wih [Github Page](https://pages.github.com/) can avoid the 
 the additional efforts of configuring and debugging [readthedocs](https://readthedocs.org/)

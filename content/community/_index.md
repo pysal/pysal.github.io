@@ -2,7 +2,7 @@
 title: "Community Guidelines"
 ---
 
-PySAL has always been and will always be an open source project. As such, we welcome every contributor to the PySAL community. [We]() strive to create a collaborative environment where we can, together, build the best spatial analysis library possible, while having fun along the way.
+PySAL has always been and will always be an open source project. As such, we welcome every contributor to the PySAL community. [We](https://pysal.org/team/) strive to create a collaborative environment where we can, together, build the best spatial analysis library possible, while having fun along the way.
 
 To ensure that the PySAL community is the realization of these ideals, we expect all members of the community to abide by our [code of conduct](https://github.com/pysal/governance/blob/master/conduct/code_of_conduct.rst).
 

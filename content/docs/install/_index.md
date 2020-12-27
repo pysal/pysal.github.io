@@ -22,7 +22,7 @@ installed in a variety of ways.
 
 ## Installing individual packages
 
-Each individual package in the PySAL ecosystem can also installed individually
+Each individual package in the PySAL ecosystem can also be installed individually
 via pip or from source.  Take `giddy` as an example:
 
 ### Installing via pip
