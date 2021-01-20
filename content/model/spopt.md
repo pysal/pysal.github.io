@@ -1,0 +1,7 @@
+---
+title: "spopt"
+type : "model"
+image: "/spopt.png"
+description: "Spopt is an open-source Python library for solving optimization problems with spatial data. Originating from the region module in PySAL (Python Spatial Analysis Library), it is under active development for the inclusion of newly proposed models and methods for regionalization, facility location, and transportation-oriented solutions."
+link: "https://pysal.org/spopt/"
+---
