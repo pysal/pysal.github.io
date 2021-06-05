@@ -1,5 +1,5 @@
 ---
-title: spaghetti JOSS paper.
+title: spaghetti JOSS paper
 date: 2021-06-04
 description: A new JOSS paper has been published that highlights spaghetti.
 type: news
