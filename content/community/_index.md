@@ -7,9 +7,9 @@ PySAL has always been and will always be an open source project. As such, we wel
 To ensure that the PySAL community is the realization of these ideals, we expect all members of the community to abide by our [code of conduct](https://github.com/pysal/governance/blob/master/conduct/code_of_conduct.rst).
 
 ## Getting Involved
-There are many ways to contribute to PySAL. A great starting point is to join our [gitter channel](https://gitter.im/pysal/pysal) where much of the day-to-day discussion between developers as well as users takes place.
+There are many ways to contribute to PySAL. A great starting point is to join our [discord channel](https://discord.gg/BxFTEPFFZn) where much of the day-to-day discussion between developers as well as users takes place.
 
-If you are new to open source development and interested in programming for spatial data science, we are happy to offer mentoring opportunities. Let us know of your interest by joining the gitter channel and introducing yourself to the community.
+If you are new to open source development and interested in programming for spatial data science, we are happy to offer mentoring opportunities. Let us know of your interest by joining the discord channel and introducing yourself to the community.
 
 If you have questions about how to contribute code to PySAL, please see our [development guidelines](https://github.com/pysal/pysal/wiki).
 
