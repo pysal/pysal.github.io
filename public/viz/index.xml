@@ -2,37 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Viz on PySAL</title>
-    <link>https://pysal.org/viz/</link>
+    <link>http://localhost:1313/viz/</link>
     <description>Recent content in Viz on PySAL</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© PySAL Developers</copyright><atom:link href="https://pysal.org/viz/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© PySAL Developers</copyright>
+    <atom:link href="http://localhost:1313/viz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>legendgram</title>
-      <link>https://pysal.org/viz/legendgram/</link>
+      <link>http://localhost:1313/viz/legendgram/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/viz/legendgram/</guid>
+      <guid>http://localhost:1313/viz/legendgram/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>mapclassify</title>
-      <link>https://pysal.org/viz/mapclassify/</link>
+      <link>http://localhost:1313/viz/mapclassify/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/viz/mapclassify/</guid>
+      <guid>http://localhost:1313/viz/mapclassify/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>splot</title>
-      <link>https://pysal.org/viz/splot/</link>
+      <link>http://localhost:1313/viz/splot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/viz/splot/</guid>
+      <guid>http://localhost:1313/viz/splot/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

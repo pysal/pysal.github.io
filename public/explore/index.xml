@@ -2,64 +2,60 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Explore on PySAL</title>
-    <link>https://pysal.org/explore/</link>
+    <link>http://localhost:1313/explore/</link>
     <description>Recent content in Explore on PySAL</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© PySAL Developers</copyright><atom:link href="https://pysal.org/explore/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© PySAL Developers</copyright>
+    <atom:link href="http://localhost:1313/explore/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>esda</title>
-      <link>https://pysal.org/explore/esda/</link>
+      <link>http://localhost:1313/explore/esda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/esda/</guid>
+      <guid>http://localhost:1313/explore/esda/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>giddy</title>
-      <link>https://pysal.org/explore/giddy/</link>
+      <link>http://localhost:1313/explore/giddy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/giddy/</guid>
+      <guid>http://localhost:1313/explore/giddy/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>inequality</title>
-      <link>https://pysal.org/explore/inequality/</link>
+      <link>http://localhost:1313/explore/inequality/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/inequality/</guid>
+      <guid>http://localhost:1313/explore/inequality/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>momepy</title>
+      <link>http://localhost:1313/explore/momepy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/explore/momepy/</guid>
+      <description></description>
+    </item>
     <item>
       <title>pointpats</title>
-      <link>https://pysal.org/explore/pointpats/</link>
+      <link>http://localhost:1313/explore/pointpats/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/pointpats/</guid>
+      <guid>http://localhost:1313/explore/pointpats/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>segregation</title>
-      <link>https://pysal.org/explore/segregation/</link>
+      <link>http://localhost:1313/explore/segregation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/segregation/</guid>
+      <guid>http://localhost:1313/explore/segregation/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>spaghetti</title>
-      <link>https://pysal.org/explore/spaghetti/</link>
+      <link>http://localhost:1313/explore/spaghetti/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/explore/spaghetti/</guid>
+      <guid>http://localhost:1313/explore/spaghetti/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

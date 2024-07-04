@@ -2,64 +2,67 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Model on PySAL</title>
-    <link>https://pysal.org/model/</link>
+    <link>http://localhost:1313/model/</link>
     <description>Recent content in Model on PySAL</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>© PySAL Developers</copyright><atom:link href="https://pysal.org/model/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© PySAL Developers</copyright>
+    <atom:link href="http://localhost:1313/model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>access</title>
+      <link>http://localhost:1313/model/access/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/model/access/</guid>
+      <description></description>
+    </item>
     <item>
       <title>mgwr</title>
-      <link>https://pysal.org/model/mgwr/</link>
+      <link>http://localhost:1313/model/mgwr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/mgwr/</guid>
+      <guid>http://localhost:1313/model/mgwr/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>spglm</title>
-      <link>https://pysal.org/model/spglm/</link>
+      <link>http://localhost:1313/model/spglm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/spglm/</guid>
+      <guid>http://localhost:1313/model/spglm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>spint</title>
-      <link>https://pysal.org/model/spint/</link>
+      <link>http://localhost:1313/model/spint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/spint/</guid>
+      <guid>http://localhost:1313/model/spint/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>spopt</title>
+      <link>http://localhost:1313/model/spopt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/model/spopt/</guid>
+      <description></description>
+    </item>
     <item>
       <title>spreg</title>
-      <link>https://pysal.org/model/spreg/</link>
+      <link>http://localhost:1313/model/spreg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/spreg/</guid>
+      <guid>http://localhost:1313/model/spreg/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>spvcm</title>
-      <link>https://pysal.org/model/spvcm/</link>
+      <link>http://localhost:1313/model/spvcm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/spvcm/</guid>
+      <guid>http://localhost:1313/model/spvcm/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>tobler</title>
-      <link>https://pysal.org/model/tobler/</link>
+      <link>http://localhost:1313/model/tobler/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://pysal.org/model/tobler/</guid>
+      <guid>http://localhost:1313/model/tobler/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
