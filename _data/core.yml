@@ -1,16 +1,16 @@
 coredevs:
   - first: Martin
     last: Fleischmann
-    avatar: https://avatars2.githubusercontent.com/u/36797143?v=4&s=400 
-    affiliation: University of Liverpool
+    avatar: https://avatars2.githubusercontent.com/u/36797143?v=4&s=400
+    affiliation: Charles University
     gh_handle: martinfleis
   - first: Stefanie
     last: Lumnitz
-    avatar: https://avatars2.githubusercontent.com/u/35147471?v=4&s=400 
+    avatar: https://avatars2.githubusercontent.com/u/35147471?v=4&s=400
     affiliation: University of British Columbia
     gh_handle: slumnitz
   - first: Levi
-    last: Wolf  
+    last: Wolf
     avatar: https://avatars3.githubusercontent.com/u/2250995?v=4&s=400
     affiliation: University of Bristol
     gh_handle: ljwolf
@@ -18,7 +18,7 @@ coredevs:
     last: Amaral
     avatar: https://avatars0.githubusercontent.com/u/4238922?v=4&s=400
     affiliation: Universidade Federal de Minas Gerais
-    gh_handle: pedrovma 
+    gh_handle: pedrovma
   - first: Dani
     last: Arribas-Bel
     avatar: https://avatars3.githubusercontent.com/u/417363?v=4&s=400
@@ -26,7 +26,7 @@ coredevs:
     gh_handle: darribas
   - first: Serge
     last: Rey
-    avatar: https://avatars1.githubusercontent.com/u/118042?v=4&s=400 
+    avatar: https://avatars1.githubusercontent.com/u/118042?v=4&s=400
     affiliation: UC Riverside
     gh_handle: sjsrey
   - first: Wei
@@ -71,12 +71,12 @@ coredevs:
     gh_handle: tayloroshan
   - first: Ziqi
     last: Li
-    avatar:  https://avatars1.githubusercontent.com/u/5518908?s=460&v=4 
+    avatar:  https://avatars1.githubusercontent.com/u/5518908?s=460&v=4
     affiliation: Arizona State University
     gh_handle: Ziqi-Li
   - first: Philip
     last: Stephens
-    avatar:   https://avatars3.githubusercontent.com/u/871844?s=400&v=4 
+    avatar:   https://avatars3.githubusercontent.com/u/871844?s=400&v=4
     affiliation: Arizona State University
     gh_handle: pastephens
 alumdevs:
@@ -87,7 +87,7 @@ alumdevs:
     gh_handle: Makosak
   - first: Jay
     last: Laura
-    avatar: https://avatars1.githubusercontent.com/u/2105468?s=400&v=4 
+    avatar: https://avatars1.githubusercontent.com/u/2105468?s=400&v=4
     affiliation: USGS
     gh_handle: jlaura
   - first: Charles
@@ -106,7 +106,7 @@ alumdevs:
     affiliation: Northern Arizona University
     gh_handle: dfolch
   - first: Myunghwa
-    last: Hwang 
+    last: Hwang
     avatar: https://avatars1.githubusercontent.com/u/4752901?s=400&v=4
     affiliation: Arizona State University
     gh_handle: myunghwa
