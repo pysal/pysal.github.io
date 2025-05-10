@@ -14,7 +14,7 @@ workshops, tutorials, and presentations:
 -   [Anselin, L., & Rey, S. J. (2014). Modern spatial econometrics in practice: A guide to GeoDa, GeoDaSpace and PySAL](https://www.google.com/books/edition/Modern_Spatial_Econometrics_in_Practice/MBLwrQEACAAJ?hl=en)
 
 ### Courses
--   [Spatial Data Science for Social Geography](https://martinfleischmann.net/sds/): a course developed and taught in person at Charles University in Prague in 2023 by Martin Fleischmann
+-   [Spatial Data Science for Social Geography](https://martinfleischmann.net/sds/): a course developed and taught in person at Charles University in Prague since 2023 by Dr. Martin Fleischmann
 -   [Arribas-Bel, Dani. (2019). A course on geographic data science. Journal of Open Source Education, 2(16), 42.](https://darribas.org/gds_course/content/home.html): a course designed by Dr. Dani Arribas-Bel and delivered in its latest instance at the University of Liverpool in the Autumn of 2021
 
 
