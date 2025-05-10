@@ -9,7 +9,17 @@ type : "docs"
 Users can begin the journey with PySAL by exploring the courses,
 workshops, tutorials, and presentations:
 
-### Courses, Workshops, and Tutorials
+### Books
+-   [Rey, S., Arribas-Bel, D., & Wolf, L. J. (2023). Geographic data science with python. Chapman and Hall/CRC.](https://geographicdata.science/book/intro.html)
+-   [Anselin, L., & Rey, S. J. (2014). Modern spatial econometrics in practice: A guide to GeoDa, GeoDaSpace and PySAL](https://www.google.com/books/edition/Modern_Spatial_Econometrics_in_Practice/MBLwrQEACAAJ?hl=en)
+
+### Courses
+-   [Spatial Data Science for Social Geography](https://martinfleischmann.net/sds/): a course developed and taught in person at Charles University in Prague in 2023 by Martin Fleischmann
+-   [Arribas-Bel, Dani. (2019). A course on geographic data science. Journal of Open Source Education, 2(16), 42.](https://darribas.org/gds_course/content/home.html): a course designed by Dr. Dani Arribas-Bel and delivered in its latest instance at the University of Liverpool in the Autumn of 2021
+
+
+###  Workshops and Tutorials
+-   [GISRUK 2025 on Urban Morphology with Python](https://github.com/martinfleis/gisruk2025)
 -   [SciPy India 2020](https://github.com/sjsrey/2020-scipy-india)
 -   [SpatialAPI 2020](https://www.youtube.com/watch?v=xhZ1Tl6BBwk&feature=youtu.be)
 -   [NARSC 2020](https://github.com/sjsrey/pysal-narsc20)
