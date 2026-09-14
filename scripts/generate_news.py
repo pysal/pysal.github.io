@@ -57,6 +57,7 @@ PACKAGES = [
     "momepy",
     "spglm",
     "spint",
+    "spml",
     "spreg",
     "tobler",
     "mapclassify",
